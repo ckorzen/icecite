@@ -1,0 +1,303 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="input_element.html">
+<link rel="import" href="user_element.html">
+<link rel="import" href="menu_element.html">
+<link rel="import" href="menu_item_element.html">
+
+<polymer-element name="library-entry-element" attributes="entry, cssStyle, draggable, modifiable">
+  <template>   
+    <link rel="stylesheet" href="library_entry_element.css">  
+    <!-- Workaround for this bug: https://code.google.com/p/dart/issues/detail?id=18563 -->
+    <!-- <link rel="stylesheet" href="elements/library_entry_element.css"> -->
+        
+    <div class="library-entry 
+                {{ { 
+                  'member': entry.brand == 'entry', 
+                  'external': entry.externalSource != null,
+                  'participant': owner != null && user.id != owner.id,
+                  'selected': entry.selected
+                } }}" 
+         style="{{ cssStyle }}">
+         {{ entry.created }}            
+      <template if="{{ entry.activityCounter > 0 }}">     
+        <!-- The activity counter -->
+        <div class="activity-counter" on-click="{{ onActivityCounterClicked }}"
+          title="There are {{ entry.activityCounter }} activities.">
+          {{ entry.activityCounter }}
+        </div>
+      </template>
+      
+     <template if="{{ showBlurMask }}">
+       <div class="blur-mask" on-click="{{ onBlurMaskClicked }}"></div>
+     </template> 
+           
+      <!-- The status of owner -->
+      <template if="{{ user.id != owner.id }}">
+        <div class="owner-bar" title="Owner: {{ owner.firstName }} {{ owner.lastName }} ({{ owner.email }})">
+          {{ owner.firstName }} {{ owner.lastName }}
+        </div>
+      </template> 
+      
+      <!-- The body -->              
+      <div class="library-entry-body" on-click="{{ onLibraryEntryClicked }}">    
+        <!-- The drag toggle
+        <template if="{{ draggable }}">
+          <div class="drag-toggle" draggable="true"
+            on-drag="{{ onDragged }}"
+            on-dragstart="{{ onDragStarted }}"
+            on-dragend="{{ onDragEnded }}"></div>
+        </template>-->        
+            
+        <!-- The title/raw wrapper -->
+        <div class="title-wrapper">
+          <template if="{{ !showTitleUpdateForm }}">
+            <template if="{{ entry.title != null }}">
+              <!-- The title -->
+              <div class="title" 
+                on-dblclick="{{ onTitleDoubleClicked }}">
+                {{ entry.title }}
+              </div>
+            </template>
+            <template if="{{ entry.title == null}}">
+              <!-- The raw -->
+              <div class="raw">
+                {{ entry.raw }}
+              </div>
+            </template>
+          </template>
+          <template if="{{ showTitleUpdateForm }}">            
+            <!-- Edit title -->
+            <input class="edit-title"
+              is="input-element"
+              value="{{ entry.title }}"
+              on-commit="{{ onTitleCommitted }}"
+              on-cancel="{{ onTitleCommitCancelled }}">
+          </template>
+        </div>
+        
+        <!-- The authors wrapper -->
+        <div class="authors-wrapper">
+          <template if="{{ !showAuthorsUpdateForm }}">
+            <!-- The authors -->
+            <div class="authors" 
+              on-dblclick="{{ onAuthorsDoubleClicked }}">
+              <template if="{{ entry.authorsStr != null }}">
+                {{ entry.authorsStr }}
+              </template>
+              <template if="{{ entry.authorsStr == null}}">
+                No authors available
+              </template>
+            </div>
+          </template>
+          <template if="{{ showAuthorsUpdateForm }}">
+            <!-- Edit authors -->
+            <input class="edit-authors" 
+              is="input-element"
+              value="{{ entry.authorsStr }}"
+              on-commit="{{ onAuthorsCommitted }}"
+              on-cancel="{{ onAuthorsCommitCancelled }}">
+          </template>
+        </div>
+        
+        <!-- The venue wrapper -->
+        <span class="venue-wrapper">
+          <template if="{{ !showVenueUpdateForm }}">
+            <!-- The venue -->
+            <span class="venue" 
+              on-dblclick="{{ onVenueDoubleClicked }}">
+              <template if="{{ entry.journal != null }}">
+                {{ entry.journal }}
+              </template>
+              <template if="{{ entry.journal == null}}">
+                No journal available
+              </template>
+            </span>
+          </template>
+          <template if="{{ showVenueUpdateForm }}">
+            <!-- Edit venue -->
+            <input class="edit-venue"
+              is="input-element"
+              value="{{ entry.journal }}"
+              on-commit="{{ onVenueCommitted }}"
+              on-cancel="{{ onVenueCommitCancelled }}">
+          </template>
+        </span>
+        
+        <!-- The year wrapper -->
+        <span class="year-wrapper">
+          <template if="{{ !showYearUpdateForm }}">
+            <!-- The year -->
+            <span class="year"
+              on-dblclick="{{ onYearDoubleClicked }}">
+              <template if="{{ entry.year != null }}">
+                {{ entry.year }}
+              </template>
+            </span>
+          </template>
+          <template if="{{ showYearUpdateForm }}">
+            <input class="edit-year" 
+              is="input-element" 
+              value="{{ entry.year }}"
+              on-commit="{{ onYearCommitted }}"
+              on-cancel="{{ onYearCommitCancelled }}">
+          </template>
+        </span>        
+      </div>
+      
+      <!-- Add some debug output if in verbose mode -->
+      <template if="{{ verbose }}">
+        {{ entry.id }} <br>
+        {{ entry.rev }} <br>
+        Owner: {{ entry.owner }} <br>   
+        Participants: {{ entry.participants }} <br>    
+        Invitees: {{ entry.invitees }} <br>         
+        Disinvitees: {{ entry.disinvitees }} <br>            
+      </template>  
+                                
+      <!-- The listing of tags -->
+      <template if="{{ entry.tags.isNotEmpty }}">
+        <div class="tags">
+          <template repeat="{{ tagEntry in entry.tags | enumerate }}">
+            <span class="tag">
+              <template if="{{ !user.isOwner(entry) }}">
+                <span class="tag-title" 
+                  on-click="{{ onTagClicked }}">
+                  #{{ tagEntry.value }}
+                </span>
+              </template>
+              <template if="{{ user.isOwner(entry) }}">
+                <template if="{{ tagEntry.index == showUpdateTagFormIndex }}">
+                  <input class="edit-tag" 
+                    is="input-element" 
+                    value="{{ updateTagValue }}"
+                    on-commit="{{ onTagCommitted }}"
+                    on-cancel="{{ onTagCommitCancelled }}"
+                    data-tagidx="{{ tagEntry.index }}">
+                </template>
+                <template if="{{ tagEntry.index != showUpdateTagFormIndex }}">
+                  <span class="tag-title"
+                    on-click="{{ onTagClicked }}"
+                    data-tagidx="{{ tagEntry.index }}">
+                    #{{ tagEntry.value }}
+                  </span>
+                </template>
+                
+                <!-- The tag menu -->                
+                <span class="tag-menu-button" 
+                  on-click="{{ onTagMenuButtonClicked }}"
+                  data-tagidx="{{ tagEntry.index }}"></span>
+                <template if="{{ showTagMenuIndex == tagEntry.index }}">
+                  <ul class="tag-menu">
+                    <li on-click="{{ onRenameTagButtonClicked }}"
+                      data-tagidx="{{ tagEntry.index }}">Rename</li>
+                    <li on-click="{{ onDeleteTagButtonClicked }}"
+                      data-tagidx="{{ tagEntry.index }}">Delete</li>
+                  </ul>
+                </template>
+              </template>
+            </span>
+          </template>
+        </div>
+      </template>          
+            
+      <template if="{{ entry.brand == 'entry' }}">
+        <!-- The status bar -->
+        <div class="status-bar">                   
+          <!-- The status of participants -->
+          <template if="{{ user.isOwner(entry) }}">
+            <template if="{{ entry.participants.isNotEmpty }}">
+              <span class="participants-status">
+                <span class="participants-info {{ {'selected': showParticipants } }}"
+                  on-click="{{ onParticipantsInfoClicked }}">
+                  {{ entry.participants.length }} participant(s)
+                  <span class="caret"></span>
+                </span>
+                <template if="{{ showParticipants }}">
+                  <div class="participants-details">
+                    <template repeat="{{ user in participants.values }}">
+                      <user-element 
+                        class="user"
+                        member="{{ user }}"
+                        allowDisinvitation="true"
+                        displayMailAddress="true"
+                        on-user-disinvited="{{ onParticipantDisinvited }}">
+                      </user-element>
+                    </template>
+                  </div>
+                </template>
+              </span>
+            </template>
+          </template>
+          
+          <!-- The status of invitees -->
+          <template if="{{ user.isOwner(entry) }}">
+            <template if="{{ entry.invitees.isNotEmpty }}">
+              <span class="invitees-status">
+                <span class="invitees-info {{ {'selected': showInvitees } }}" 
+                  on-click="{{ onInviteesInfoClicked }}">
+                  {{ entry.invitees.length }} invitee(s)
+                  <span class="caret"></span>
+                </span>
+                <template if="{{ showInvitees }}">
+                  <div class="invitees-details">
+                    <template repeat="{{ user in invitees.values }}">
+                      <user-element 
+                        class="user"
+                        member="{{ user }}"
+                        allowDisinvitation="true"
+                        displayMailAddress="true"
+                        on-user-disinvited="{{ onInviteeDisinvited }}">
+                      </user-element>
+                    </template>
+                  </div>
+                </template>
+              </span>
+            </template>
+          </template>
+          
+          <!-- The status of disinvitees -->
+          <template if="{{ user.isOwner(entry) }}">
+            <template if="{{ entry.disinvitees.isNotEmpty }}">
+              <span class="disinvitees-status">
+                <span class="disinvitees-info {{ {'selected': showDisinvitees } }}" 
+                  on-click="{{ onDisinviteesInfoClicked }}">
+                  {{ entry.disinvitees.length }} disinvitee(s)
+                  <span class="caret"></span>
+                </span>
+                <template if="{{ showDisinvitees }}">
+                  <div class="disinvitees-details">
+                    <template repeat="{{ user in disinvitees.values }}">
+                      <user-element 
+                        class="user"
+                        member="{{ user }}"
+                        displayMailAddress="true">
+                      </user-element>
+                    </template>
+                  </div>
+                </template>
+              </span>
+            </template>
+          </template>
+          
+        </div>     
+      </template>    
+                
+      <div class="notification-menu-wrapper">
+        <div class="notification-wrapper">
+	        <template if="{{ entry.notification != null }}">     
+	          <span class="notification {{ entry.notification.type }}">
+	            <span class="message">
+	              {{ entry.notification.short }}
+	            </span>
+	          </span>
+	        </template>
+        </div>
+      
+        <div class="menu-wrapper">
+          <menu-element class="menu" entry="{{ entry }}" users="{{ users.values }}"></menu-element>
+        </div>
+      </div>
+    </div>              
+  </template>
+  <script type="application/dart" src="library_entry_element.dart"></script>
+</polymer-element>

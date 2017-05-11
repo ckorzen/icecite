@@ -1,0 +1,152 @@
+.dummy { }
+
+.stage {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 5px;
+	box-shadow: inset 0px 0px 100px hsla(0,0%,0%,.15);
+	border: 1px solid hsla(0, 0%, 0%, 0.15);
+}
+
+.stage > .stage-header {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 40px;
+}
+
+.stage > .stage-header > .search-element {
+	margin: 5px 0px 5px 5px;
+	top: 0px;
+	left: 0px;
+	right: 75px;
+	position: absolute;
+	height: 30px;
+}
+
+.stage > .stage-header > .upload-element {
+	margin: 5px;
+	top: 0px;
+	right: 0px;
+	width: 65px;
+	height: 30px;
+	position: absolute;
+}
+
+/* .stage > .stage-header > .search-stage > .search-input {
+  border: 1px solid #d0d0d0;
+  font-size: 16px;
+  background: url(../images/search.png) #ffffff no-repeat 5px 5px;
+  padding: 3px 3px 3px 25px;
+  margin: 0px;
+  width: 100%;
+} */
+
+.stage > .stage-header > .tabs {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  margin-top:-1px;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+  border-bottom:1px solid #aaa;
+}
+
+.stage > .stage-header > .tabs .activity-count {
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  border-radius: 8px;
+  padding: 0 5px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 8px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #d9534f;
+  z-index: 2;
+}
+
+.stage > .stage-header > .tabs:before,
+.stage > .stage-header > .tabs:after {
+  content: " ";
+  display: table;
+}
+
+.stage > .stage-header > .tabs:after {
+  clear: both;
+}
+
+.stage > .stage-header > .tabs > li {
+  position: relative;
+  display: block;
+  float: left;
+  margin-bottom: -1px;
+}
+
+.stage > .stage-header > .tabs > li > span {
+  position: relative;
+  display: block;
+  padding: 5px 8px;
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.stage > .stage-header > .tabs > li > span:hover {
+  border-color:#eee #eee #aaa;
+}
+
+.stage > .stage-header > .tabs > li > span:hover,
+.stage > .stage-header > .tabs > li > span:focus {
+  text-decoration:none;
+  background-color:#eee;
+}
+
+.stage > .stage-header > .tabs > li.disabled > span {
+  color:#999;
+}
+
+.stage > .stage-header > .tabs > li.disabled > span:hover,
+.stage > .stage-header > .tabs > li.disabled > span:focus {
+  color: #999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.stage > .stage-header > .tabs > li.active > span,
+.stage > .stage-header > .tabs > li.active > span:hover,
+.stage > .stage-header > .tabs > li.active > span:focus {
+  color: #555;
+  border: 1px solid #aaa;
+  border-bottom-color: transparent;
+  cursor: default;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.stage > .stage-body > .library-view, 
+.stage > .stage-body > .references-view, 
+.stage > .stage-body > .feed-view {
+  display: none;
+}
+
+.stage > .stage-body > .library-view.revealed, 
+.stage > .stage-body > .references-view.revealed, 
+.stage > .stage-body > .feed-view.revealed {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 40px;
+  bottom: 0px;
+}

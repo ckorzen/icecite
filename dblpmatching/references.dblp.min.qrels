@@ -1,0 +1,10 @@
+S. Chen and R. Rosenfeld. 2000. A Survey of Smoothing Techniques for ME Models. IEEE Trans. Speech and Audio Processing, 8(1), pp. 37–50. January 2000.	NO_MATCH
+J. Goodman. 2003. Exponential Priors for Maximum Entropy Models. MSR Technical report, 2003.	conf/naacl/Goodman04
+S. Lawrence, C. L. Giles, and K. Bollacker. 1999. Digital Libraries and Autonomous Citation Indexing. IEEE Computer, 32(6): 67-71.	journals/computer/LawrenceGB99
+A. McCallum, K. Nigam, J. Rennie, K. Seymore. 2000. Automating the Construction of Internet Portals with Machine Learning. Information Retrieval Journal, volume 3, pages 127-163. Kluwer. 2000.	journals/ir/McCallumNRS00
+A. McCallum and W. Li. 2003. Early Results for Named Entity Recognition with Conditional Random Fields, Feature Induction and Web-Enhanced Lexicons. In Proceedings of Seventh Conference on Natural Language Learning (CoNLL).	NO_MATCH
+H. Ney, U. Essen, and R. Kneser 1995. On the Estimation of Small Probabilities by Leaving-One-Out. IEEE Transactions on Pattern Analysis and Machine Intelligence, 17(12):1202-1212, 1995.	journals/pami/NeyEK95
+S. Pietra, V. Pietra, J. Lafferty 1995. Inducing Features Of Random Fields. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 19, No. 4.	journals/corr/abs-cmp-lg-9506014
+D. Pinto, A. McCallum, X. Wei and W. Croft. 2003. Table Extraction Using Conditional Random Fields. In Proceedins of the 26th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR’03)	conf/sigir/PintoMWC03
+F. Sha and F. Pereira. 2003. Shallow Parsing with Conditional Random Fields. In Proceedings of Human Language Technology Conference and North American Chapter of the Association for Computational Linguistics (HLT-NAACL’03)	conf/naacl/ShaP03
+A. Takasu. 2003. Bibliographic Attribute Extraction from Erroneous References Based on a Statistical Model. In Proceedings of Joint Conference on Digital Libraries 2003.	conf/jcdl/Takasu03

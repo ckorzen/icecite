@@ -1,0 +1,24 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+
+<polymer-element name="tag-element" attributes="removable">
+  <template>
+    <link rel="stylesheet" href="tag_element.css">    
+    
+    <span class="tag">              
+      <span class="tag-title" title="{{ name }}">
+        <template if="{{ name.length > maxNameLength }}">
+          {{ name.substring(0, maxNameLength) }}...
+        </template>
+        <template if="{{ name.length <= maxNameLength }}">
+          {{ name }}
+        </template>
+      </span>
+      <template if="{{ removable }}">
+        <span class="remove-tag"
+          on-click="{{ onRemoveTagButtonClick }}">
+        </span>
+      </template>
+    </span> 
+  </template>
+  <script type="application/dart" src="tag_element.dart"></script>
+</polymer-element>

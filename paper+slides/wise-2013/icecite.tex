@@ -1,0 +1,49 @@
+\documentclass{sig-alternate}
+ 
+\usepackage{color}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem}
+\usepackage{pifont}								% To get symbols for application table 																					overview
+
+\newcommand{\TODO}[1]{{\small\bf \textcolor{red}{[TODO: #1]}}}
+\newcommand{\thead}[1]{\textit{\tiny #1}}
+\newcommand{\yes}{\checkmark}%
+\newcommand{\no}{-}%
+\newcommand{\cond}{(\checkmark)}%
+
+\def\ms{\mathrm{ms}}
+
+\begin{document}
+
+\title{Icecite: A fully web-based research paper manager.}
+%\title{Icecite: Draft}
+\numberofauthors{1}
+\author{
+\alignauthor
+Hannah Bast, Claudius Korzen\\[1mm]
+%{(Note: names are in alphabetical order)}\\[1mm]
+       \affaddr{Department of Computer Science}\\
+       \affaddr{University of Freiburg}\\
+       \affaddr{79110 Freiburg, Germany}\\
+       \email{\{bast, korzen\}@informatik.uni-freiburg.de}
+\date{\today, \currenttime}
+}
+\maketitle
+
+\input{icecite-abstract}
+\input{icecite-introduction}
+\input{icecite-relatedwork}
+\input{icecite-extraction}
+%\input{icecite-search}
+\input{icecite-experiments}
+\input{icecite-overview}
+%\input{icecite-offline}
+\input{icecite-userstudy}
+\input{icecite-conclusion}
+
+\bibliography{icecite}
+\bibliographystyle{abbrv}
+%\printbibliography
+
+\end{document}

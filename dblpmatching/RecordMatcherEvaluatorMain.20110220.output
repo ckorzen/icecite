@@ -1,0 +1,1549 @@
+	Deserialize InvertedIndex.bin...Done!
+Matching queries...
+Prepare String: 0.561000 ms; chen rosenfeld 2000 survey smoothing speech audio 37–50 january 2000 
+Size: 52547
+Find Candidates: 90.031000 ms; Evaluate Candidates: 21.378000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.015000 ms; goodman 2003 exponential priors maximum entropy msr technical 2003 
+Size: 12547
+Find Candidates: 17.974000 ms; Evaluate Candidates: 15.523000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; lawrence giles bollacker 1999 libraries autonomous citation indexing 
+Size: 11734
+Find Candidates: 15.662000 ms; Evaluate Candidates: 13.368000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; mccallum nigam rennie seymore 2000 automating construction internet portals 127 163 kluwer 2000 
+Size: 19554
+Find Candidates: 28.741000 ms; Evaluate Candidates: 28.337000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; mccallum 2003 results named entity conditional fields feature induction enhanced lexicons seventh natural language conll 
+Size: 49166
+Find Candidates: 81.297000 ms; Evaluate Candidates: 30.126000 ms; Find Best Matches: 0.003000 ms;
+
+Matching failed for: NO_MATCH ("A. McCallum and W. Li. 2003. Early Results for Named Entity Recognition with Conditional Random Fields, Feature Induction and Web-Enhanced Lexicons. In Proceedings of Seventh Conference on Natural Language Learning (CoNLL).")
+      Found match: journals/talip/LiM03
+
+Prepare String: 0.026000 ms; ney essen kneser 1995 estimation small probabilities leaving transactions intelligence 1202 1212 1995 
+Size: 30089
+Find Candidates: 45.384000 ms; Evaluate Candidates: 23.841000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; pietra pietra lafferty 1995 inducing features fields transactions intelligence 
+Size: 15587
+Find Candidates: 21.786000 ms; Evaluate Candidates: 17.472000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; pinto mccallum wei croft 2003 table extraction conditional fields proceedins 26th development sigir’03 
+Size: 39874
+Find Candidates: 60.230000 ms; Evaluate Candidates: 21.954000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.028000 ms; sha pereira 2003 shallow parsing conditional fields language north american chapter computational linguistics hlt naacl’03 
+Size: 35812
+Find Candidates: 54.545000 ms; Evaluate Candidates: 33.879000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; takasu 2003 bibliographic attribute extraction erroneous references statistical joint libraries 2003 
+Size: 25755
+Find Candidates: 37.119000 ms; Evaluate Candidates: 25.556000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; baeza yates applications mining european 2005 3408 
+Size: 43571
+Find Candidates: 70.041000 ms; Evaluate Candidates: 12.349000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.021000 ms; braga campi ceri raffio joining results heterogeneous search engines 2008 658 680 
+Size: 31792
+Find Candidates: 47.702000 ms; Evaluate Candidates: 16.673000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; brambilla cabot grossniklaus modelling safe interface interactions applications conceptual modeling 5829 387 400 2009 
+Size: 79089
+Find Candidates: 165.115000 ms; Evaluate Candidates: 43.143000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; ceri brambilla eds search challenges directions 5950 march 2010 
+Size: 23600
+Find Candidates: 37.244000 ms; Evaluate Candidates: 14.849000 ms; Find Best Matches: 0.001000 ms;
+
+Matching failed for: conf/seco/2009 ("Ceri, S., Brambilla, M. (eds.). Search Computing Challenges and Directions. Springer LNCS vol. 5950, March 2010.")
+      Found match: conf/caise/CeriB10
+
+Prepare String: 0.033000 ms; dash rao megiddo ailamaki lohman 2008 faceted search discovery driven 17th knowledge management cikm napa valley california usa october 2008 
+Size: 84432
+Find Candidates: 156.010000 ms; Evaluate Candidates: 46.024000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.014000 ms; inselberg plane parallel coordinates visual 69–91 1985 
+Size: 41430
+Find Candidates: 68.768000 ms; Evaluate Candidates: 15.963000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; jansen booth spink determining intent search engine 2007 banff canada 1149 1150 
+Size: 22921
+Find Candidates: 36.135000 ms; Evaluate Candidates: 16.172000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; kules capra banta sierra exploratory searchers look faceted search interface jcdl joint libraries 2009 313 322 
+Size: 35182
+Find Candidates: 55.450000 ms; Evaluate Candidates: 25.712000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; rose levinson understanding goals search 13th york 2004 
+Size: 24253
+Find Candidates: 35.716000 ms; Evaluate Candidates: 15.460000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; doan meng interactive clustering approach integrating source interfaces deep paris france 2004 – 106 isbn 58113 859 
+Size: 93460
+Find Candidates: 163.167000 ms; Evaluate Candidates: 42.750000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; curti sirtori vella effect generation monocular view 1st symposium visualization transmission 3dpvt 2002 
+Size: 38082
+Find Candidates: 58.804000 ms; Evaluate Candidates: 26.656000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; cervera der schaft banos ”interconnection port hamiltonian composition dirac structures” automatica 212–225 2007 
+Size: 14176
+Find Candidates: 21.879000 ms; Evaluate Candidates: 45.123000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; escobar der schaft ortega “a hamiltonian viewpoint modelling switching converters” automatica special issue hybrid 445–452 1999 
+Size: 41027
+Find Candidates: 71.360000 ms; Evaluate Candidates: 41.581000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; sultan khan 1996 computational experience algorithms hard clustering recogn lett 295–308 
+Size: 56551
+Find Candidates: 94.993000 ms; Evaluate Candidates: 25.614000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.013000 ms; babu murty 1994 clustering evolution strategies recogn 321–329 
+Size: 26628
+Find Candidates: 39.714000 ms; Evaluate Candidates: 15.852000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.031000 ms; baeza yates 1992 introduction structures algorithms related structures algorithms frakes baeza yates eds prenticehall upper saddle river 13–27 
+Size: 49525
+Find Candidates: 135.671000 ms; Evaluate Candidates: 32.707000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; carpenter grossberg 1990 art3 hierarchical search chemical transmitters self organizing architectures neural 129–152 
+Size: 70335
+Find Candidates: 124.601000 ms; Evaluate Candidates: 41.423000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.027000 ms; dave 1992 generalized fuzzy shells clustering detection circular elliptic boundaries recogn 713–722 
+Size: 70308
+Find Candidates: 155.075000 ms; Evaluate Candidates: 29.754000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; fisher carnes rich fenves chen shiavi biswas weinberg 1993 applying clustering engineering tasks expert 51–60 
+Size: 73489
+Find Candidates: 134.347000 ms; Evaluate Candidates: 28.201000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.012000 ms; mui 1981 survey segmentation recogn 3–16 
+Size: 14754
+Find Candidates: 20.642000 ms; Evaluate Candidates: 9.935000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; bast car public transport – worlds albers alt näher eds algorithms 5760 355–367 heidelberg 2009 
+Size: 37290
+Find Candidates: 59.248000 ms; Evaluate Candidates: 24.793000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; delling dependent sharc routing halperin mehlhorn eds esa 2008 5193 332–343 heidelberg 2008 
+Size: 19508
+Find Candidates: 29.235000 ms; Evaluate Candidates: 23.650000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.031000 ms; delling sanders schultes wagner engineering route planning algorithms lerner wagner zweig eds algorithmics 5515 117–139 heidelberg 2009 
+Size: 55608
+Find Candidates: 97.412000 ms; Evaluate Candidates: 27.118000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; geisberger contraction timetable realistic transfers festa sea 2010 6049 71–82 heidelberg 2010 
+Size: 2739
+Find Candidates: 3.913000 ms; Evaluate Candidates: 21.000000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.016000 ms; loui paths graphs stochastic multidimensional weights commun 670–676 1983 
+Size: 31713
+Find Candidates: 50.030000 ms; Evaluate Candidates: 19.180000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; pyrga schulz wagner zaroliagis timetable public transportation algorithmics 2007 
+Size: 8737
+Find Candidates: 11.929000 ms; Evaluate Candidates: 16.921000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; schultes sanders highway node routing demetrescu wea 2007 4525 66–79 heidelberg 2007 
+Size: 17252
+Find Candidates: 26.506000 ms; Evaluate Candidates: 15.906000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.012000 ms; gotlieb kumar 1968 semantic clustering index terms 493–513 
+Size: 34417
+Find Candidates: 52.813000 ms; Evaluate Candidates: 15.486000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; möhring verteilte verbindungssuche öffentlichen personenverkehr graphentheoretische modelle und algorithmen horster angewandte mathematik – insbesondere informatik 192–220 vieweg 1999 
+Size: 9089
+Find Candidates: 14.905000 ms; Evaluate Candidates: 69.981000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.028000 ms; berger delling gebhardt müller hannemann accelerating dependent criteria timetable harder expected mos 2009 dagstuhl seminar 2009 
+Size: 11005
+Find Candidates: 15.597000 ms; Evaluate Candidates: 28.387000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; sanjay agrawal surajit chaudhuri gautam das dbxplorer keyword search relational engineering 5–16 2002 
+Size: 41819
+Find Candidates: 68.356000 ms; Evaluate Candidates: 22.519000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; brin anatomy scale hypertextual search engine world wide 107–117 brisbane 1998 
+Size: 36181
+Find Candidates: 59.484000 ms; Evaluate Candidates: 17.164000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; codd relational banks 377–387 1970 
+Size: 5925
+Find Candidates: 8.355000 ms; Evaluate Candidates: 7.719000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; roy goldman narayanan shivajumar suresh venkatasubramanian hector garcia molina proximity search 24th intl vldb york 1998 
+Size: 25141
+Find Candidates: 37.984000 ms; Evaluate Candidates: 24.503000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.029000 ms; steve lawrence kurt bollacker lee giles indexing scientiﬁc literature eighth knowledge management cikm 139–146 kansas city missouri november 1999 
+Size: 83417
+Find Candidates: 160.993000 ms; Evaluate Candidates: 41.167000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; keith randall raymie stata rajiv wickremesinghe janet wiener link fast access graphs compression snao bird utah april 2002 
+Size: 55593
+Find Candidates: 94.537000 ms; Evaluate Candidates: 32.569000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; siegfried reich leslie carr david roure wendy hall you trails hypertext surveys december 1999 
+Size: 7791
+Find Candidates: 10.533000 ms; Evaluate Candidates: 14.010000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; knut magne risvik rolf michelsen search engines dynamics 289–302 june 2002 
+Size: 24189
+Find Candidates: 49.229000 ms; Evaluate Candidates: 28.045000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; sarda ankur jain mragyati keyword searching repository 0110052 2001 
+Size: 7677
+Find Candidates: 14.058000 ms; Evaluate Candidates: 23.214000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.035000 ms; amanda spink judy bateman bernard jansen searching heterogeneous collections behaviour excite electronic 1998 
+Size: 21236
+Find Candidates: 62.271000 ms; Evaluate Candidates: 30.391000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.033000 ms; stanley chen joshua goodman 1999 empirical smoothing language modeling speech language 359–394 october 
+Size: 91903
+Find Candidates: 234.633000 ms; Evaluate Candidates: 31.765000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.025000 ms; stephen della pietra vincent della pietra john lafferty 1997 inducing features ﬁelds transactions intelligence 380–393 april 
+Size: 13646
+Find Candidates: 19.234000 ms; Evaluate Candidates: 29.951000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; gowda 1984 feature reduction unsupervised classification algorithm multispectral recogn 667–676 
+Size: 84847
+Find Candidates: 150.609000 ms; Evaluate Candidates: 33.006000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; carl kadie christopher meek david heckerman 2002 cfw collaborative ﬁltering posteriors weights evidence uai 242–250 
+Size: 13081
+Find Candidates: 18.782000 ms; Evaluate Candidates: 28.091000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; gowda krishna 1977 agglomerative clustering concept mutual nearest neighborhood recogn 105–112 
+Size: 21990
+Find Candidates: 32.966000 ms; Evaluate Candidates: 21.791000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; hofmann buhmann 1997 pairwise clustering deterministic annealing anal mach intell jan 1–14 
+Size: 18708
+Find Candidates: 28.153000 ms; Evaluate Candidates: 19.771000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; hofmann puzicha buchmann 1998 unsupervised texture segmentation deterministic annealing framework anal mach intell 803–818 
+Size: 43300
+Find Candidates: 71.203000 ms; Evaluate Candidates: 28.479000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; huttenlocher klanderman rucklidge 1993 comparing hausdorff distance anal mach intell 850–863 
+Size: 9459
+Find Candidates: 13.010000 ms; Evaluate Candidates: 20.289000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; ichino yaguchi 1994 generalized minkowski metrics mixed feature type man cybern 698–708 
+Size: 34127
+Find Candidates: 51.914000 ms; Evaluate Candidates: 21.018000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; koontz fukunaga narendra 1975 branch bound clustering algorithm comput 908–914 
+Size: 65766
+Find Candidates: 131.561000 ms; Evaluate Candidates: 36.046000 ms; Find Best Matches: 0.005000 ms;
+Prepare String: 0.032000 ms; maskari sanderson clough relationship effectiveness measures satisfaction 773–774 2007 
+Size: 10895
+Find Candidates: 22.647000 ms; Evaluate Candidates: 28.813000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.033000 ms; ceaparu lazar bessiere robinson shneiderman determining causes severity end frustration intl hci 333–356 2004 
+Size: 8622
+Find Candidates: 20.387000 ms; Evaluate Candidates: 31.934000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.024000 ms; cooper arroyo woolf muldner burleson christopherson sensor student self concept classroom umap 30–41 june 2009 
+Size: 39892
+Find Candidates: 65.125000 ms; Evaluate Candidates: 27.790000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; downey dumais horvitz searching browsing languages applications icai 2740–2747 2007 
+Size: 41785
+Find Candidates: 66.231000 ms; Evaluate Candidates: 22.768000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; fox karnawat mydland dumais white evaluating implicit measures improve search info sys 147–168 2005 
+Size: 34507
+Find Candidates: 51.709000 ms; Evaluate Candidates: 22.532000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; hassan jones klinkner dcg behavior predictor successful search wsdm 221–230 2010 
+Size: 28952
+Find Candidates: 43.038000 ms; Evaluate Candidates: 50.203000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.026000 ms; kapoor burleson picard automatic prediction frustration intl 724–736 2007 
+Size: 27173
+Find Candidates: 65.174000 ms; Evaluate Candidates: 29.015000 ms; Find Best Matches: 0.005000 ms;
+Prepare String: 0.033000 ms; smucker allan carterette comparison statistical signiﬁcance evaluation cikm 623–632 2007 
+Size: 40290
+Find Candidates: 67.892000 ms; Evaluate Candidates: 21.930000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; white jose ruthven implicit feedback approach interactive info mngt 166–190 2006 
+Size: 73000
+Find Candidates: 132.801000 ms; Evaluate Candidates: 23.692000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; xie cool understanding help seeking within context searching libraries jasist 477–494 2009 
+Size: 29028
+Find Candidates: 42.300000 ms; Evaluate Candidates: 22.371000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; ailamaki dewitt hill layouts relational deep hierarchies vldb 2002 
+Size: 9995
+Find Candidates: 14.016000 ms; Evaluate Candidates: 14.003000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.014000 ms; bouganim jonsson bonnet uflip understanding ﬂash patterns cidr 2009 
+Size: 13915
+Find Candidates: 19.191000 ms; Evaluate Candidates: 15.407000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; dewitt katz olken shapiro stonebraker wood implementation main rec 1–8 1984 
+Size: 20660
+Find Candidates: 31.355000 ms; Evaluate Candidates: 14.973000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; graefe ﬁve minute rule years later ﬂash changes rules queue 1–9 2007 
+Size: 17484
+Find Candidates: 25.190000 ms; Evaluate Candidates: 16.218000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; harizopoulos shah meza ranganathan energy efficiency holy grail management cidr 2009 
+Size: 44194
+Find Candidates: 73.689000 ms; Evaluate Candidates: 23.296000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.021000 ms; janukowicz reinsel rydning worldwide solid state drive 2008 2012 forecast technical 212736 idc june 2008 
+Size: 14561
+Find Candidates: 22.719000 ms; Evaluate Candidates: 24.630000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.020000 ms; nath gibbons maintenance samples ﬂash storage vldb endow 970–983 2008 
+Size: 9741
+Find Candidates: 13.478000 ms; Evaluate Candidates: 16.353000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.019000 ms; shapiro join main memories 239–264 1986 
+Size: 3790
+Find Candidates: 4.694000 ms; Evaluate Candidates: 8.291000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; ross modeling performance algorithms ﬂash devices damon 11–16 2008 
+Size: 94954
+Find Candidates: 167.835000 ms; Evaluate Candidates: 25.757000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.074000 ms; stonebraker abadi batkin chen cherniack ferreira lau lin madden o’neil o’neil rasin tran zdonik store column oriented dbms vldb 553–564 2005 
+Size: 73766
+Find Candidates: 139.055000 ms; Evaluate Candidates: 33.386000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; amento terveen hill does ‘authority’ mean quality predicting expert quality ratings documents 296–303 2000 
+Size: 27227
+Find Candidates: 54.509000 ms; Evaluate Candidates: 26.332000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; baeza yates castillo marín rodríguez crawling country better strategies breadth ﬁrst ordering 864–872 2005 
+Size: 12486
+Find Candidates: 17.328000 ms; Evaluate Candidates: 16.712000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.019000 ms; craswell hawking robertson effective site ﬁnding link anchor 250–257 2001 
+Size: 12959
+Find Candidates: 18.280000 ms; Evaluate Candidates: 15.577000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; eiron mccurley anchor search ’03 459–460 2003 
+Size: 18081
+Find Candidates: 28.067000 ms; Evaluate Candidates: 11.435000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; hawking crimmins craswell upstill valuable external link evidence searching enterprise webs adc 77–84 2004 
+Size: 15445
+Find Candidates: 21.124000 ms; Evaluate Candidates: 23.599000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; kamps centric language herzog schek fuhr chowdhury teiken editors cikm 307–308 2005 isbn 59593 140 
+Size: 23040
+Find Candidates: 35.164000 ms; Evaluate Candidates: 51.296000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; ogilvie callan combining document representations known item search 143–150 2003 
+Size: 32631
+Find Candidates: 49.279000 ms; Evaluate Candidates: 21.458000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; singhal kaszkiel case search trec algorithms www10 708–716 2001 
+Size: 64539
+Find Candidates: 109.955000 ms; Evaluate Candidates: 29.993000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.035000 ms; yilmaz aslam estimating average precision incomplete imperfect judgments cikm ’06 102–111 york usa 2006 
+Size: 9895
+Find Candidates: 21.328000 ms; Evaluate Candidates: 38.176000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.026000 ms; abiteboul preda cobena adaptive line importance computation 280–290 2003 
+Size: 44272
+Find Candidates: 109.043000 ms; Evaluate Candidates: 18.599000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.033000 ms; abadi madden ferreira integrating compression execution column oriented management chicago illinois usa june 2006 671–682 2006 
+Size: 64656
+Find Candidates: 108.794000 ms; Evaluate Candidates: 35.090000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.037000 ms; aulbach grust jacobs kemper rittinger tenant service schema mapping management 2008 vancouver canada june 2008 1195–1206 2008 
+Size: 58169
+Find Candidates: 101.813000 ms; Evaluate Candidates: 39.499000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.034000 ms; boncz manegold kersten architecture optimized bottleneck access vldb’99 25th bases september 1999 edinburgh scotland 54–65 morgan kaufmann 1999 
+Size: 40137
+Find Candidates: 64.580000 ms; Evaluate Candidates: 33.042000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.030000 ms; chaudhuri dayal overview warehousing olap record 65–74 1997 
+Size: 5694
+Find Candidates: 7.296000 ms; Evaluate Candidates: 11.812000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; copeland khoshaﬁan decomposition storage 1985 management austin texas 1985 268–279 press 1985 
+Size: 40749
+Find Candidates: 65.870000 ms; Evaluate Candidates: 25.575000 ms; Find Best Matches: 0.000000 ms;
+
+Matching failed for: conf/sigmod/CopelandK85 ("G. P. Copeland and S. Khoshaﬁan. A Decomposition Storage Model. In Proceedings of the 1985 ACM SIGMOD International Conference on Management of Data, Austin, Texas, May 28-31, 1985, pages 268–279. ACM Press, 1985.")
+      Found match: No Match!
+
+Prepare String: 0.032000 ms; french “one size fits all” architectures work dds 1995 management san jose california 1995 449–450 press 1995 
+Size: 45539
+Find Candidates: 73.580000 ms; Evaluate Candidates: 36.106000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.033000 ms; raman swart qiao reiss dialani kossmann narang sidle constant 24th engineering icde 2008 april 2008 cancun mexico 60–69 2008 
+Size: 16968
+Find Candidates: 27.464000 ms; Evaluate Candidates: 30.194000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.039000 ms; schaffner bog krüger zeier hybrid row column oltp architecture operational reporting second business intelligence real enterprise birte 2008 conjunction vldb’08 august 2008 auckland zealand 2008 
+Size: 77424
+Find Candidates: 139.568000 ms; Evaluate Candidates: 56.213000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.014000 ms; stonebraker case engineering bulletin 4–9 1986 
+Size: 30428
+Find Candidates: 46.229000 ms; Evaluate Candidates: 14.448000 ms; Find Best Matches: 0.000000 ms;
+
+Matching failed for: journals/debu/Stonebraker86 ("M. Stonebraker. The Case for Shared Nothing. IEEE Database Engineering Bulletin, 9(1):4–9, 1986.")
+      Found match: No Match!
+
+Prepare String: 0.019000 ms; stonebraker rowe hirohama implementation postgres transactions knowledge engineering 125–142 1990 
+Size: 52041
+Find Candidates: 87.324000 ms; Evaluate Candidates: 30.626000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.022000 ms; azoury warmuth 2001 relative loss bounds density estimation exponential family distributions 211–246 
+Size: 36064
+Find Candidates: 56.391000 ms; Evaluate Candidates: 25.247000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; bach 2006 misspecified generalized technical n15 ecole des mines paris 
+Size: 15155
+Find Candidates: 22.007000 ms; Evaluate Candidates: 25.446000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; balcan beygelzimer langford 2006 agnostic 23th 65–72 
+Size: 1064
+Find Candidates: 1.232000 ms; Evaluate Candidates: 9.508000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; balcan broder zhang 2007 margin 20th theory 35–50 
+Size: 49170
+Find Candidates: 86.335000 ms; Evaluate Candidates: 12.412000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; castro nowak 2008 minimax bounds 2339–2353 
+Size: 8847
+Find Candidates: 11.966000 ms; Evaluate Candidates: 9.611000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; cavallanti cesa bianchi gentile 2009 classification selective sampling noise conditions advances neural 
+Size: 55664
+Find Candidates: 96.733000 ms; Evaluate Candidates: 25.130000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; cesa bianchi conconi gentile 2003 probabilistic threshold classifiers selective sampling 16th theory 373–387 
+Size: 33042
+Find Candidates: 51.127000 ms; Evaluate Candidates: 23.703000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.018000 ms; cesa bianchi conconi gentile 2005 second order perceptron algorithm siam 640–668 
+Size: 65172
+Find Candidates: 114.965000 ms; Evaluate Candidates: 25.766000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.017000 ms; cesa bianchi gentile 2008 improved risk tail bounds line algorithms 386–390 
+Size: 55665
+Find Candidates: 90.511000 ms; Evaluate Candidates: 17.558000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; cesa bianchi gentile orabona 2009 robust bounds classification selective sampling 26th 
+Size: 41649
+Find Candidates: 66.338000 ms; Evaluate Candidates: 18.085000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; cesa bianchi gentile zaniboni 2006 worst case selective sampling classification jmlr 1025–1230 
+Size: 42503
+Find Candidates: 69.049000 ms; Evaluate Candidates: 19.022000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; cesa bianchi lugosi 2006 prediction games cambridge university press 
+Size: 19232
+Find Candidates: 29.115000 ms; Evaluate Candidates: 31.270000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.021000 ms; cohn atlas ladner 1990 training connectionist selective sam pling advances neural 
+Size: 32822
+Find Candidates: 50.411000 ms; Evaluate Candidates: 20.079000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; dani hayes kakade 2008 stochastic optimization bandit feedback 12th theory 
+Size: 50820
+Find Candidates: 82.374000 ms; Evaluate Candidates: 22.036000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.045000 ms; dasgupta hsu monteleoni 2008 general agnostic algorithm advances neural 
+Size: 85303
+Find Candidates: 152.556000 ms; Evaluate Candidates: 25.119000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; dasgupta kalai monteleoni 2005 perceptron 18th theory 
+Size: 16034
+Find Candidates: 23.375000 ms; Evaluate Candidates: 13.044000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; dekel gentile sridharan 2010 robust selective sampling multiple teachers technical microsoft universit` dell’insubria tti 
+Size: 40155
+Find Candidates: 64.626000 ms; Evaluate Candidates: 31.753000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; donmez carbonell 2008 proactive cost sensitive multiple imperfect oracles cikm 
+Size: 30807
+Find Candidates: 45.394000 ms; Evaluate Candidates: 18.913000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; freund seung shamir tishby 1997 selective sampling committee algorithm 133–168 
+Size: 57811
+Find Candidates: 100.184000 ms; Evaluate Candidates: 24.553000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; hanneke 2007 bound label complexity agnostic 24th interna tional 353–360 
+Size: 18038
+Find Candidates: 26.175000 ms; Evaluate Candidates: 16.061000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; hanneke 2009 adaptive rates convergence 22th theory 
+Size: 43382
+Find Candidates: 71.698000 ms; Evaluate Candidates: 16.561000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.023000 ms; hazan kalai kale agarwal 2006 logarithmic regret algorithms convex optimization 19th theory 
+Size: 68607
+Find Candidates: 121.696000 ms; Evaluate Candidates: 25.746000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.017000 ms; hoerl kennard 1970 ridge regression biased estimation nonorthogonal techno metrics 55–67 
+Size: 24976
+Find Candidates: 38.444000 ms; Evaluate Candidates: 21.880000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.019000 ms; kakade tewari 2008 generalization ability strongly convex programming algorithms advances neural 
+Size: 79706
+Find Candidates: 142.066000 ms; Evaluate Candidates: 29.445000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.023000 ms; littman walsh 2008 knows knows framework self 25th 568–575 
+Size: 38237
+Find Candidates: 60.534000 ms; Evaluate Candidates: 15.854000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; strehl littman 2008 regression application reinforcement advances neural 
+Size: 57058
+Find Candidates: 96.230000 ms; Evaluate Candidates: 23.403000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.013000 ms; tsybakov 2004 aggregation classifiers statistical ann stat 135–166 
+Size: 13116
+Find Candidates: 17.647000 ms; Evaluate Candidates: 15.326000 ms; Find Best Matches: 0.001000 ms;
+
+Matching failed for: NO_MATCH ("Tsybakov, A. (2004). Optimal aggregation of classifiers in statistical learning. Ann. of Stat., 32, 135–166.")
+      Found match: conf/colt/Tsybakov03
+
+Prepare String: 0.016000 ms; rao edelman “the polynomial matrices ” preprint 2006 0601389 
+Size: 11645
+Find Candidates: 15.818000 ms; Evaluate Candidates: 14.071000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; tse zeitouni “linear multiuser receivers environ ments ” theory 171 188 jan 2000 
+Size: 18082
+Find Candidates: 27.531000 ms; Evaluate Candidates: 20.795000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.032000 ms; moustakas simon sengupta “mimo capacity correlated channels presence correlated interferers noise ” theory 2545 2561 oct 2003 
+Size: 36173
+Find Candidates: 58.667000 ms; Evaluate Candidates: 34.251000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; ller “on asymptotic eigenvalue distribution concatenated vector valued fading channels ”ieee theory 2086 2091 july 2002 
+Size: 47861
+Find Candidates: 122.403000 ms; Evaluate Candidates: 58.947000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.034000 ms; ller “a matrix antenna rays ”ieee theory 2495 2506 septem ber 2002 
+Size: 28085
+Find Candidates: 43.667000 ms; Evaluate Candidates: 17.791000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; debbah ller “mimo channel modeling principle maximum entropy ” theory 1667 1690 2005 
+Size: 63805
+Find Candidates: 110.437000 ms; Evaluate Candidates: 24.882000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; larsson stoica space block coding wireless communica tions cambridge 2003 
+Size: 53274
+Find Candidates: 90.033000 ms; Evaluate Candidates: 21.480000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.024000 ms; chuah tse kahn valenzuela “capacity scaling mimo wireless correlated fading ” theory march 2002 
+Size: 50237
+Find Candidates: 84.555000 ms; Evaluate Candidates: 28.397000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; rashidi far oraby bryc speicher “spectra block trices ” preprint 2006 0610045 
+Size: 6507
+Find Candidates: 9.020000 ms; Evaluate Candidates: 18.706000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; press teukolsky vetterling flannery numerical recipes 2nd cambridge cambridge university press 1992 scientific 
+Size: 11279
+Find Candidates: 17.416000 ms; Evaluate Candidates: 52.452000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; albert nowakowski game end nim electronic combinatorics 2001 
+Size: 16511
+Find Candidates: 25.589000 ms; Evaluate Candidates: 12.834000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; ehrenborg steingrimsson playing nim simplicial electronic combinatorics 1996 
+Size: 8014
+Find Candidates: 10.940000 ms; Evaluate Candidates: 21.565000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; holshouser reiter pile size nim dis crete mathematics theoretical science 2005 1–10 
+Size: 13897
+Find Candidates: 19.501000 ms; Evaluate Candidates: 21.336000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; kahn lagarias witsenhausen suit person card play iii mis`re game siam disc 1989 329–343 
+Size: 10511
+Find Candidates: 14.395000 ms; Evaluate Candidates: 18.220000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; plambeck siegel mis`re quotients impartial games combinatorial theory series 2008 593–622 
+Size: 27721
+Find Candidates: 41.626000 ms; Evaluate Candidates: 22.351000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; amotz bar noy reuven bar yehuda ari freund joseph naor baruch schieber unified approach approximating resource allocation scheduling 1069–1090 2001 
+Size: 88352
+Find Candidates: 189.183000 ms; Evaluate Candidates: 32.963000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; berman karpinski tighter inapproximability results colloquium automata languages 200–209 1999 
+Size: 21307
+Find Candidates: 30.632000 ms; Evaluate Candidates: 20.347000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; carr fleischer leung phillips strengthening integrality gaps capacitated covering siam symposium discrete algorithms 106–115 2000 
+Size: 43429
+Find Candidates: 68.107000 ms; Evaluate Candidates: 35.954000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; charikar naor schieber resource optimization qos multicast routing real 340–348 2004 
+Size: 73983
+Find Candidates: 128.353000 ms; Evaluate Candidates: 24.351000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.030000 ms; chekuri ene korula unsplittable flow paths trees column restricted packing integer programs approxi mation algorithms combinatorial optimization 2009 
+Size: 87559
+Find Candidates: 153.005000 ms; Evaluate Candidates: 39.776000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; chekuri mydlarz shepherd multicommodity demand flow tree packing integer programs alg 2007 
+Size: 38359
+Find Candidates: 58.853000 ms; Evaluate Candidates: 20.416000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; cheriyan karloff khandekar könemann integrality ratio tree augmentation operations letters 399–401 2008 
+Size: 17015
+Find Candidates: 24.274000 ms; Evaluate Candidates: 22.732000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; chuzhoy gupta naor sinha approximability alg 2008 
+Size: 6806
+Find Candidates: 9.134000 ms; Evaluate Candidates: 9.307000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; hochbaum approximation algorithms covering vertex cover siam 555–556 1982 
+Size: 38567
+Find Candidates: 62.027000 ms; Evaluate Candidates: 17.478000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; kolliopoulos stein approximation algorithms source unsplittable flow siam 919–946 2001 
+Size: 51795
+Find Candidates: 84.248000 ms; Evaluate Candidates: 22.803000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; kolliopoulos stein approximating disjoint path packing integer programs programming 63–87 2004 
+Size: 45623
+Find Candidates: 71.806000 ms; Evaluate Candidates: 27.106000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; kolliopoulos young approximation algorithms covering packing integer programs comput 495–505 2005 
+Size: 52846
+Find Candidates: 86.993000 ms; Evaluate Candidates: 25.476000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; rajagopalan vazirani primal dual rnc approximation algorithms cover covering integer programs symposium foundations science 1993 
+Size: 60326
+Find Candidates: 101.625000 ms; Evaluate Candidates: 32.592000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; srinivasan improved approximation guarantees packing covering integer pro grams siam 648–670 1999 
+Size: 23594
+Find Candidates: 34.007000 ms; Evaluate Candidates: 21.555000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; srinivasan extension lov ́sz local lemma applications integer programming siam 609–634 2006 
+Size: 66272
+Find Candidates: 110.650000 ms; Evaluate Candidates: 26.638000 ms; Find Best Matches: 0.001000 ms;
+
+Matching failed for: journals/siamcomp/Srinivasan06 ("A. Srinivasan. An extension of the lov ́sz local lemma, and its applications to integer programming. SIAM Journal on Computing, 36(3):609–634, 2006.")
+      Found match: journals/corr/cs-DS-0307043
+
+Prepare String: 0.021000 ms; trevisan non approximability results optimization bounded degree instances symposium theory 453–461 2001 
+Size: 64467
+Find Candidates: 111.768000 ms; Evaluate Candidates: 30.877000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; caro tuza hypergraph coverings local colorings combinatorial theory series 1991 79–85 
+Size: 32963
+Find Candidates: 48.598000 ms; Evaluate Candidates: 20.165000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; chen liu o’sullivan razgon parameter algorithm directed feedback vertex 2008 
+Size: 123859
+Find Candidates: 217.550000 ms; Evaluate Candidates: 22.759000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; garey johnson intractability guide theory completeness series books mathematical sciences freeman 1979 
+Size: 28879
+Find Candidates: 41.350000 ms; Evaluate Candidates: 24.336000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; griggs lower bounds independence number terms degrees combinatorial theory series 1983 22–39 
+Size: 38178
+Find Candidates: 60.063000 ms; Evaluate Candidates: 21.401000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; halld rsson radhakrishnan greed good approximating independent sets sparse bounded degree graphs algorithmica 1997 145–163 
+Size: 44433
+Find Candidates: 72.378000 ms; Evaluate Candidates: 28.416000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.032000 ms; razgon minimum directed feedback vertex o∗ 9977n italiano moggi laura eds 10th italian theoretical science world scientific 70–81 2007 
+Size: 32833
+Find Candidates: 54.141000 ms; Evaluate Candidates: 33.192000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.027000 ms; sakai togasaki yamazaki note greedy algorithms maximum weighted independent discrete applied mathematics 126 2003 313–322 
+Size: 59956
+Find Candidates: 109.477000 ms; Evaluate Candidates: 34.981000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; avis toussaint algorithm decomposing polygon shaped polygons 395–398 1981 
+Size: 53259
+Find Candidates: 91.730000 ms; Evaluate Candidates: 18.465000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; balaban algorithm finding segments intersections eleventh symposium computational geometry scg ’95 211–219 york usa 1995 
+Size: 67824
+Find Candidates: 119.308000 ms; Evaluate Candidates: 38.380000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; bose lubiw munro visibility polygons computational geometry 313–335 2002 
+Size: 14190
+Find Candidates: 19.965000 ms; Evaluate Candidates: 14.250000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; chazelle edelsbrunner algorithm intersecting line segments plane 1–54 1992 
+Size: 62918
+Find Candidates: 108.464000 ms; Evaluate Candidates: 20.402000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; edelsbrunner o’rourke welzl stationing guards rectilinear galleries vision graphics 167–176 1984 
+Size: 8505
+Find Candidates: 11.590000 ms; Evaluate Candidates: 18.592000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.017000 ms; efrat har peled guarding galleries terrains letters 100 238–245 2006 
+Size: 2075
+Find Candidates: 2.515000 ms; Evaluate Candidates: 10.856000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; ghosh approximation algorithms gallery polygons discrete applied ematics 158 718–722 2010 
+Size: 48588
+Find Candidates: 79.134000 ms; Evaluate Candidates: 24.539000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; gindy avis algorithm visibility polygon point algorithms 186–197 1981 
+Size: 87645
+Find Candidates: 156.419000 ms; Evaluate Candidates: 22.350000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; joe simpson corrections lee’s visibility polygon algorithm bit numerical mathe matics 458–473 1987 1007 bf01937271 
+Size: 60855
+Find Candidates: 106.598000 ms; Evaluate Candidates: 29.206000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; kahn klawe kleitman traditional galleries require fewer watchmen siam algebraic discrete 194–206 1983 
+Size: 13881
+Find Candidates: 18.869000 ms; Evaluate Candidates: 25.208000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.019000 ms; lee lin computational complexity gallery theory transactions 276–282 mar 1986 
+Size: 78471
+Find Candidates: 138.568000 ms; Evaluate Candidates: 23.636000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; o’rourke supowit hard polygon decomposition theory transactions 181–190 mar 1983 
+Size: 24458
+Find Candidates: 34.595000 ms; Evaluate Candidates: 20.146000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.032000 ms; zarei ghodsi computation point visibility polygons holes symposium computational geometry scg ’05 314–320 york usa 2005 
+Size: 30443
+Find Candidates: 44.675000 ms; Evaluate Candidates: 31.360000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; biere cimatti clarke strichman zhu bounded checking advances 118–149 2003 
+Size: 19518
+Find Candidates: 28.696000 ms; Evaluate Candidates: 13.242000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.023000 ms; biere cimatti clarke zhu symbolic checking bdds tacas 1579 193–207 1999 
+Size: 17598
+Find Candidates: 25.704000 ms; Evaluate Candidates: 12.724000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.030000 ms; stefan blom jaco pol michael weber 0002 ltsmin distributed symbolic reachability tayssir touili byron cook paul jackson editors cav 6174 354–359 2010 
+Size: 49407
+Find Candidates: 82.056000 ms; Evaluate Candidates: 38.408000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; groote willemse checking processes science programming 251–273 2005 
+Size: 39349
+Find Candidates: 60.227000 ms; Evaluate Candidates: 15.583000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; klint meta environment generating programming environments softw eng methodol 176–201 1993 
+Size: 55403
+Find Candidates: 88.625000 ms; Evaluate Candidates: 25.931000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.047000 ms; den brand deursen heering jong jonge kuipers klint moonen olivier scheerder vinju visser visser asf sdf meta environment component language development environment reinhard wilhelm editor compiler construction 2027 365–370 2001 
+Size: 75115
+Find Candidates: 156.605000 ms; Evaluate Candidates: 54.372000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.017000 ms; anderson tarczy hornoch bumgarner persistence supplementary resources biomedical publications bmc bioinformatics 2006 260 
+Size: 9525
+Find Candidates: 12.608000 ms; Evaluate Candidates: 29.768000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; klimeck mclennan brophy adams lundstrom nanohub org advancing education nanotechnology science engineering 2008 17–23 
+Size: 23043
+Find Candidates: 34.312000 ms; Evaluate Candidates: 31.294000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; gil deelman ellisman fahringer fox gannon goble livny moreau myers examining challenges scientific workflows 2007 24–32 
+Size: 13945
+Find Candidates: 18.856000 ms; Evaluate Candidates: 22.578000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; goderis sattler lord goble seven bottlenecks workflow reuse repurposing semantic web—iswc 2005 galway ireland 2005 323–337 
+Size: 20217
+Find Candidates: 29.930000 ms; Evaluate Candidates: 27.890000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.014000 ms; roure goble empowering scientists 2009 88–95 
+Size: 1357
+Find Candidates: 1.508000 ms; Evaluate Candidates: 11.099000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; roure goble stevens realisation virtual environment social sharing workflows future generation 2009 561–567 
+Size: 64733
+Find Candidates: 109.093000 ms; Evaluate Candidates: 32.109000 ms; Find Best Matches: 0.001000 ms;
+
+Matching failed for: journals/fgcs/RoureGS09 ("De Roure D, Goble C, Stevens R. The design and realisation of the virtual research environment for social sharing of workflows. Future Generation Computer Systems 2009; 25:561–567.")
+      Found match: conf/eScience/RoureGS07
+
+Prepare String: 0.021000 ms; mcphillips bowers zinn lud scher scientific workflow mere mortals future generation 2009 541–551 
+Size: 25857
+Find Candidates: 37.051000 ms; Evaluate Candidates: 19.690000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; groth gil scientific workflow construction command line 13th intelligent interfaces sanibel island 2009 
+Size: 38166
+Find Candidates: 60.285000 ms; Evaluate Candidates: 23.337000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; biton davidson khanna roy optimizing views workflows 12th theory petersburg russia 2009 
+Size: 23838
+Find Candidates: 35.595000 ms; Evaluate Candidates: 17.901000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.036000 ms; goderis fisher gibson tanoh wolstencroft roure goble benchmarking workflow discovery case bioinformatics concurrency computation practice experience 2009 2052–2069 doi http doi org 1002 cpe v21 
+Size: 50502
+Find Candidates: 81.230000 ms; Evaluate Candidates: 44.937000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.014000 ms; mons gene did you mean bmc bioinformatics 2005 142 
+Size: 11771
+Find Candidates: 16.630000 ms; Evaluate Candidates: 11.896000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.038000 ms; glaser jaffri millard managing reference semantic linked ldow 2009 ceur madrid spain april 2009 issn 1613 0073 ceur org 538 ldow2009 paper11 pdf 
+Size: 21187
+Find Candidates: 30.884000 ms; Evaluate Candidates: 36.449000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; friedman “the bayesian structural algorithm ” 14th ann uncertainty artificial intelligence 129 1998 
+Size: 73511
+Find Candidates: 131.072000 ms; Evaluate Candidates: 32.790000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.032000 ms; zhu chen yuille “unsupervised probabilistic grammar detection parsing ” vances neural scholkopf platt hoffman eds mit press 2007 
+Size: 105664
+Find Candidates: 183.351000 ms; Evaluate Candidates: 37.901000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; jin geman “context hierarchy probabilistic ” vision 2145 2152 2006 
+Size: 19685
+Find Candidates: 26.773000 ms; Evaluate Candidates: 14.291000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; mcallester collins pereira “case diagrams structured probabilistic modeling ” 20th uncertainty artificial intelligence 382 391 2004 
+Size: 54366
+Find Candidates: 89.142000 ms; Evaluate Candidates: 38.337000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.029000 ms; klein manning “natural language grammar induction constituent context ” advances neural informa tion dietterich ghahramani eds mit press 2002 
+Size: 60542
+Find Candidates: 101.059000 ms; Evaluate Candidates: 52.439000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.028000 ms; chen liu zhu “composite templates cloth modeling sketching ” vision 943 950 2006 
+Size: 101453
+Find Candidates: 180.363000 ms; Evaluate Candidates: 23.505000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.032000 ms; zettlemoyer collins “learning map sentences logical form structured classification probabilistic cate gorial grammars ” 21st ann uncertainty artificial intelligence 658 666 2005 
+Size: 54832
+Find Candidates: 89.658000 ms; Evaluate Candidates: 47.238000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; fergus perona zisserman “object class unsupervised scale invariant ” vision 2003 
+Size: 28960
+Find Candidates: 42.091000 ms; Evaluate Candidates: 18.680000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.038000 ms; fei fei fergus perona “learning generative visual training examples incremental bayesian approach tested 101 categories ” int’l vision generative vision 2004 
+Size: 84832
+Find Candidates: 158.175000 ms; Evaluate Candidates: 39.544000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.032000 ms; fergus perona zisserman “a sparse category exhaustive recogni tion ” vision 380 397 2005 
+Size: 11304
+Find Candidates: 15.729000 ms; Evaluate Candidates: 18.318000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; crandall huttenlocher “weakly supervised spatial visual ” european vision 2006 
+Size: 28703
+Find Candidates: 42.421000 ms; Evaluate Candidates: 19.957000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; crandall felzenszwalb huttenlocher “spatial priors statistical ” vision 2005 
+Size: 13905
+Find Candidates: 19.259000 ms; Evaluate Candidates: 16.455000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; meila jordan “learning mixtures trees ” 2000 
+Size: 10848
+Find Candidates: 15.218000 ms; Evaluate Candidates: 9.373000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; pietra pietra lafferty “inducing features fields ” intelligence 380 393 apr 1997 
+Size: 13989
+Find Candidates: 19.196000 ms; Evaluate Candidates: 19.799000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; zhu mumford “minimax entropy principle application texture modeling ” neural computation nov 1997 
+Size: 97995
+Find Candidates: 167.151000 ms; Evaluate Candidates: 30.199000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; mccallum “efficiently inducing features conditional fields ” 19th uncertainty artificial intelli gence 2003 
+Size: 21432
+Find Candidates: 30.783000 ms; Evaluate Candidates: 22.945000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; friedman “the bayesian structural algorithm ” 14th ann uncertainty artificial intelligence 129 1998 
+Size: 73511
+Find Candidates: 132.819000 ms; Evaluate Candidates: 32.783000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.031000 ms; zhu chen yuille “unsupervised probabilistic grammar detection parsing ” vances neural scholkopf platt hoffman eds mit press 2007 
+Size: 105664
+Find Candidates: 182.298000 ms; Evaluate Candidates: 37.920000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; shams von der malsburg “are shape primitives learnable ” neurocomputing vols 855 863 1999 
+Size: 20388
+Find Candidates: 32.813000 ms; Evaluate Candidates: 39.334000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.038000 ms; ponce berg everingham forsyth hebert lazebnik marszalek schmid amda torralba williams zhang zisserman dataset category level ponce hebert schmid zisserman eds 2006 
+Size: 55113
+Find Candidates: 98.246000 ms; Evaluate Candidates: 29.356000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; kadir brady “saliency scale description ” int’l vision 105 2001 
+Size: 20504
+Find Candidates: 29.278000 ms; Evaluate Candidates: 15.064000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; lowe “distinctive features scale invariant keypoints ” int’l vision 110 2004 
+Size: 24671
+Find Candidates: 35.734000 ms; Evaluate Candidates: 36.905000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; amit geman “a computational visual selection ” neural computation 1691 1715 1999 
+Size: 64028
+Find Candidates: 105.134000 ms; Evaluate Candidates: 25.467000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; jin geman “context hierarchy probabilistic ” vision 2145 2152 2006 
+Size: 19685
+Find Candidates: 26.712000 ms; Evaluate Candidates: 14.266000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.028000 ms; coughlan snow english yuille “efficient deformable template detection localization initialization ” vision understanding 303 319 2000 
+Size: 44568
+Find Candidates: 73.106000 ms; Evaluate Candidates: 31.944000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; plamondon srihari “on line line hand writing comprehensive survey ” intelligence jan 2000 
+Size: 22869
+Find Candidates: 45.107000 ms; Evaluate Candidates: 19.837000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; vinciarelli “a survey line cursive word ” 1433 1446 2002 
+Size: 17233
+Find Candidates: 24.131000 ms; Evaluate Candidates: 13.245000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; steinherz rivlin intrator “off line cursive script word recognition—a survey ” int’l document nos 110 1999 
+Size: 22714
+Find Candidates: 34.293000 ms; Evaluate Candidates: 21.590000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.024000 ms; schomaker segers “finding features used reading cursive handwriting ” int’l document nos 1999 
+Size: 15021
+Find Candidates: 21.507000 ms; Evaluate Candidates: 22.825000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; govindaraju krishnamurthy “holistic handwritten word temporal features derived line ” letters 537 540 1996 
+Size: 31112
+Find Candidates: 46.379000 ms; Evaluate Candidates: 24.124000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; bunke roth schukat talamazzini “off line cursive handwriting hidden markov mod els ” 1399 1413 1995 
+Size: 18591
+Find Candidates: 28.993000 ms; Evaluate Candidates: 20.447000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; srihari shi “forensic handwritten document ” int’l document libraries 188 194 2004 
+Size: 15233
+Find Candidates: 29.731000 ms; Evaluate Candidates: 19.980000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.034000 ms; frank schomaker veenhuis vuurpijl erp guyon “wanda common ground forensic handwriting examination writer identification ” enfhex news—bull european forensic handwriting experts 2004 
+Size: 18870
+Find Candidates: 30.434000 ms; Evaluate Candidates: 39.988000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.029000 ms; hertel bunke “a novel features writer identification ” int’l audio biometric person authentication 679 687 2003 
+Size: 33841
+Find Candidates: 52.007000 ms; Evaluate Candidates: 26.811000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; hochberg bowers cannon kelly “script language identification handwritten document ” int’l document nos 1999 
+Size: 33985
+Find Candidates: 60.215000 ms; Evaluate Candidates: 27.074000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; ben amara bouslama “classification arabic script multiple sources state perspectives ” int’l document 195 212 2003 
+Size: 41323
+Find Candidates: 65.619000 ms; Evaluate Candidates: 29.047000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; han sethi “handwritten signature identification ” letters 1996 
+Size: 18156
+Find Candidates: 24.451000 ms; Evaluate Candidates: 14.764000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; nalwa “automatic line signature verification ” 215 239 1997 
+Size: 20730
+Find Candidates: 29.450000 ms; Evaluate Candidates: 14.098000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; sabourin drouhard wah “shape matrices mixed shape line signature verification ” int’l document 661 665 1997 
+Size: 40023
+Find Candidates: 82.344000 ms; Evaluate Candidates: 25.974000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; sabourin “off line signature verification recent advances perspectives ” brazilian symp document 1997 
+Size: 29732
+Find Candidates: 44.565000 ms; Evaluate Candidates: 22.685000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; boccignone chianese cordella marcelli “recovering static handwriting ” 409 418 1993 
+Size: 4504
+Find Candidates: 5.991000 ms; Evaluate Candidates: 14.699000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; plamondon privitera “the segmentation cursive handwriting approach line recovery motor temporal ” 1999 
+Size: 84257
+Find Candidates: 150.994000 ms; Evaluate Candidates: 27.401000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; doermann rosenfeld “recovery temporal static handwriting ” int’l vision nos 143 164 1995 
+Size: 19097
+Find Candidates: 27.527000 ms; Evaluate Candidates: 17.765000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.027000 ms; kato yasuhara “recovery drawing order stroke handwriting ” intelligence 938 949 sept 2000 
+Size: 19732
+Find Candidates: 28.221000 ms; Evaluate Candidates: 22.967000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; qiao nishiara yasuhara “a novel approach recover writing order stroke offline handwritten ” int’l document 227 231 2005 
+Size: 81336
+Find Candidates: 171.200000 ms; Evaluate Candidates: 32.877000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; cheng chiang roan “feature preserving thinning algorithm optical character recogni tion ” spie—character technologies 279 290 1993 
+Size: 73386
+Find Candidates: 149.479000 ms; Evaluate Candidates: 37.832000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.024000 ms; lam lee suen “thinning methodologies comprehensive survey ” intelligence 869 885 sept 1992 
+Size: 41547
+Find Candidates: 75.212000 ms; Evaluate Candidates: 20.300000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; jang chin “analysis thinning algorithms morphology ” intelligence 541 551 june 1990 
+Size: 35685
+Find Candidates: 59.712000 ms; Evaluate Candidates: 22.683000 ms; Find Best Matches: 0.000000 ms;
+
+Matching failed for: journals/pami/JangC90 ("B.K. Jang and R.T. Chin, “Analysis of Thinning Algorithms Using Math. Morphology,” IEEE Trans. Pattern Analysis and Machine Intelligence, vol. 12, no. 6, pp. 541-551, June 1990.")
+      Found match: No Match!
+
+Prepare String: 0.027000 ms; lam suen “an evaluation parallel thinning algorithms character ” intelligence 914 919 sept 1995 
+Size: 83825
+Find Candidates: 149.241000 ms; Evaluate Candidates: 30.252000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.029000 ms; plamondon suen bourdeau barriere “methodologies evaluating thinning algorithms char acter ” int’l artificial intelligence 1247 1270 1993 
+Size: 41878
+Find Candidates: 67.915000 ms; Evaluate Candidates: 38.091000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; boyer franco “a hybrid approach visual hulls objects ” vision 695 701 june 2003 
+Size: 87269
+Find Candidates: 151.402000 ms; Evaluate Candidates: 25.537000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; brostow essa steedly kwatra “novel skeletal representation articulated creatures ” eighth european vision 2004 
+Size: 16994
+Find Candidates: 23.981000 ms; Evaluate Candidates: 25.269000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.028000 ms; cheung baker kanade “shape silhouette applications modeling markerless motion ” int’l vision 225 245 2005 
+Size: 73435
+Find Candidates: 137.497000 ms; Evaluate Candidates: 33.126000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.028000 ms; demirdjian “combining geometric view approaches articulated pose estimation ” eighth european vision 183 194 2004 
+Size: 40115
+Find Candidates: 62.675000 ms; Evaluate Candidates: 27.370000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.031000 ms; dewaele devernay horaud forbes “the alignment articulated shapes bending surfaces ” ninth european vision 578 591 2006 
+Size: 15624
+Find Candidates: 21.489000 ms; Evaluate Candidates: 29.063000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; fraley raftery “model clustering discriminant density estimation ” statistical assoc 611 631 2002 
+Size: 41590
+Find Candidates: 64.977000 ms; Evaluate Candidates: 25.155000 ms; Find Best Matches: 0.000000 ms;
+
+Matching failed for: journals/classification/FraleyR03 ("C. Fraley and A.E. Raftery, “Model-Based Clustering, Discriminant Analysis, and Density Estimation,” J. Am. Statistical Assoc., vol. 97, pp. 611-631, 2002.")
+      Found match: No Match!
+
+Prepare String: 0.024000 ms; franco lapierre boyer “visual shapes silhouette sets ” int’l symp visualization transmission 2006 
+Size: 24871
+Find Candidates: 36.046000 ms; Evaluate Candidates: 22.263000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; ilic salzmann fua “implicit meshes effective silhouette handling ” int’l vision 159 178 2007 
+Size: 16735
+Find Candidates: 23.036000 ms; Evaluate Candidates: 19.764000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; knossow ronfard horaud “human motion tracking kinematic parameterization extremal contours ” int’l vision 247 269 sept 2008 
+Size: 28011
+Find Candidates: 42.055000 ms; Evaluate Candidates: 30.337000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.029000 ms; luo hancock “structural graph matching algorithm singular value decomposition ” intelligence 1120 1136 oct 2001 
+Size: 89939
+Find Candidates: 158.673000 ms; Evaluate Candidates: 32.932000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; starck hilton “model multiple view reconstruction people ” ninth int’l vision oct 2003 
+Size: 37580
+Find Candidates: 59.703000 ms; Evaluate Candidates: 21.701000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.020000 ms; wells iii “statistical approaches feature recogni tion ” int’l vision nos 1997 
+Size: 22889
+Find Candidates: 32.210000 ms; Evaluate Candidates: 19.830000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; blackburn myths reality performance impact garbage collection icmmcs 2004 
+Size: 48533
+Find Candidates: 94.118000 ms; Evaluate Candidates: 21.900000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; chen tuning garbage collection reducing energy embedded java environment tecs november 2002 
+Size: 80691
+Find Candidates: 142.532000 ms; Evaluate Candidates: 25.032000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; eeckhout java programs interact virtual machines microarchitectural level oopsla 2003 
+Size: 51389
+Find Candidates: 83.100000 ms; Evaluate Candidates: 21.403000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; nguyen scratch pad allocation compiler support java applications cases 2007 
+Size: 66733
+Find Candidates: 109.619000 ms; Evaluate Candidates: 20.845000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; jones garbage collection algorithms automatic management wiley sons 2000 
+Size: 80158
+Find Candidates: 139.028000 ms; Evaluate Candidates: 26.143000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; allan hard track overview trec 2005 accuracy documents trec ’05 2005 
+Size: 14638
+Find Candidates: 22.688000 ms; Evaluate Candidates: 11.129000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; baeza yates ribeiro neto modern addison wesley longman publishing 2004 
+Size: 4536
+Find Candidates: 6.072000 ms; Evaluate Candidates: 17.094000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; crouch crouch andreas cluster hierarchies hypertext hypertext ’89 second hypertext 225–237 york usa 1989 press 
+Size: 11446
+Find Candidates: 18.650000 ms; Evaluate Candidates: 21.311000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.038000 ms; cutting karger pedersen tukey scatter gather cluster approach browsing document collections ’92 15th development 318–329 press 1992 
+Size: 83929
+Find Candidates: 150.457000 ms; Evaluate Candidates: 46.277000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.040000 ms; cutting karger pedersen constant interaction scatter gather browsing document collections ’93 16th development 126–134 york usa 1993 press 
+Size: 40178
+Find Candidates: 61.300000 ms; Evaluate Candidates: 48.956000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.037000 ms; hearst pedersen reexamining cluster hypothesis scatter gather results ’96 19th development 76–84 york usa 1996 press 
+Size: 32882
+Find Candidates: 48.228000 ms; Evaluate Candidates: 39.402000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.039000 ms; jensen beitzel pilotto goharian frieder parallelizing buckshot algorithm document clustering cikm ’02 eleventh knowledge management 684–686 york usa 2002 press 
+Size: 118249
+Find Candidates: 212.769000 ms; Evaluate Candidates: 61.849000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.036000 ms; ogihara document clustering adaptive subspace iteration ’04 27th development 218–225 york usa 2004 
+Size: 63576
+Find Candidates: 104.808000 ms; Evaluate Candidates: 29.495000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; liu liu cheng evaluation feature selection clustering twentieth icml 2003 washington 2003 
+Size: 90236
+Find Candidates: 211.389000 ms; Evaluate Candidates: 23.963000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; ogilvie callan experiments lemur toolkit trec 2001 
+Size: 5836
+Find Candidates: 7.845000 ms; Evaluate Candidates: 8.984000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.035000 ms; pirolli schank hearst diehl scatter gather browsing communicates topic structure collection chi ’96 sigchi 213–220 york usa 1996 
+Size: 20953
+Find Candidates: 30.393000 ms; Evaluate Candidates: 32.855000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.033000 ms; sahoo callan krishnan duncan padman incremental hierarchical clustering documents cikm ’06 15th knowledge management 357–366 york usa 2006 
+Size: 79230
+Find Candidates: 139.919000 ms; Evaluate Candidates: 47.737000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; yang pedersen comparative feature selection categorization 14th icml97 412–420 1997 
+Size: 47166
+Find Candidates: 76.250000 ms; Evaluate Candidates: 22.351000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; belkin 2008 grand challenges forum 
+Size: 5806
+Find Candidates: 7.650000 ms; Evaluate Candidates: 7.627000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; byström järvelin 1995 task complexity affects seeking process manag 191 213 
+Size: 36722
+Find Candidates: 56.835000 ms; Evaluate Candidates: 19.863000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; kellar watters shepherd 2007 field characterizing seeking tasks 999 1018 
+Size: 12051
+Find Candidates: 16.556000 ms; Evaluate Candidates: 14.943000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; kelly belkin 2004 display implicit feedback understanding task effects 377 384 
+Size: 28722
+Find Candidates: 41.100000 ms; Evaluate Candidates: 20.162000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; kuhlthau 1991 inside search process seeking user’s perspective 361 371 
+Size: 39770
+Find Candidates: 63.020000 ms; Evaluate Candidates: 20.157000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; belkin 2008 faceted approach conceptualizing tasks seeking process manag 1822 1837 
+Size: 72358
+Find Candidates: 129.900000 ms; Evaluate Candidates: 26.383000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; tang shaw vevea 1999 identification number relevance categories 254 264 
+Size: 26638
+Find Candidates: 37.272000 ms; Evaluate Candidates: 16.741000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; taylor cool belkin amadio 2007 relationships categories relevance criteria stage task completion process manag 1071 1084 
+Size: 36673
+Find Candidates: 55.882000 ms; Evaluate Candidates: 31.594000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.029000 ms; vakkari pennanen serola 2003 changes search terms tactics writing proposal longitudinal process manag 445 463 
+Size: 40413
+Find Candidates: 73.880000 ms; Evaluate Candidates: 31.091000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; white kelly 2006 effects personalization task implicit feedback performance cikm 297 306 
+Size: 60250
+Find Candidates: 101.897000 ms; Evaluate Candidates: 25.704000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; white ruthven jose 2005 affecting utility implicit relevance feedback 
+Size: 14735
+Find Candidates: 20.654000 ms; Evaluate Candidates: 14.653000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; agichtein brill dumais improving search ranking incorporating behavior 29th 19–26 2006 
+Size: 35786
+Find Candidates: 54.374000 ms; Evaluate Candidates: 22.490000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.026000 ms; church smyth cotter bradley mobile access emerging search behavior mobile internet transactions 2007 
+Size: 74264
+Find Candidates: 183.036000 ms; Evaluate Candidates: 28.702000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.031000 ms; cutrell guan you looking eye tracking search sigchi 407 – 416 2007 
+Size: 33489
+Find Candidates: 50.403000 ms; Evaluate Candidates: 15.608000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.019000 ms; joachims evaluating performance clickthrough mathematical 2002 
+Size: 44049
+Find Candidates: 70.819000 ms; Evaluate Candidates: 17.975000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; joachims granka pan hembrooke gay accurately interpreting clickthrough implicit feedback 28th 154–161 2005 
+Size: 13866
+Find Candidates: 18.924000 ms; Evaluate Candidates: 21.290000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; joachims radlinski search engines implicit feedback 34–40 2007 
+Size: 26852
+Find Candidates: 40.396000 ms; Evaluate Candidates: 14.201000 ms; Find Best Matches: 0.005000 ms;
+Prepare String: 0.026000 ms; kamvar baluja scale wireless search behavior google mobile search sigchi 701–709 2006 
+Size: 83035
+Find Candidates: 170.810000 ms; Evaluate Candidates: 27.146000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; kamvar kellar iphones mobile phones comparison search diﬀerent devices 2008 
+Size: 56905
+Find Candidates: 96.372000 ms; Evaluate Candidates: 21.118000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; radlinski joachims chains rank implicit feedback 11th sigkdd knowledge discovery mining 239–248 2005 
+Size: 52559
+Find Candidates: 88.451000 ms; Evaluate Candidates: 25.951000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; radlinski joachims exploration rankings clickthrough 13th sigkdd knowledge discovery mining 570–579 2007 
+Size: 44155
+Find Candidates: 72.351000 ms; Evaluate Candidates: 27.347000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; sarma gollapudi ieong bypass rates reducing abandonment negative inferences 14th sigkdd knowledge discovery mining 177–185 2008 
+Size: 46122
+Find Candidates: 76.333000 ms; Evaluate Candidates: 31.253000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.029000 ms; sohn griswold hollan diary mobile needs sixth sigchi 433 – 443 2008 
+Size: 29318
+Find Candidates: 46.190000 ms; Evaluate Candidates: 15.461000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; ramadoss bushnell “test generation mixed signal devices signal flow graphs ” 9th vlsi 242–248 jan 1996 
+Size: 59525
+Find Candidates: 106.888000 ms; Evaluate Candidates: 26.779000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.025000 ms; abderrahman cerny kaminska “optimization multifrequency generation analog circuits ” electronic theory applications 59–73 mar 1996 
+Size: 71741
+Find Candidates: 120.942000 ms; Evaluate Candidates: 35.967000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.025000 ms; cherubal chatterjee “test generation diagnosis device parameters analog circuits ” automation 596–602 2001 
+Size: 36197
+Find Candidates: 56.957000 ms; Evaluate Candidates: 24.479000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; devarayanadurg soma “analytical fault modeling static generation analog ics ” aided 44–47 nov 1994 
+Size: 59210
+Find Candidates: 96.553000 ms; Evaluate Candidates: 26.693000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; lindermeir graeb antreich “analog characteristic observation inference ” comp aided 1353–1368 june 1999 
+Size: 9376
+Find Candidates: 12.585000 ms; Evaluate Candidates: 24.021000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; slamani kaminska “analog circuit fault diagnosis sensitivity computation functional ” 30–39 1992 
+Size: 35236
+Find Candidates: 58.439000 ms; Evaluate Candidates: 26.561000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; battiato farinella gallo ravi spatial hierarchy textons distribution scene classification eurocom modeling 333 342 2009 
+Size: 63937
+Find Candidates: 105.033000 ms; Evaluate Candidates: 33.605000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; brin anatomy scale hypertextual search engine world wide 107 117 1998 
+Size: 36190
+Find Candidates: 57.345000 ms; Evaluate Candidates: 14.892000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; deng dong socher fei fei imagenet scale hierarchical cvpr 710 719 2009 
+Size: 25207
+Find Candidates: 35.880000 ms; Evaluate Candidates: 14.547000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; gionis indyk motwani similarity search dimensions hashing vldb 518 529 1999 
+Size: 24876
+Find Candidates: 36.313000 ms; Evaluate Candidates: 17.378000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; hsu kennedy chang search reranking walk document level context graph 971 980 2007 
+Size: 74275
+Find Candidates: 127.661000 ms; Evaluate Candidates: 24.520000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; jing baluja visualrank applying pagerank scale search pami 1877 1890 nov 2008 
+Size: 32112
+Find Candidates: 46.055000 ms; Evaluate Candidates: 18.912000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; jurie triggs creating codebooks visual iccv 2005 
+Size: 13830
+Find Candidates: 18.890000 ms; Evaluate Candidates: 11.665000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; lazebnik raginsky supervised quantizer codebook loss minimization pami 1294 1309 july 2009 
+Size: 7899
+Find Candidates: 10.332000 ms; Evaluate Candidates: 22.894000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; lazebnik schmid ponce bags features spatial pyramid matching recognizing natural scene categories cvpr 2169 2178 2006 
+Size: 34799
+Find Candidates: 52.705000 ms; Evaluate Candidates: 25.716000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; liu hua viola chen integrated feature selection order spatial feature extraction categorization cvpr 2008 
+Size: 120059
+Find Candidates: 233.577000 ms; Evaluate Candidates: 31.764000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; liu lai hua huang search ranking graph propagation 208 217 2007 
+Size: 81591
+Find Candidates: 158.753000 ms; Evaluate Candidates: 20.494000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; lowe distinctive features scale invariant keypoints ijcv 110 nov 2004 
+Size: 19863
+Find Candidates: 28.484000 ms; Evaluate Candidates: 16.071000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; marszalek schmid spatial weighting bag features cvpr 2118 2125 2006 
+Size: 17204
+Find Candidates: 24.440000 ms; Evaluate Candidates: 15.714000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; moosmann nowak jurie randomized clustering forests classification pami 1632 1646 sep 2008 
+Size: 32615
+Find Candidates: 47.979000 ms; Evaluate Candidates: 23.503000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; nister stewenius scalable vocabulary tree cvpr 2161 2168 2006 
+Size: 18120
+Find Candidates: 24.853000 ms; Evaluate Candidates: 12.966000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; perronnin universal adapted vocabularies generic visual categorization pami 1243 1256 july 2008 
+Size: 20075
+Find Candidates: 28.232000 ms; Evaluate Candidates: 19.677000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; savarese winn criminisi discriminative class appearance shape correlatons cvpr 2033 2040 2006 
+Size: 17273
+Find Candidates: 24.861000 ms; Evaluate Candidates: 19.554000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; gong zhu mixed templates cvpr 2009 
+Size: 15465
+Find Candidates: 20.796000 ms; Evaluate Candidates: 7.448000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.019000 ms; sivic zisserman google approach matching videos iccv 1470 1477 2003 
+Size: 62817
+Find Candidates: 110.708000 ms; Evaluate Candidates: 19.280000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; tian yang wang yang hua bayesian search reranking 131 140 2008 
+Size: 86288
+Find Candidates: 194.216000 ms; Evaluate Candidates: 19.562000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; viola jones robust real face detection iccv 2001 
+Size: 67448
+Find Candidates: 114.473000 ms; Evaluate Candidates: 15.724000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.016000 ms; wang blei fei fei simultaneous classification annotation cvpr 2009 
+Size: 64681
+Find Candidates: 109.106000 ms; Evaluate Candidates: 18.376000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; wang jiang ngo detection motion relativity visual relatedness 239 248 2008 
+Size: 94160
+Find Candidates: 164.923000 ms; Evaluate Candidates: 22.767000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; sun bundling features scale partial duplicate search cvpr 2009 
+Size: 48433
+Find Candidates: 74.541000 ms; Evaluate Candidates: 17.394000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; chang kernel multilevel temporal alignment pami 1985 1997 nov 2008 
+Size: 29463
+Find Candidates: 42.101000 ms; Evaluate Candidates: 15.112000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; yang meer foran multiple class segmentation unified framework mean shift patches cvpr 2007 
+Size: 85953
+Find Candidates: 148.321000 ms; Evaluate Candidates: 26.657000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; yuan yang discovery collocation patterns visual words visual phrases cvpr 2007 
+Size: 51676
+Find Candidates: 99.543000 ms; Evaluate Candidates: 21.804000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; zheng zhao neo chua tian visual synset level visual representation cvpr 2008 
+Size: 51960
+Find Candidates: 97.175000 ms; Evaluate Candidates: 20.903000 ms; Find Best Matches: 0.002000 ms;
+
+Matching failed for: conf/cvpr/ZhengZNCT08 ("Y. T. Zheng, M. Zhao, S. Y. Neo, T. S. Chua, and Q. Tian. Visual synset: a higher-level visual representation. CVPR, pp. 1-8, 2008.")
+      Found match: journals/vc/ZhengNCT09
+
+Prepare String: 0.024000 ms; zhou zhuang yan chang johnson huang sift bag kernel 229 238 2008 
+Size: 49310
+Find Candidates: 78.460000 ms; Evaluate Candidates: 14.988000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; amati rijsbergen probabilistic measuring divergence randomness 357–389 2002 
+Size: 11669
+Find Candidates: 16.305000 ms; Evaluate Candidates: 19.097000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.014000 ms; blei jordan latent dirichlet allocation nips 601–608 2001 
+Size: 10291
+Find Candidates: 14.085000 ms; Evaluate Candidates: 13.028000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; chen karger probabilistic retrieving fewer relevant documents ’06 429–436 york usa 2006 
+Size: 51055
+Find Candidates: 82.537000 ms; Evaluate Candidates: 20.408000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; lafferty zhai document language risk minimization ’01 111–119 2001 
+Size: 29611
+Find Candidates: 50.660000 ms; Evaluate Candidates: 16.770000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.014000 ms; lukacs editor characteristic functions 2nd edition griffin london 1970 
+Size: 15743
+Find Candidates: 25.928000 ms; Evaluate Candidates: 21.609000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.022000 ms; madsen kauchak elkan modeling word burstiness dirichlet distribution icml 545–552 2005 
+Size: 38770
+Find Candidates: 65.609000 ms; Evaluate Candidates: 22.024000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; maron kuhns relevance probabilistic indexing 216–244 1960 
+Size: 12876
+Find Candidates: 17.335000 ms; Evaluate Candidates: 12.512000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; ponte croft language modeling approach ’98 275–281 1998 
+Size: 92449
+Find Candidates: 158.430000 ms; Evaluate Candidates: 21.793000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.021000 ms; risson moors survey robust peer peer search 3485–3521 2006 
+Size: 38596
+Find Candidates: 75.932000 ms; Evaluate Candidates: 14.923000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; robertson maron cooper probability relevance uniﬁcation competing document development 1–21 1982 
+Size: 31644
+Find Candidates: 46.090000 ms; Evaluate Candidates: 22.789000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.024000 ms; robertson walker effective approximations poisson probabilistic weighted ’94 232–241 1994 
+Size: 21846
+Find Candidates: 30.289000 ms; Evaluate Candidates: 21.400000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; robertson walker hancock beaulieu gatford payne okapi trec trec 1995 
+Size: 4820
+Find Candidates: 7.077000 ms; Evaluate Candidates: 8.340000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.013000 ms; wang zhu portfolio theory 2009 2009 
+Size: 64548
+Find Candidates: 120.762000 ms; Evaluate Candidates: 15.058000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; zaragoza hiemstra tipping robertson bayesian extension language ’03 2003 
+Size: 27691
+Find Candidates: 41.704000 ms; Evaluate Candidates: 17.033000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; zhai lafferty smoothing language applied ’01 334–342 2001 
+Size: 22770
+Find Candidates: 34.108000 ms; Evaluate Candidates: 15.045000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; zhai lafferty risk minimization framework process manage 31–55 2006 
+Size: 47212
+Find Candidates: 76.278000 ms; Evaluate Candidates: 20.795000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; zhu wang cox taylor risk european 17–28 2009 
+Size: 58453
+Find Candidates: 98.961000 ms; Evaluate Candidates: 13.482000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; ars goor braun richter simulation temperature effect faulty behavior embedded drams itc’01 2001 2001 
+Size: 43948
+Find Candidates: 71.280000 ms; Evaluate Candidates: 28.256000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; baumann soft errors advanced comput 2005 258–266 
+Size: 9966
+Find Candidates: 13.358000 ms; Evaluate Candidates: 10.925000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; chang dean ghemawat hsieh wallach burrows chandra fikes gruber bigtable distributed storage structured osdi’06 2006 
+Size: 56794
+Find Candidates: 91.408000 ms; Evaluate Candidates: 28.082000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.020000 ms; chen hsiao error correcting codes semiconductor applications state review ibm 1984 124–134 
+Size: 97391
+Find Candidates: 184.002000 ms; Evaluate Candidates: 27.693000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; shen huang chu soft error measurement production usenix technical 2007 
+Size: 46284
+Find Candidates: 72.459000 ms; Evaluate Candidates: 17.546000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; woods alpha particle induced soft errors memories electron  26 1979 
+Size: 14369
+Find Candidates: 20.302000 ms; Evaluate Candidates: 18.826000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.026000 ms; messer bernadat chen  d dimitrijevic lie mannaru riska milojicic susceptibility commodity soft errors comput 2004 
+Size: 44237
+Find Candidates: 78.255000 ms; Evaluate Candidates: 24.158000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; milojicic messer shau munoz increasing relevance hardware errors case recoverable programming 9th sigops european 2000 
+Size: 52894
+Find Candidates: 84.823000 ms; Evaluate Candidates: 33.382000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; mukherjee emer fossum reinhardt cache scrubbing microprocessors myth necessity prdc ’04 10th pacific rim symposium dependable 2004 
+Size: 7765
+Find Candidates: 10.150000 ms; Evaluate Candidates: 27.276000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; mukherjee emer reinhardt soft error architectural perspective hpca ’05 11th symposium performance architecture 2005 
+Size: 78221
+Find Candidates: 141.845000 ms; Evaluate Candidates: 35.112000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.030000 ms; o’gorman ross taber ziegler muhlfeld montrose curtis walsh field cosmic ray soft errors semiconductor memories ibm 1996 
+Size: 19289
+Find Candidates: 29.949000 ms; Evaluate Candidates: 27.700000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.026000 ms; schroeder gibson scale failures performance dsn 2006 dependable 2006 
+Size: 49311
+Find Candidates: 79.160000 ms; Evaluate Candidates: 19.319000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; schroeder gibson disk failures real world does mttf 000 000 hours mean you in 5th usenix fast 2007 
+Size: 49649
+Find Candidates: 82.638000 ms; Evaluate Candidates: 21.559000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; schroeder pinheiro weber dram errors wild scale field in proceedings sigmetrics 2009 
+Size: 21540
+Find Candidates: 30.320000 ms; Evaluate Candidates: 19.472000 ms; Find Best Matches: 0.006000 ms;
+Prepare String: 0.026000 ms; takeuchi shimohigashi kozuka toyabe itoh kurosawa origin characteristics alpha particle induced permanent junction leakage electron mar  1999 
+Size: 13756
+Find Candidates: 20.129000 ms; Evaluate Candidates: 39.333000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.021000 ms; cao luo huang annotating photo collections label propagation according multiple similarity cues 2008 
+Size: 54524
+Find Candidates: 102.000000 ms; Evaluate Candidates: 26.291000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; cheng mean shift mode seeking clustering intelligence 790–799 1995 
+Size: 30549
+Find Candidates: 51.338000 ms; Evaluate Candidates: 17.992000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; comaniciu meer mean shift applications vision 1197–1203 1999 
+Size: 37279
+Find Candidates: 69.054000 ms; Evaluate Candidates: 14.790000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.020000 ms; crandall backstrom huttenlocher kleinberg mapping world’s photos world wide 761–770 2009 
+Size: 14597
+Find Candidates: 23.910000 ms; Evaluate Candidates: 16.592000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; deerwester dumais furnas landauer harshman indexing latent semantic american society science 391–407 1990 
+Size: 23196
+Find Candidates: 34.776000 ms; Evaluate Candidates: 21.083000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; freund schapire experiments boosting algorithm icml 148–156 1996 
+Size: 55779
+Find Candidates: 95.698000 ms; Evaluate Candidates: 17.972000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; cao guo huang multiple feature fusion subspace content 127–134 2008 
+Size: 67285
+Find Candidates: 111.219000 ms; Evaluate Candidates: 19.559000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; hardoon szedmak shawe taylor canonical correlation overview application neural computation 2639–2664 2004 
+Size: 67894
+Find Candidates: 115.321000 ms; Evaluate Candidates: 28.159000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.019000 ms; hays efros im2gps estimating geographic vision 2008 
+Size: 9896
+Find Candidates: 13.302000 ms; Evaluate Candidates: 11.600000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; jaffe naaman tassa davis generating summaries visualization collections geo referenced photographs 89–98 2006 
+Size: 16469
+Find Candidates: 23.209000 ms; Evaluate Candidates: 23.644000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.020000 ms; jia hua annotating personal albums mining 459–468 2008 
+Size: 19971
+Find Candidates: 28.630000 ms; Evaluate Candidates: 11.288000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; kim kittler cipolla discriminative classes canonical correlations transactions intelligence 1005 2007 
+Size: 34689
+Find Candidates: 56.347000 ms; Evaluate Candidates: 20.770000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.020000 ms; lai fyfe kernel nonlinear canonical correlation neural 2639–2664 2004 
+Size: 42940
+Find Candidates: 69.106000 ms; Evaluate Candidates: 17.509000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; luo joshi hao viewing world eye 1071–1080 2008 
+Size: 13953
+Find Candidates: 18.412000 ms; Evaluate Candidates: 10.148000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; oliva torralba modeling shape scene holistic representation spatial envelope vision 145–175 2001 
+Size: 57389
+Find Candidates: 96.182000 ms; Evaluate Candidates: 26.452000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; quack leibe gool world scale mining objects community photo collections 47–56 2008 
+Size: 41001
+Find Candidates: 62.428000 ms; Evaluate Candidates: 19.157000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; schindler krishnamurthy lublinerman liu dellaert detecting matching repeated patterns automatic geo tagging urban environments vision 2008 
+Size: 86182
+Find Candidates: 154.196000 ms; Evaluate Candidates: 36.093000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.020000 ms; smith chang visually searching content magazine 12–20 1997 
+Size: 29881
+Find Candidates: 52.710000 ms; Evaluate Candidates: 13.794000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.027000 ms; torralba fergus freeman million nonparametric scene transactions intelligence 1958–1970 2008 
+Size: 9491
+Find Candidates: 13.041000 ms; Evaluate Candidates: 22.381000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.025000 ms; vinokourov shawe taylor cristianini inferring semantic representation cross language correlation advances neural 1497–1504 2003 
+Size: 74109
+Find Candidates: 140.743000 ms; Evaluate Candidates: 31.707000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; wang zhang zhang reduce semantic gap annotation 2008 
+Size: 89342
+Find Candidates: 229.784000 ms; Evaluate Candidates: 17.564000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; wang zhang annotating mining search results transactions intelligence 2008 
+Size: 111452
+Find Candidates: 201.376000 ms; Evaluate Candidates: 21.539000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; weinberger slaney zwol resolving tag ambiguity 111–120 2008 
+Size: 3003
+Find Candidates: 3.655000 ms; Evaluate Candidates: 12.528000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; hua flickr distance 31–40 2008 
+Size: 8774
+Find Candidates: 11.708000 ms; Evaluate Candidates: 7.513000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; luo leveraging probabilistic season location context scene understanding content 169–178 2008 
+Size: 42911
+Find Candidates: 65.361000 ms; Evaluate Candidates: 23.666000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; zheng zhou zou zhao facial expression kernel canonical correlation kcca transactions neural 233–238 2006 
+Size: 63302
+Find Candidates: 114.685000 ms; Evaluate Candidates: 25.834000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; agichtein brill dumais ragno interaction predicting search result preferences 2006 
+Size: 31240
+Find Candidates: 46.330000 ms; Evaluate Candidates: 21.121000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.015000 ms; ahmed traore detecting intrusions behavioral biometrics pst 2005 
+Size: 7988
+Find Candidates: 10.112000 ms; Evaluate Candidates: 12.757000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; atterer wnuk schmidt knowing user’s activity tracking website usability evaluation implicit interaction 2006 
+Size: 52519
+Find Candidates: 83.075000 ms; Evaluate Candidates: 29.672000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.015000 ms; becker meek chickering modeling contextual click rates aaai 2007 
+Size: 31659
+Find Candidates: 56.329000 ms; Evaluate Candidates: 15.985000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.023000 ms; brenes gayo avello pérez gonzález survey evaluation intent detection wscd 1–7 2009 
+Size: 53412
+Find Candidates: 96.546000 ms; Evaluate Candidates: 23.696000 ms; Find Best Matches: 0.000000 ms;
+Prepare String: 0.024000 ms; buscher dengel elst expansion gaze feedback subdocument level 2008 
+Size: 24402
+Find Candidates: 40.622000 ms; Evaluate Candidates: 15.853000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.027000 ms; martinez huang “the thrifty barrier energy synchronization multiprocessors” hpca 10th symposium performance architecture 14–23 feb 2004 
+Size: 86631
+Find Candidates: 155.206000 ms; Evaluate Candidates: 38.526000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.031000 ms; golubeva loghi poncino “on energy efficiency synchronization primitives chip multiprocessors ” glsvlsi’07 17th great lakes symposium vlsi 489–492 march 2007 
+Size: 27631
+Find Candidates: 41.618000 ms; Evaluate Candidates: 36.799000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.030000 ms; liu sivasubramaniam kandemir irwin “exploiting barriers optimize consumption cmps” ipdps’05 symposium parallel distributed april 2005 
+Size: 91376
+Find Candidates: 174.552000 ms; Evaluate Candidates: 37.789000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.028000 ms; anderson “the performance spin lock alternatives multiprocessors” transactions parallel distributed 6–16 jan 1990 
+Size: 98339
+Find Candidates: 190.746000 ms; Evaluate Candidates: 38.455000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.026000 ms; loghi poncino benini “synchronization driven speed scaling mpsocs ” islped’07 symposium electronics 346 349 2007 
+Size: 18707
+Find Candidates: 27.176000 ms; Evaluate Candidates: 24.752000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; benini bertozzi bogliolo menichelli olivieri “mparm exploring processor space systemc ” vlsi signal 169–182 september 2005 
+Size: 32705
+Find Candidates: 48.489000 ms; Evaluate Candidates: 28.451000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; wang jiang ngo “video detection motion relativity visual relatedness ” 2008 239 248 
+Size: 94160
+Find Candidates: 167.249000 ms; Evaluate Candidates: 25.294000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.024000 ms; sukthankar hebert “efficient visual detection volumetric features ” vision 2005 166 173 
+Size: 48865
+Find Candidates: 81.848000 ms; Evaluate Candidates: 23.601000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; chang “visual kernel level temporal alignment ” vision 2007 
+Size: 46586
+Find Candidates: 72.231000 ms; Evaluate Candidates: 16.281000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; medioni cohen bremond hongeng nevatia “event detection streams ” intelligence 873 889 2001 
+Size: 35744
+Find Candidates: 56.370000 ms; Evaluate Candidates: 22.768000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; zhu huang gao xing “player broadcast tennis applications semantic sports game ” porc 2006 431 440 
+Size: 78692
+Find Candidates: 137.109000 ms; Evaluate Candidates: 25.662000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.018000 ms; sukthankar hebert “event detection crowded videos ” vision 2007 
+Size: 32836
+Find Candidates: 51.982000 ms; Evaluate Candidates: 16.633000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; laptev marszalek schmid rozenfeld “learning realistic actions movies ” vision 2008 
+Size: 9490
+Find Candidates: 12.555000 ms; Evaluate Candidates: 17.406000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; schuldt laptev caputa “recognizing actions local svm approach ” 2004 
+Size: 64911
+Find Candidates: 108.762000 ms; Evaluate Candidates: 21.663000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; huang yan “real luminance field trajectory ” 2008 671 675 
+Size: 27899
+Find Candidates: 39.380000 ms; Evaluate Candidates: 13.342000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; buxton “learning understanding scene activity review ” vision 125 136 2003 
+Size: 20117
+Find Candidates: 28.584000 ms; Evaluate Candidates: 18.154000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; shen tao “modality mixture projections semantic detection ” circuits 1587 1596 2008 
+Size: 55549
+Find Candidates: 88.819000 ms; Evaluate Candidates: 23.598000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; babaguchi kawai ogura kitahashi “personalized abstraction broadcasted american football highlight selection ” 575 586 2004 
+Size: 17924
+Find Candidates: 25.798000 ms; Evaluate Candidates: 28.558000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; wang wan duan “live sports detection broadcast casting ” 2006 221 230 
+Size: 73627
+Find Candidates: 131.256000 ms; Evaluate Candidates: 19.565000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; xie chang divakaran sun “structure soccer domain knowledge hidden markov ” letter 767 775 2004 
+Size: 62129
+Find Candidates: 107.975000 ms; Evaluate Candidates: 27.915000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; shyu xie chen chen “video semantic concept detection subspace mining framework ” 252 259 2008 
+Size: 116527
+Find Candidates: 264.490000 ms; Evaluate Candidates: 25.721000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; snoek worring “multimedia indexing intervals ” 638 647 2005 
+Size: 5305
+Find Candidates: 6.950000 ms; Evaluate Candidates: 10.113000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.029000 ms; sadlier oconnor “event detection field sports audio visual features support vector ” circuits 1225 1233 2008 
+Size: 81379
+Find Candidates: 153.414000 ms; Evaluate Candidates: 33.755000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.026000 ms; turaga chellappa subrahmanian udrea “machine activities survey ” circuits 1473 1488 2008 
+Size: 14094
+Find Candidates: 19.265000 ms; Evaluate Candidates: 18.991000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; han tao gong “an algorithm multiple trajectory tracking ” vision 2004 864 871 
+Size: 93101
+Find Candidates: 164.555000 ms; Evaluate Candidates: 25.214000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.022000 ms; jhuang serre wolf poggio “a biologically inspired ” vision 2007 
+Size: 9847
+Find Candidates: 13.568000 ms; Evaluate Candidates: 14.221000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.030000 ms; lazebnik schmid ponce “beyond bags features spatial pyramid matching recognizing natural scene categories ” vision 2006 2169 2178 
+Size: 39723
+Find Candidates: 61.361000 ms; Evaluate Candidates: 30.262000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.029000 ms; jiang ngo yang “towards bag features categorization semantic ” 2007 494 501 
+Size: 47694
+Find Candidates: 74.216000 ms; Evaluate Candidates: 18.393000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.023000 ms; lowe “distinctive features scale invariant keypoints ” vision 110 2004 
+Size: 24671
+Find Candidates: 35.666000 ms; Evaluate Candidates: 17.570000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.021000 ms; efros berg mori malik “recognizing distance ” vision 2003 726 733 
+Size: 15248
+Find Candidates: 20.559000 ms; Evaluate Candidates: 14.906000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; horn schunck “determining optical flow ” artificial intelligence 185 203 1981 
+Size: 23832
+Find Candidates: 37.011000 ms; Evaluate Candidates: 20.948000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.028000 ms; biere cimatti clarke zhu symbolic checking bdds tools algorithms construction 1579 193–207 verlag 1999 
+Size: 58705
+Find Candidates: 95.953000 ms; Evaluate Candidates: 25.792000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.027000 ms; sheeran singh st˚ almarck checking safety properties induction solver int’l cad 1954 108–125 2000 
+Size: 23256
+Find Candidates: 33.793000 ms; Evaluate Candidates: 23.278000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.030000 ms; winkelmann trylus stoffel fey cost block verification umts link chip rate coprocessor automation 162–167 2004 
+Size: 40192
+Find Candidates: 61.883000 ms; Evaluate Candidates: 28.314000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; große wille siegmund drechsler contradiction constraint simulation forum speciﬁcation languages 130–135 2008 
+Size: 37684
+Find Candidates: 58.442000 ms; Evaluate Candidates: 30.549000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; beer ben david eisner rodeh detection vacuity actl formulas aided veriﬁcation 1254 279–290 1997 
+Size: 31875
+Find Candidates: 49.698000 ms; Evaluate Candidates: 20.940000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; beatty bryant formally verifying microprocessor simulation methodology automation 596–602 1994 
+Size: 31774
+Find Candidates: 65.394000 ms; Evaluate Candidates: 35.082000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; beer ben david eisner rodeh detection vacuity temporal checking 141–163 2001 
+Size: 42627
+Find Candidates: 69.314000 ms; Evaluate Candidates: 16.824000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; kupferman vardi vacuity detection temporal checking hardware veriﬁcation 82–96 1999 
+Size: 46573
+Find Candidates: 75.735000 ms; Evaluate Candidates: 18.447000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.023000 ms; purandare somenzi vacuum cleaning ctl formulae aided veriﬁcation 485–499 2002 
+Size: 3851
+Find Candidates: 4.731000 ms; Evaluate Candidates: 19.655000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.023000 ms; chockler strichman easier informative vacuity checks codesign 189–198 2007 
+Size: 1798
+Find Candidates: 2.005000 ms; Evaluate Candidates: 13.343000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; simmonds davies gurfinkel chechik exploiting resolution proofs speed ltl vacuity detection bmc int’l cad 3–12 2007 
+Size: 44679
+Find Candidates: 69.380000 ms; Evaluate Candidates: 37.948000 ms; Find Best Matches: 0.006000 ms;
+Prepare String: 0.031000 ms; ben david fisman ruah temporal antecedent failure refining vacuity concur 492–506 2007 
+Size: 14851
+Find Candidates: 29.168000 ms; Evaluate Candidates: 25.355000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.038000 ms; bakker dikker tempelman wognum diagnosing solving determined constraint satisfaction joint artiﬁcial intelligence 276–281 1993 
+Size: 23434
+Find Candidates: 49.728000 ms; Evaluate Candidates: 30.710000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.025000 ms; goldberg novikov verification proofs unsatisfiability cnf formulas automation 886–891 2003 
+Size: 15421
+Find Candidates: 23.482000 ms; Evaluate Candidates: 18.968000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; zhang malik validating solvers independent resolution checker practical implementations applications automation 880–885 2003 
+Size: 81925
+Find Candidates: 142.766000 ms; Evaluate Candidates: 29.544000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.022000 ms; mneimneh andraus sakallah markov amuse minimally unsatisfiable subformula extractor automation 518–523 2004 
+Size: 8288
+Find Candidates: 11.153000 ms; Evaluate Candidates: 23.416000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; huang mup minimal unsatisfiability prover asp automation 432–437 2005 
+Size: 22485
+Find Candidates: 31.470000 ms; Evaluate Candidates: 14.423000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; mneimneh lynce andraus marques silva sakallah branch bound algorithm extracting smallest minimal unsatisfiable formulas 467–474 2005 
+Size: 65905
+Find Candidates: 115.438000 ms; Evaluate Candidates: 33.555000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; liffiton sakallah finding all minimally unsatisfiable subformulas theory applications satisﬁablity 3569 173–186 berlin verlag 2005 
+Size: 48575
+Find Candidates: 77.100000 ms; Evaluate Candidates: 41.154000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.028000 ms; nguyen thalmaier wedler bormann stoffel kunz unbounded protocol compliance verification interval property checking invariants cad 2068–2082 nov 2008 
+Size: 38504
+Find Candidates: 59.750000 ms; Evaluate Candidates: 31.224000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; mcmillan applying unbounded symbolic checking aided veriﬁcation 250–264 2002 
+Size: 14715
+Find Candidates: 20.391000 ms; Evaluate Candidates: 14.406000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; amati rijsbergen probabilistic measuring divergence randomness 357–389 2002 
+Size: 11669
+Find Candidates: 16.221000 ms; Evaluate Candidates: 19.128000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; aslam pavlu yilmaz statistical evaluation incomplete judgments 2006 
+Size: 32836
+Find Candidates: 48.733000 ms; Evaluate Candidates: 15.527000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; aslam yilmaz pavlu maximum entropy analyzing measures 2005 
+Size: 14788
+Find Candidates: 20.826000 ms; Evaluate Candidates: 12.673000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.012000 ms; buckley voorhees evaluating evaluation measure stability 2000 
+Size: 36683
+Find Candidates: 55.803000 ms; Evaluate Candidates: 16.965000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; burges shaked renshaw lazier deeds hamilton hullender rank gradient descent icml ’05 2005 
+Size: 5753
+Find Candidates: 7.526000 ms; Evaluate Candidates: 18.264000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; carbonell goldstein mmr diversity reranking reordering documents producing summaries 1998 
+Size: 9066
+Find Candidates: 12.224000 ms; Evaluate Candidates: 22.819000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; chen karger probabilistic retrieving fewer relevant documents 2006 
+Size: 50597
+Find Candidates: 81.048000 ms; Evaluate Candidates: 15.895000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.013000 ms; cormack lynam statistical precision evaluation 2006 
+Size: 32318
+Find Candidates: 46.517000 ms; Evaluate Candidates: 13.701000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.014000 ms; harman overview second trec hlt ’94 1994 
+Size: 7176
+Find Candidates: 9.474000 ms; Evaluate Candidates: 5.545000 ms; Find Best Matches: 0.005000 ms;
+Prepare String: 0.014000 ms; järvelin kekäläinen cumulated gain evaluation 2002 
+Size: 24538
+Find Candidates: 38.552000 ms; Evaluate Candidates: 13.789000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; lafferty zhai document language risk minimization 2001 
+Size: 29611
+Find Candidates: 43.567000 ms; Evaluate Candidates: 12.671000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; maron kuhns relevance probabilistic indexing 1960 
+Size: 12876
+Find Candidates: 17.291000 ms; Evaluate Candidates: 10.699000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; robertson walker effective approximations poisson probabilistic weighted 1994 
+Size: 21846
+Find Candidates: 30.120000 ms; Evaluate Candidates: 18.377000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; singhal buckley mitra pivoted document length normalization 21–29 1996 
+Size: 11523
+Find Candidates: 15.971000 ms; Evaluate Candidates: 14.731000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; taylor guiver robertson minka softrank optimizing non smooth rank metrics wsdm 2008 
+Size: 28135
+Find Candidates: 40.396000 ms; Evaluate Candidates: 19.219000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; tomlinson precision measures implications downside blind feedback 2006 
+Size: 17766
+Find Candidates: 24.347000 ms; Evaluate Candidates: 17.228000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; volkovs zemel boltzrank maximize expected ranking gain icml ’09 2009 
+Size: 5352
+Find Candidates: 6.952000 ms; Evaluate Candidates: 15.566000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.020000 ms; voorhees variations relevance judgments measurement effectiveness management 315–323 press 1998 
+Size: 40377
+Find Candidates: 88.698000 ms; Evaluate Candidates: 44.894000 ms; Find Best Matches: 0.004000 ms;
+Prepare String: 0.013000 ms; voorhees trec question answering track trec 77–82 1999 
+Size: 4207
+Find Candidates: 7.995000 ms; Evaluate Candidates: 9.254000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.011000 ms; wang zhu portfolio theory 2009 
+Size: 64548
+Find Candidates: 108.041000 ms; Evaluate Candidates: 12.201000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.012000 ms; wang waibel decoding algorithm statistical translation eacl 1997 
+Size: 103066
+Find Candidates: 177.717000 ms; Evaluate Candidates: 21.606000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.019000 ms; yilmaz kanoulas aslam sampling estimating ndcg 2008 
+Size: 7456
+Find Candidates: 9.670000 ms; Evaluate Candidates: 10.477000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.015000 ms; yilmaz robertson choice effectiveness measures rank 2009 
+Size: 10279
+Find Candidates: 13.463000 ms; Evaluate Candidates: 12.190000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.016000 ms; yue finley radlinski joachims support vector optimizing average precision 2007 
+Size: 32169
+Find Candidates: 54.063000 ms; Evaluate Candidates: 18.409000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; zhai statistical language critical review trends retr 137–213 2008 
+Size: 35118
+Find Candidates: 53.489000 ms; Evaluate Candidates: 18.005000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.017000 ms; zhai lafferty risk minimization framework process manage 31–55 2006 
+Size: 47212
+Find Candidates: 75.536000 ms; Evaluate Candidates: 20.557000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.025000 ms; benko wilson balakrishnan 2008 sphere touch interactions spherical display 21st symposium interface 
+Size: 20058
+Find Candidates: 28.074000 ms; Evaluate Candidates: 22.106000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.026000 ms; companje dijk hogenbirk mast 2006 globe4d traveling interactive dimensional globe 14th 959 960 
+Size: 22403
+Find Candidates: 32.063000 ms; Evaluate Candidates: 23.210000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; han 2005 cost touch sensing frustrated internal reflection 18th symposium interface 
+Size: 28271
+Find Candidates: 39.942000 ms; Evaluate Candidates: 18.646000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.030000 ms; lee dietz maynes aminzade raskar hudson 2004 automatic projector calibration embedded light sensors 17th symposium interface 123 126 
+Size: 67360
+Find Candidates: 114.237000 ms; Evaluate Candidates: 31.646000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.017000 ms; ashdown robinson “escritoire personal projected display ” 34–42 2005 
+Size: 7751
+Find Candidates: 9.872000 ms; Evaluate Candidates: 15.589000 ms; Find Best Matches: 0.003000 ms;
+Prepare String: 0.026000 ms; geisler eck rehfeld peinsipp byma sch¨utz geggus “fovea tablett paradigm interaction screens ” hci 2007 278– 287 
+Size: 12731
+Find Candidates: 17.155000 ms; Evaluate Candidates: 27.706000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.018000 ms; blaschko lampert localize objects structured output regression eccv ’08 2–15 2008 
+Size: 20670
+Find Candidates: 29.474000 ms; Evaluate Candidates: 18.188000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.018000 ms; chen cheng tan shamir sketch2photo internet montage siggraph asia ’09 1–10 2009 
+Size: 58993
+Find Candidates: 97.194000 ms; Evaluate Candidates: 22.116000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; cui wen tang intentsearch interactive line search ranking ’08 997–998 2008 
+Size: 48955
+Find Candidates: 76.608000 ms; Evaluate Candidates: 19.280000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; desai ramanan fowlkes discriminative class layout iccv ’09 2009 
+Size: 12233
+Find Candidates: 16.965000 ms; Evaluate Candidates: 14.780000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.014000 ms; egenhofer spatial sketch symposium visual languages 60–67 1996 
+Size: 27770
+Find Candidates: 40.645000 ms; Evaluate Candidates: 14.616000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; jarvelin kekalainen evaluation retrieving highly relevant documents ’00 41–48 2000 
+Size: 31394
+Find Candidates: 45.329000 ms; Evaluate Candidates: 21.473000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.021000 ms; lew sebe djeraba jain content state challenges tomccap 1–19 2006 
+Size: 25749
+Find Candidates: 40.626000 ms; Evaluate Candidates: 14.726000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; liu yuan sun wang zheng tang shum detect salient anal mach intell 
+Size: 87099
+Find Candidates: 197.256000 ms; Evaluate Candidates: 20.314000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.017000 ms; zha yang mei wang wang visual suggestion ’09 15–24 2009 
+Size: 72796
+Find Candidates: 195.750000 ms; Evaluate Candidates: 17.902000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; yeo yeung classification simplification visualization scene transition graphs browsing spie storage retrievalfor 1998 
+Size: 54843
+Find Candidates: 90.732000 ms; Evaluate Candidates: 32.133000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.016000 ms; yeung liu matching clustering shots icip 338 341 1995 
+Size: 50954
+Find Candidates: 86.007000 ms; Evaluate Candidates: 14.082000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.023000 ms; zhong zhang chang clustering browsing annotation spie storage retrievalfor 239 246 1996 
+Size: 66205
+Find Candidates: 117.815000 ms; Evaluate Candidates: 21.356000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.017000 ms; kender yeo scene segmentation continuous coherence cvpr 367 373 1998 
+Size: 19605
+Find Candidates: 28.191000 ms; Evaluate Candidates: 16.658000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.022000 ms; zhang tan smoliar gong parsing browsing integrated content solution 1995 
+Size: 67057
+Find Candidates: 126.988000 ms; Evaluate Candidates: 18.782000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.025000 ms; hanjalic ceccarelli lagendijk biemond automation search stored spie storage retrievalfor 427 438 1997 
+Size: 24203
+Find Candidates: 36.443000 ms; Evaluate Candidates: 22.177000 ms; Find Best Matches: 0.001000 ms;
+Prepare String: 0.024000 ms; chi chen chu chen nutrition cooking kitchen chi extended abstracts press 2007 2333–2338 
+Size: 48506
+Find Candidates: 154.644000 ms; Evaluate Candidates: 21.443000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.022000 ms; mulrooney mcdermott nutrastick portable diet assistant chi extended abstracts press 2006 1855 1860 
+Size: 11796
+Find Candidates: 16.041000 ms; Evaluate Candidates: 31.522000 ms; Find Best Matches: 0.002000 ms;
+Prepare String: 0.024000 ms; yarin hiroshi touchcounters designing interactive electronic labels physical containers chi extended abstracts press 2000 
+Size: 35405
+Find Candidates: 52.834000 ms; Evaluate Candidates: 40.599000 ms; Find Best Matches: 0.002000 ms;
+Done!
+
+Statistics:
+Number of executed queries: 500
+Number of correct matches: 490 (98.000000%)
+Number of failed matches: 10 (2.000000%)
+Needed Time: Overall: 45344.490000 ms, Avg per query: 90.688980 ms

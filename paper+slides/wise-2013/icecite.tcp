@@ -1,0 +1,12 @@
+[FormatInfo]
+Type=TeXnicCenterProjectInformation
+Version=4
+
+[ProjectInfo]
+MainFile=icecite.tex
+UseBibTeX=1
+UseMakeIndex=0
+ActiveProfile=LaTeX => PDF (Sumatra)
+ProjectLanguage=
+ProjectDialect=
+

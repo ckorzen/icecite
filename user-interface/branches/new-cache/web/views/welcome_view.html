@@ -1,0 +1,64 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<polymer-element name="welcome-view">
+  <template>
+    <link rel="stylesheet" href="welcome_view.css">
+    
+    <template if="{{ revealed }}">
+      <div class="welcome">
+        <div class="logo"></div>
+        <div class="login">
+          <button class="login-google" on-click="{{ onGoogleLoginButtonClicked }}">
+          </button>
+        </div>
+        
+        <div class="columns">
+          <div class="left-column">
+            <div class="features">
+              <div class="header"></div>
+                <div class="body">
+                  <ul>
+                    <li class="one">Fully web-based Research Paper Management System.</li>
+                    <li class="two">Automatic Metadata AND Reference Extraction.</li>
+                    <li class="three">On-Click Download of New Research Papers.</li>
+                    <li class="four">Collaborative Annotation.</li>
+                    <li class="five">Offline Availability.</li>
+                    <li class="six">Full-Featured Search.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="right-column">
+            <div class="infos">
+              <div class="header"></div>
+                <div class="body">
+                  <a href="http://ad-publications.informatik.uni-freiburg.de/WISE_icecite_BK_2013.pdf">
+                    The Icecite Research Paper Management System
+                  </a>
+                  <br>
+                  Hannah Bast, Claudius Korzen <br>
+                  WISE 2013, Band: 8181, Seiten: 396 - 409 
+                </div>
+              </div>
+              <div class="contact">
+                <div class="header"></div>
+                <div class="body">
+                  <a href="#">Chair of Algorithms and Data Structures</a>
+                  <br>
+                  Georges-Koehler-Allee 51<br>
+                  79110 Freiburg im Breisgau<br>
+                  Germany<br><br>
+                  <a href="#">Claudius Korzen</a>
+                  <br>
+                  Phone: +49 761 203-8164<br>
+                  Fax:  +49 761 203-8162<br>
+                  korzen@informatik.uni-freiburg.de
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </template>
+  </template>
+  <script type="application/dart" src="welcome_view.dart"></script>
+</polymer-element>

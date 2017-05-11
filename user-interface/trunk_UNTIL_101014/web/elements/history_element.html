@@ -1,0 +1,37 @@
+<polymer-element name="history-element">
+  <template>    
+    <link rel="stylesheet" href="history_element.css">
+    <link rel="stylesheet" href="elements/history_element.css">
+    
+    <template if="{{ revealed }}">
+      <div class="history">
+        <div class="history-header">
+          <div class="history-heading">History</div>
+          <div class="history-triangle triangle-r"></div>
+        </div>
+        <div class="history-body">
+          <div class="history-scroll-area">
+            <template repeat="{{ entry in history | enumerate }}">
+              <template if="{{ !entry.value['history-disabled'] }}">
+                <div class="history-element" title="{{ entry.value.title }} ({{ entry.value.authorsStr }})"
+                  on-click="{{ onSelectHistoryElementPurpose }}" data-idx="{{ entry.index }}">
+                  {{ entry.value.title.substring(0, numOfHistoryChars) }}...
+                </div>
+              </template>
+              <template if="{{ entry.value['history-disabled'] }}">
+                <div class="history-element disabled" title="{{ entry.value.title }} ({{ entry.value.authorsStr }})">
+                  {{ entry.value.title.substring(0, numOfHistoryChars) }}...
+                </div>
+              </template>
+            </template>
+          </div>
+        </div>
+      </div>  
+    </template>  
+  </template>
+  <script type="application/dart" src="history_element.dart"></script>
+</polymer-element>
+
+
+
+

@@ -1,0 +1,94 @@
+.dummy { }
+
+.library {
+  /*border: 1px solid #aaa;*/
+  /* background: white; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.library:before {
+  content: '';
+  float: left;
+  height: 100%;
+}
+
+.library > .library-body  { 
+  /* margin-top: 10px; */
+  /*position: absolute;
+  top: 25px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: #fafafa;
+  border: 1px solid #d0d0d0;*/
+}
+
+.library > .library-body > .sort-library {
+  font-size: 10pt;
+  padding: 0px 5px 5px 5px;
+  /*position: absolute;
+  top: 5px;
+  left: 3px;
+  right: 3px;
+  height: 20px;
+  font-size: 10pt;
+  margin-left: 3px;*/
+}
+
+.library > .library-body > .sort-library > .sort-field {
+  color: #2a6ebb;
+  cursor: pointer;
+}
+
+.library > .library-body > .sort-library > .sort-field.asc,
+.library > .library-body > .sort-library > .sort-field.desc {
+  background-color: #d9edf7;
+  border-radius: 5px;
+}
+
+.library > .library-body > .sort-library > .sort-field.asc:before {
+  content: "\25BE";
+}
+
+.library > .library-body > .sort-library > .sort-field.desc:before {
+  content: "\25B4";
+}
+
+.library > .library-body > .library-entries {
+  /* border: 1px solid #d0d0d0; */
+  position: relative;
+  margin-top: 5px;
+}
+
+.library > .library-body > .library-entries:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.library > .library-body > .library-entries > .scroll-area {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: auto;
+  /*height: 100%;
+  overflow-x: visible;
+  overflow-y: auto;*/
+}
+
+.library > .library-body > .library-entries > .scroll-area > .empty-list {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+  margin: 10px;
+  color: #aaa;
+  font-size: 10pt;
+}

@@ -1,0 +1,16 @@
+<polymer-element name="notification-element">
+  <template>    
+    <link rel="stylesheet" href="notification_element.css">
+    <link rel="stylesheet" href="elements/notification_element.css">
+    <div class="notification notification-{{ notification.type }}">
+      <span class="short">{{ notification.short }}</span>
+      <template if="{{ notification.details != null }}">
+        <span class="details">{{ notification.details }}</span>
+      </template>
+      <button class="close-button" on-click="{{ onHidePurpose }}">
+        &times;
+      </button>
+    </div>
+  </template>
+  <script type="application/dart" src="notification_element.dart"></script>
+</polymer-element>

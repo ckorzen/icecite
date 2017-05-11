@@ -1,0 +1,34 @@
+<link rel="import" href="topic_element.html">
+
+<polymer-element name="topics-element">
+  <template>
+    <link rel="stylesheet" href="topics_element.css">
+    <link rel="stylesheet" href="elements/topics_element.css">    
+    <template if="{{ revealed }}">
+      <div class="topics">
+        <div class="topics-header">
+          <div class="topics-heading">Topics</div>
+          <div class="topics-new-topic" title="Create new Topic" 
+            on-click="{{ onCreatePurpose }}">+</div>
+          <div class="triangle triangle-r"></div>
+        </div>
+        
+        <div class="topics-body">
+          <div class="topics-scroll-area">
+            <template repeat="{{ topic in topics | enumerate }}">
+              <topic-element class="topic" topic="{{ topic.value }}"
+                on-edit-topic="{{ onUpdatePurpose }}"
+                on-delete-topic="{{ onDeletePurpose }}"
+                on-topic-selected="{{ onSelectPurpose }}"
+                on-topic-unselected="{{ onUnselectPurpose }}"
+                on-topic-assignment="{{ onAssignEntryPurpose }}" 
+                on-unshare-topic="{{ onRejectUserPurpose }}"
+                data-idx="{{ topic.index }}"></topic-element>
+            </template>
+          </div>
+        </div>
+      </div>
+    </template>
+  </template>
+  <script type="application/dart" src="topics_element.dart"></script>
+</polymer-element>

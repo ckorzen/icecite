@@ -1,0 +1,24 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="main_view.html">
+<link rel="import" href="header_view.html">
+<link rel="import" href="welcome_view.html">
+  
+<polymer-element name="app-view">
+  <template>
+    <link rel="stylesheet" href="app_view.css">
+    
+    <!-- The header view --> 
+    <header-view class="header-view"></header-view>
+                   
+    <!-- The main view  -->
+    <main-view class="main-view" 
+      on-notification="{{ onNotificationRequest }}">
+    </main-view>
+        
+    <!-- The welcome view  -->    
+    <welcome-view class="welcome-view"
+      on-google-login-request="{{ onGoogleLoginRequest }}">
+    </welcome-view>
+  </template>
+  <script type="application/dart" src="app_view.dart"></script>
+</polymer-element>

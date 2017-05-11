@@ -1,0 +1,153 @@
+<!-- <link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="input_element.html">
+<link rel="import" href="user_element.html">
+
+<polymer-element name="topic-element" attributes="topic, draggable">
+  <template>    
+    <link rel="stylesheet" href="topic_element.css">
+    <link rel="stylesheet" href="elements/topic_element.css">
+    
+    <div class="topic {{ { 'participant': user != owner, 'selected': topic.selected } }}"
+      on-dragenter="{{ onDragEntered }}" 
+      on-dragend="{{ onDragEnded }}">
+                
+      The drop-mask.
+      <div class="topic-dropmask" 
+        on-dragleave="{{ onDragLeaved }}"
+        on-dragover="{{ onDraggedOver }}"
+        on-drop="{{ onDropped }}"></div>
+      
+      The body.
+      <div class="topic-body">              
+        The owner bar
+        <template if="{{ user != owner }}">
+          <div class="owner-bar" title="Owner: {{ owner.firstName }} {{ owner.lastName }} ({{ owner.email }})">
+            {{ owner.firstName }} {{ owner.lastName }}
+          </div>
+        </template>
+        
+        <template if="{{ showUpdateForm }}">            
+          The form
+          <input class="new-topic-input" is="input-element"
+            placeholder="New topic" value="{{ topic.title }}" 
+            on-commit="{{ onTitleCommitted }}" 
+            on-cancel="{{ onTitleCommitCancelled }}">
+        </template>
+      
+        <template if="{{ !showUpdateForm }}">    
+          <template if="{{ draggable }}">
+            The drag toggle
+            <div class="drag-toggle" draggable="true"
+              on-drag="{{ onDragged }}"
+              on-dragstart="{{ onDragStarted }}">
+            </div>
+          </template>
+                
+          The checkbox
+          <div class="title-wrapper">
+            <input 
+              type="checkbox"
+              class="checkbox"
+              value="{{ topic.id }}" 
+              on-click="{{ onCheckBoxClicked }}"
+              checked="{{ topic.selected }}">
+            The title
+            <span class="title" on-dblclick="{{ onTitleDoubleClicked }}">
+              {{ topic.title }}
+            </span>
+          </div>
+          
+          The status bar
+          <div class="status-bar">
+            <template if="{{ showBlurMask }}">
+              <div class="blur-mask" on-click="{{ onBlurMaskClicked }}"></div>
+            </template> 
+                    
+            The status of participants
+            <template if="{{ owner == user }}">
+              <template if="{{ topic.participants.isNotEmpty }}">
+                <div class="participants-status">
+                  <span class="participants-info {{ {'selected': showParticipants } }}" 
+                    on-click="{{ onParticipantsInfoClicked }}">
+                      {{ topic.participants.length }} participant(s)
+                    <span class="caret"></span>
+                  </span>
+                  <template if="{{ showParticipants }}">
+                    <div class="participants-details">
+                      <template repeat="{{ user in participants.values }}">
+             	        <user-element 
+                          class="user" 
+                          member="{{ user }}"
+                          allowDisinvitation="true"
+                          numOfCharsToShow="16"
+                          on-user-disinvited="{{ onParticipantDisinvited }}"></user-element>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </template>
+            </template>
+                        
+            The status of invitees
+            <template if="{{ user.isOwner(topic) }}">
+              <template if="{{ topic.invitees.isNotEmpty }}">
+                <div class="invitees-status">
+                  <span class="invitees-info {{ {'selected': showInvitees } }}" 
+                    on-click="{{ onInviteesInfoClicked }}">
+                    {{ topic.invitees.length }} invitee(s)
+                    <span class="caret"></span>
+                  </span>
+                  <template if="{{ showInvitees }}">
+                    <div class="invitees-details">
+                      <template repeat="{{ user in invitees.values }}">
+                        <user-element 
+                          class="user"
+                          member="{{ user }}"
+                          allowDisinvitation="true"
+                          numOfCharsToShow="16"
+                          on-user-disinvited="{{ onInviteeDisinvited }}">
+                        </user-element>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </template>
+            </template>
+            
+            The status of disinvitees
+            <template if="{{ user.isOwner(topic) }}">
+              <template if="{{ topic.disinvitees.isNotEmpty }}">
+                <div class="disinvitees-status">
+                  <span class="disinvitees-info {{ {'selected': showDisinvitees } }}" 
+                    on-click="{{ onDisinviteesInfoClicked }}">
+                    {{ topic.disinvitees.length }} disinvitee(s)
+                    <span class="caret"></span>
+                  </span>
+                  <template if="{{ showDisinvitees }}">
+                    <div class="disinvitees-details">
+                      <template repeat="{{ user in disinvitees.values }}">
+                        <user-element 
+                          class="user"
+                          member="{{ user }}"
+                          numOfCharsToShow="16">
+                        </user-element>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </template>
+            </template>
+            
+          </div>
+        </template>
+      </div>
+      Delete
+      <button class="delete-button" on-click="{{ onDeleteButtonClicked }}">
+        &times;
+      </button> 
+    </div>
+  </template>
+  <script type="application/dart" src="topic_element.dart"></script>
+</polymer-element>
+
+ -->

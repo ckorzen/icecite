@@ -1,0 +1,53 @@
+<polymer-element name="welcome-view">
+  <template>
+    <link rel="stylesheet" href="welcome_view.css">
+    <link rel="stylesheet" href="views/welcome_view.css">
+    <template if="{{ revealed }}">
+      <div class="welcome">
+        <div class="features">
+          <div class="header">Features of Icecite</div>
+          <div class="body">
+            <ul>
+              <li>Fully web-based Research Paper Management System.</li>
+              <li>Automatic Metadata AND Reference Extraction.</li>
+              <li>On-Click Download of New Research Papers.</li>
+              <li>Collaborative Annotation.</li>
+              <li>Offline Availability.</li>
+              <li>Full-Featured Search.</li>
+            </ul>
+          </div>
+        </div>
+                
+        <div class="more-infos">
+          <div class="header">More infos</div>
+          <div class="body">
+            <a href="http://ad-publications.informatik.uni-freiburg.de/WISE_icecite_BK_2013.pdf">
+              The Icecite Research Paper Management System
+            </a>
+            <br>
+            Hannah Bast, Claudius Korzen <br>
+            WISE 2013, Band: 8181, Seiten: 396 - 409 
+          </div>
+        </div>
+                
+        <div class="contact">
+          <div class="header">Contact</div>
+          <div class="body">
+            <a href="#">Chair of Algorithms and Data Structures</a>
+            <br>
+            Georges-Koehler-Allee 51<br>
+            79110 Freiburg im Breisgau<br>
+            Germany<br><br>
+          
+            <a href="#">Claudius Korzen</a>
+            <br>
+            Phone: +49 761 203-8164<br>
+            Fax:  +49 761 203-8162<br>
+            korzen@informatik.uni-freiburg.de
+          </div>
+        </div>
+      </div>
+    </template>
+  </template>
+  <script type="application/dart" src="welcome_view.dart"></script>
+</polymer-element>

@@ -1,0 +1,57 @@
+.dummy { }
+
+.main {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.main > .stage-view {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 400px;
+  bottom: 0px;
+}
+
+.main > .display-view {
+  position: absolute;
+  top: 0px;
+  left: 425px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.main > .welcome-view {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-left: 25px;
+}
+
+.main > .stage-toggle > .hide-toggle, 
+.main > .stage-toggle > .unhide-toggle {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  font-size: 25pt;
+  margin-left: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.main:hover > .stage-toggle.active > .hide-toggle, 
+.main:hover > .stage-toggle.active > .unhide-toggle  {
+  display: block;
+}
+
+.main > .stage-toggle > .hide-toggle:hover,
+.main > .stage-toggle > .unhide-toggle:hover {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}

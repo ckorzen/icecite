@@ -1,0 +1,17 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="../elements/object_element.html">
+<link rel="import" href="../elements/pdf_viewer_element.html">
+
+<polymer-element name="display-view">
+  <template>  
+    <link rel="stylesheet" href="display_view.css">
+    
+    <pdf-viewer-element class="pdf-viewer-element"
+      on-annot-added="{{ onAnnotAdded }}"
+      on-annot-updated="{{ onAnnotUpdated }}"
+      on-annot-deleted="{{ onAnnotDeleted }}">
+    </pdf-viewer-element>
+    
+  </template>
+  <script type="application/dart" src="display_view.dart"></script>
+</polymer-element>

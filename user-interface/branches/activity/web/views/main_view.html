@@ -1,0 +1,27 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="stage_view.html">
+<link rel="import" href="display_view.html">
+<link rel="import" href="welcome_view.html">
+
+<polymer-element name="main-view">
+  <template>
+    <link rel="stylesheet" href="main_view.css">
+    <!-- <link rel="stylesheet" href="views/main_view.css"> -->
+    <template if="{{ revealed }}">
+      <div
+          class="stage-view"></div>
+      <div class="main">        
+        <!-- The stage view -->
+        <stage-view
+          class="stage-view">
+        </stage-view>
+        <!-- The display view -->
+        <display-view
+          class="display-view" 
+          on-import-from-pdf="{{ onImportedFromPdf }}">
+        </display-view>
+      </div>
+    </template>
+  </template>
+  <script type="application/dart" src="main_view.dart"></script>
+</polymer-element>

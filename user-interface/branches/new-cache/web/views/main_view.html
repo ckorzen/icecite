@@ -1,0 +1,36 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="stage_view.html">
+<link rel="import" href="display_view.html">
+<link rel="import" href="welcome_view.html">
+<link rel="import" href="../elements/history_element.html">
+
+<polymer-element name="main-view">
+  <template>
+    <link rel="stylesheet" href="main_view.css">
+    
+    <template if="{{ revealed }}">
+      <div class="main">        
+        <!-- The stage view -->
+        <stage-view class="stage-view"
+          on-delete-request="{{ onDeleteEntryRequest }}"
+          on-select-request="{{ onSelectEntryRequest }}"
+          on-import-request="{{ onImportFromStageViewRequest }}">
+        </stage-view>
+        <!-- The display view -->
+        <display-view class="display-view" 
+          on-import-request="{{ onImportFromDisplayViewRequest }}"
+          on-select-prev-request="{{ onSelectPreviousEntryRequest }}"
+          on-select-next-request="{{ onSelectNextEntryRequest }}"
+          on-start-history-request="{{ onStartHistoryRequest }}"
+          on-end-history-request="{{ onEndHistoryRequest }}"
+          on-toggle-fullscreen-request="{{ onToggleFullscreenRequest }}">
+        </display-view>
+        
+        <history-element class="history-window"
+          on-select-request="{{ onSelectEntryRequest }}">
+        </history-element>
+      </div>
+    </template>
+  </template>
+  <script type="application/dart" src="main_view.dart"></script>
+</polymer-element>

@@ -1,0 +1,247 @@
+\section{Experiments}\label{sec:experiments}
+In this section, we present the result of our experiments, which we have executed to test the quality and the performance of our extraction and matching algorithms. \TODO{Tests for automatic download for reference/search entry?}
+
+\subsection{Input data}
+Our test collection consists of 1200 randomly selected research papers (available as PDF files), whose metadata are stored in \textit{DBLP} (700) or \textit{Medline} (500). 
+
+\medskip\noindent
+{\bf DBLP} is a digital library, providing various metadata of more than \textit{2.1 million} computer science research papers.\\[5pt]
+\noindent
+{\bf Medline} is a digital library, providing various metadata of more than \textit{21 million} research papers, mainly focused on topics of medicine. 
+\medskip
+
+Based on this test collection, we have created various ground truths manually, storing different data for each research paper:\TODO{Emphasize, that both libraries are of different size}
+
+\par\medskip\noindent
+\textit{(GT1)} The title and the unique key of matching record in DBLP.
+\par\medskip\noindent
+\textit{(GT2)} The title and the unique key of matching record in Medline.
+\par\medskip\noindent
+\textit{(GT3)} Each reference and the unique key of accordant record in DBLP for each reference \TODO{no match}
+\par\medskip\noindent
+\textit{(GT4)} Each reference and the unique key of accordant record in Medline for each reference \TODO{no match}
+\medskip
+
+On evaluating the quality of our algorithms, we have run them on the collected PDF files in various experiments. At the same time, we have measured the execution times for computing the results to evaluate the performance. The individual results of the experiments are discussed in the sections \ref{sec:experiments_extraction} - \ref{sec:experiments_automaticsearch}.
+
+\subsection{Computing environment}
+The code for the extraction of the title and the references from PDF files is written in Java. Apart from that, the code for the matching of extracts to records of DBLP is written in C++.
+
+All the tests were run on a single machine with 4 Intel Xeon 2.8 GHz processors and 35GB of main memory, running Ubuntu 9.10 64-bit.
+ 
+\subsection{Extraction times and quality}\label{sec:experiments_extraction}
+
+\TODO{tables in which detail? Alternative:}
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|l|r|r|} \hline
+Runtime Evaluation          & \multicolumn{1}{c|}{DBLP} & \multicolumn{1}{c|}{Medline}  \\ \hline
+Search/download PDF         &        ? & ? \\
+Title Extraction            &  43.46ms &  42.65ms  \\
+Title Matching              &   4.93ms &  26.31ms  \\
+References Extraction       & 141.85ms & 170.75ms  \\
+References Matching         & (43.2ms) & (269.6ms) \\ \hline \hline
+\textbf{Total time per PDF} & \textbf{233.44 ms} & \textbf{509.31ms} \\
+\hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{Overview of average runtime to compute the whole metadata for a PDF of the DBLP- respectively the Medline test collection. \TODO{runtime for references extraction \& -matching: overall or per reference?; times are "`netto"', e.g. the time for connecting to matching server isn't considered yet.}}
+\label{table:title-extraction-runtimes2}
+\vspace{-2mm}
+\end{table}\\
+
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|l|r|r|} \hline
+Quality Evaluation & \multicolumn{1}{c|}{DBLP} & \multicolumn{1}{c|}{Medline}  \\ \hline
+Search/download PDF   & ?      &    ?   \\
+Title Extraction      & 94.7\% & 89.8\% \\
+Title Matching        & 98.1\% & 84.2\% \\
+References Extraction & 81.6\% & 91.1\% \\
+References Matching   &   90\% & 83.1\% \\ \hline \hline
+\textbf{Prob. of correct metadata} & \textbf{68.2\%} & \textbf{57.2\%} \\
+\hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{Overview of percentages by correct results in each subtask. \TODO{false-positives (extracted string is not a reference) aren't considered}}
+\label{table:title-extraction-quality}
+\vspace{-2mm}
+\end{table}
+
+
+
+\subsubsection{Title extraction}
+On comparing the extracted titles with the expected title, we have distinguished the results into various categories:
+
+\par\medskip\noindent
+\textit{(TE1)} The extracted title and the expected title are equal.
+\par\medskip\noindent
+\textit{(TE2)} The extracted title contains the expected title only partially.
+\par\medskip\noindent
+\textit{(TE3)} The extracted title contains the expected title amongst other words.
+\par\medskip\noindent
+\textit{(TE4)} The extracted title and the expected title have no words in common.
+\medskip \\
+\TODO{Define TE1-TE4 in more precision}
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|c||c|ccc|} \hline
+& \# & max. & \textit{\textbf{TE1}} & \textit{TE2} & \textit{TE3} & \textit{TE4} \\ \hline
+DBLP    & 700 & 98.8\% & \textbf{94.7\%} & 0.4\% & 0\%   & 3.7\% \\
+Medline & 500 & 98.8\% & \textbf{89.8\%} & 3.4\% & 0.2\% & 5.4\% \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{Breakdown of quality results by category for title extraction.}
+\label{table:title-extraction-quality2}
+\vspace{-2mm}
+\end{table}
+
+Table \ref{table:title-extraction-quality} provides the percentages of the quality results in each of these categories. Due to encoding issues, the extraction of titles was impossible for a few PDF files. The third column in table \ref{table:title-extraction-quality} shows the maximum obtainable percentage.
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|cccc|} \hline
+& \textbf{time/title} &  \textit{XX1} & \textit{XX2} & \textit{XX3} & \textit{XX4} \\ \hline
+DBLP    & \textbf{43.46ms} & 34.7\% & 51.2\% & 13.9\% & 0.2\% \\
+Medline & \textbf{42.65ms} & 33.6\% & 52.3\% & 13.9\% & 0.2\% \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{The average runtimes to extract a title from a PDF file of DBLP and of Medline. Columns 3-6 provide a breakdown of runtimes in tasks to solve.}
+\label{table:title-extraction-runtimes}
+\vspace{-2mm}
+\end{table}
+
+Table \ref{table:title-extraction-runtimes} provides the average runtimes for both test collections (2nd column) as well as a breakdown of them into the individual tasks to solve to extract a title from a PDF file: 
+
+\par\medskip\noindent
+\textit{(XX1)} Load the PDF file into memory.
+\par\medskip\noindent
+\textit{(XX2)} Extract the characters from the PDF file.
+\par\medskip\noindent
+\textit{(XX3)} Assemble the characters to text lines. 
+\par\medskip\noindent
+\textit{(XX4)} Identify the title amongst the text lines.
+\medskip \\
+The percentages of the runtimes for each task are shown in the columns 3-6. 
+
+\subsubsection{References extraction} 
+Apart from the title extraction, we didn't distinguish the results of comparing the extracted references with the expected references into various categories. Instead, we define only this single category \TODO{Why?}:
+
+\par\medskip\noindent
+\textit{(YY1)} The extracted and the expected reference are equal \TODO{bis auf eine geringe edit-Distanz}.
+\medskip \\
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|c|c||c|} \hline 
+        & \# files  & \# refs.      &  max.      & \textit{YY1} \\ \hline
+DBLP    & 700 & 9753  & 98.5\% & \textbf{81.6\%} \\
+Medline & 329 & 10135 & 99.2\% & \textbf{91.1\%} \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{Breakdown of quality results by category for reference extraction.}
+\label{table:references-extraction-quality}
+\vspace{-2mm}
+\end{table}
+
+Table \ref{table:references-extraction-quality} provides the percentage of the category YY1 in 5th column. Furthermore, the 3rd column provides the total number of references, contained in the research papers of the particular test collections. As for the title extraction, a few references weren't extractable due to encoding issues. The maximum percentage of extractable references are shown in the 4th column.
+
+
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|cccc|} \hline
+& \textbf{time/PDF} &  \textit{XX1} & \textit{XX2} & \textit{XX3} & \textit{XX4} \\ \hline
+DBLP    & \textbf{141.85ms} & 10.5\% & 65\% & 20.6\% & 3.9\% \\
+Medline & \textbf{170.75ms} & 7.9\% & 64.2\% & 24.1\% & 3.8\% \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{The average runtimes to extract the references from a PDF file. Columns 3-6 provide a breakdown of runtimes by sub-tasks.}
+\label{table:references-extraction-runtimes}
+\vspace{-2mm}
+\end{table}
+
+The average runtimes to extract the references from research papers of the particular test collection are shown in table \ref{table:references-extraction-runtimes}.
+
+\subsection{Matching times and quality}\label{sec:experiments_matching}
+
+Table \ref{table:matching-quality} provides the evaluation results of both, title matching and references matching. The percentages of correct title matchings are shown in 3rd column and of correct references matchings in the 5th column.
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|c||c|c|} \hline
+& \# title & \textit{\textbf{TM1}} & \# refs  & \textit{\textbf{RM1}} \\ \hline
+DBLP    & 700 & \textbf{98.1\%} & 500 & \textbf{90\%} \\
+Medline & 500 & \textbf{84.2\%} & 496 & \textbf{83.1\%} \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{The percentages of correct title and references matchings.}
+\label{table:matching-quality}
+\vspace{-2mm}
+\end{table}
+
+Tables \ref{table:title-matching-runtimes} and  \ref{table:references-matching-runtimes} provide the average runtimes to match a title, respectivley a reference to a record of the particular digital library. Furthermore, it provides a breakdown of runtimes into the following tasks to solve on extraction:
+\par\medskip\noindent
+\textit{(ZZ1)} Find candidates.
+\par\medskip\noindent
+\textit{(ZZ2)} Score the top-$k$ candidates \TODO{explain the k}.
+\par\medskip\noindent
+\textit{(ZZ3)} Identify the best matching candidate. 
+\medskip \\
+The percentages of the runtimes for each task are shown in the columns 3-5. 
+
+\vspace{-1mm}
+\begin{table}[ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|ccc|} \hline
+&  \textit{\textbf{time/title}} & \textit{(ZZ1)} & \textit{(ZZ2)} & \textit{(ZZ3)} \\ \hline
+DBLP    & \textbf{4.93ms} & 59.2\% & 40.8\% & <0.1\% \\
+Medline & \textbf{26.31ms} & 85.3\% & 14.7\% & <0.1\% \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{The average runtimes to match a title to a record of DBLP (respectively Medline). Columns 3-5 provide a breakdown of runtimes in tasks to solve.}
+\label{table:title-matching-runtimes}
+\vspace{-2mm}
+\end{table}
+
+\vspace{-1mm}
+\begin{table}[!ht]
+\centering
+{\renewcommand{\baselinestretch}{1.3}\normalsize
+\hspace*{-2.5mm}
+\begin{tabular}{|c|c|ccc|} \hline
+&  \textit{\textbf{time/reference}} & \textit{(ZZ1)} & \textit{(ZZ2)} & \textit{(ZZ3)} \\ \hline
+DBLP    & \textbf{4.32ms} & 85.4\% & 14.4\% & 0.2\% \\
+Medline & \textbf{26.96ms} & 90.8\% & 9.2\% & 0.1\% \\ \hline
+\end{tabular}}
+\vspace{-3mm}
+\caption{The average runtimes to match a reference to a record of DBLP (respectively Medline). Columns 3-5 provide a breakdown of runtimes in tasks to solve.}
+\label{table:references-matching-runtimes}
+\vspace{-2mm}
+\end{table}
+
+\subsection{Automatic PDF search times and quality} \label{sec:experiments_automaticsearch}
+\TODO{Something to test?}

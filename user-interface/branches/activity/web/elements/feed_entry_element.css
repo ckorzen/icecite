@@ -1,0 +1,105 @@
+.dummy { }
+
+.feed-entry {
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+.feed-entry:hover {
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.feed-entry > .notification {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 16px;
+}
+
+.feed-entry > .notification > .message {
+  position: absolute;
+  right: 5px;
+  height: 16px;
+  text-align: right;
+  bottom: 2px;
+  padding: 2px 25px 2px 5px;
+  border-radius: 5px;
+}
+
+.feed-entry > .notification-loading .message {
+  background: #eee url(../images/loading.gif) no-repeat 98% center;
+}
+
+.feed-entry > .notification-success .message {
+  background: #dff0d8 url(../images/success.png) no-repeat 98% center;
+}
+
+.feed-entry > .notification-info .message {
+  background: #d9edf7 url(../images/info.png) no-repeat 98% center;
+}
+
+.feed-entry > .notification-warn .message {
+  background: #fcf8e3 url(../images/warn.png) no-repeat 98% center;
+}
+
+.feed-entry > .notification-error .message {
+  background: #f2dede url(../images/error.png) no-repeat 98% center;
+}
+
+.feed-entry > .feed-entry-header {
+  color: #3c763d;
+  margin-bottom: 5px;
+}
+
+.feed-entry > .feed-entry-header > .user-info {
+  font-weight: bold;
+}
+
+.feed-entry > .feed-entry-header > .date-info {
+  font-size: 8pt;
+  color: #777;
+}
+
+.feed-entry > .feed-entry-body > .text {
+  font-size: 10pt;
+  margin-bottom: 2pt;
+}
+
+.feed-entry > .feed-entry-body > .edit-text {
+  width: 95%;
+  z-index: 2;
+}
+
+.feed-entry > .feed-entry-body > .delete-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  margin: -8px 0 0;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  right: 5px;
+  font-weight: 700;
+  font-size: 19px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.feed-entry:hover .delete-button  {
+  opacity: .7;
+}
+
+.feed-entry .delete-button:hover {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.feed-entry .delete-button:active {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
