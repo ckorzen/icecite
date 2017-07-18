@@ -62,14 +62,14 @@ public class PdfBoxDrawerTest {
   // ___________________________________________________________________________
   // Test the constructor.
   
-  // /**
-  //  * Test the constructor with null argument.
-  //  */
-  // @Test(expected = NullPointerException.class)
-  // public void testConstructorWithNull() throws IOException {
-  //   File file = null;
-  //   new PdfBoxDrawer(file);
-  // }
+  /**
+   * Test the constructor with null argument.
+   */
+  @Test(expected = IllegalArgumentException.class)
+  public void testConstructorWithNull() throws IOException {
+    File file = null;
+    new PdfBoxDrawer(file);
+  }
   
   /**
    * Test the constructor with invalid file.
