@@ -1,5 +1,7 @@
 # Icecite
 
+**Disclaimer**: This project is in an early alpha state and is still under development. So use it on your own risk :-)
+
 ## How to use
 
 ### Checkout
