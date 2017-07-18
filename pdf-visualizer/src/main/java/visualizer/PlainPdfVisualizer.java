@@ -13,7 +13,6 @@ import model.PdfDocument;
 import model.PdfElement;
 import model.PdfFeature;
 import model.PdfPage;
-import model.PdfTextLine;
 
 /**
  * The default implmentation of a PdfVisualizer.
@@ -72,10 +71,6 @@ public class PlainPdfVisualizer implements PdfVisualizer {
       }
 
       visualizeFeature(page, feature, drawer);
-    }
-
-    for (int i = 0; i < page.getTextLines().size(); i++) {
-      PdfTextLine line = page.getTextLines().get(i);
     }
   }
 

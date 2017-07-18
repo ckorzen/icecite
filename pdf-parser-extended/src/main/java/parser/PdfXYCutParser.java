@@ -572,7 +572,7 @@ public class PdfXYCutParser implements PdfExtendedParser {
       minYCounter.add(MathUtils.round(element.getRectangle().getMinY(), 0));
     }
     
-    int numMostFrequentMinX = minXCounter.getMostFrequentFloatCount();
+    // int numMostFrequentMinX = minXCounter.getMostFrequentFloatCount();
     int numMostFrequentMaxX = maxXCounter.getMostFrequentFloatCount();
     int numMinYValues = minYCounter.size();
     int minXThreshold = 2;

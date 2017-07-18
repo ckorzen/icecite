@@ -523,7 +523,7 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
           paragraph.setRole(PdfRole.TABLE_CAPTION);
 
           // Try to identify all paragraphs of the figure.
-          float width = MathUtils.round(paragraph.getRectangle().getWidth(), 0);
+//          float width = MathUtils.round(paragraph.getRectangle().getWidth(), 0);
 
           if (areaNonTextParasAbove > areaNonTextParasBelow) {
             // Consume all paragraphs that are more smaller than the caption.
