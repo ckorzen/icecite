@@ -9,7 +9,7 @@ Checkout the project via
     git clone https://github.com/ckorzen/icecite.git --recursive
 
 The --recursive flag is needed to update all submodules. 
-If your version of git do not support this flag, you can do:
+If your version of git doesn't support this flag, you can do:
 
     git clone https://github.com/ckorzen/icecite.git
     cd icecite
