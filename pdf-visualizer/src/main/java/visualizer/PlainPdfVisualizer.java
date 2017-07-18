@@ -7,8 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import de.freiburg.iif.model.HasRectangle;
-import de.freiburg.iif.model.simple.SimpleLine;
-import de.freiburg.iif.model.simple.SimpleRectangle;
 import drawer.PdfDrawer;
 import drawer.pdfbox.PdfBoxDrawer;
 import model.PdfDocument;
@@ -16,7 +14,6 @@ import model.PdfElement;
 import model.PdfFeature;
 import model.PdfPage;
 import model.PdfTextLine;
-import model.PdfTextParagraph;
 
 /**
  * The default implmentation of a PdfVisualizer.
@@ -79,33 +76,7 @@ public class PlainPdfVisualizer implements PdfVisualizer {
 
     for (int i = 0; i < page.getTextLines().size(); i++) {
       PdfTextLine line = page.getTextLines().get(i);
-
-//      if (line.getMeanLine() != null) {
-//        drawer.drawLine(line.getMeanLine(), line.getPage().getPageNumber(), Color.BLUE);
-//      }
-//      if (line.getBaseLine() != null) {
-//        drawer.drawLine(line.getBaseLine(), line.getPage().getPageNumber(), Color.RED);
-//      }
-      drawer.drawLine(line.getColumnXRange(), line.getPage().getPageNumber());
-//      drawer.drawRectangle(line.getRectangle(), line.getPage().getPageNumber());
-      drawer.drawText(" " + line.getRole() + " " + line.getAlignment(), line.getPage().getPageNumber(), line.getRectangle().getLowerRight(), Color.BLACK, 5);
     }
-    
-    //    if (page.getRects() != null) {
-    //      for (Rectangle rect : page.getRects()) {
-    //        drawer.drawRectangle(rect, page.getPageNumber(), Color.BLACK);
-    //      }
-    //    }
-
-//        for (PdfTextParagraph block : page.getParagraphs()) {
-//          drawer.drawText("" + block.getRole(), page.getPageNumber(), block.getRectangle().getLowerRight(),
-//              Color.BLACK);     
-//        }   
-
-    drawer.drawRectangle(new SimpleRectangle(53.60096,755.6608,571.4499,762.6247), page.getPageNumber(), Color.RED);
-//    drawer.drawRectangle(new SimpleRectangle(320.984f,724.328f,321.984f,721.328f), page.getPageNumber(), Color.MAGENTA);
-//    drawer.drawRectangle(new SimpleRectangle(100f,87f,150f,97f), page.getPageNumber(), Color.MAGENTA);
-//    drawer.drawLine(new SimpleLine(54.000046f,621.81165f,299.3169f,621.9116f), 9);
   }
 
   // ___________________________________________________________________________

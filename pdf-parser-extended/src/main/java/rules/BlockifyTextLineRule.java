@@ -3,12 +3,9 @@ package rules;
 import java.util.Collections;
 import java.util.List;
 
-import com.sun.security.auth.callback.TextCallbackHandler;
-
 import de.freiburg.iif.counter.FloatCounter;
 import de.freiburg.iif.math.MathUtils;
 import de.freiburg.iif.model.Rectangle;
-import model.Characters;
 import model.Comparators;
 import model.PdfArea;
 import model.PdfCharacter;

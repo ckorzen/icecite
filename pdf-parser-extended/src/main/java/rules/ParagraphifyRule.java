@@ -221,8 +221,8 @@ public class ParagraphifyRule {
       // Check, if block and line are printed in uppercase letters.
       boolean isBlockUpperCase = true;
       for (PdfCharacter character : block.getTextCharacters()) {
-        if (Characters.isLatinLetter(character) &&
-            !Characters.isUppercase(character)) {
+        if (Characters.isLatinLetter(character) 
+            && !Characters.isUppercase(character)) {
           isBlockUpperCase = false;
           break;
         }
@@ -230,8 +230,8 @@ public class ParagraphifyRule {
       
       boolean isLineUpperCase = true;
       for (PdfCharacter character : line.getTextCharacters()) {
-        if (Characters.isLatinLetter(character) &&
-            !Characters.isUppercase(character)) {
+        if (Characters.isLatinLetter(character) 
+            && !Characters.isUppercase(character)) {
           isLineUpperCase = false;
           break;
         }
@@ -364,12 +364,14 @@ public class ParagraphifyRule {
   protected static boolean lineHeightsAreTooDifferent(PdfTextLine prevLine,
       PdfTextLine line) {
     float lineHeight = line != null ? line.getRectangle().getHeight() : 0;
-    float prevLineHeight = prevLine != null ? prevLine.getRectangle().getHeight() : 0;
+    float prevLineHeight = prevLine != null 
+        ? prevLine.getRectangle().getHeight() : 0;
 
     float largerLineHeight = Math.max(lineHeight, prevLineHeight);
     float smallerLineHeight = Math.min(lineHeight, prevLineHeight);
     
-    return !MathUtils.isEqual(largerLineHeight, smallerLineHeight, smallerLineHeight);
+    return !MathUtils.isEqual(largerLineHeight, smallerLineHeight,
+        smallerLineHeight);
   }
   
   // /**

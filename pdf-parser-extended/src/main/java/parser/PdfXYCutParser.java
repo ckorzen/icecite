@@ -153,7 +153,7 @@ public class PdfXYCutParser implements PdfExtendedParser {
     return paras;
   }
   
-   boolean b = false;
+  boolean b = false;
   
   /**
    * Identifies text lines in the given list of blocks.
@@ -184,7 +184,7 @@ public class PdfXYCutParser implements PdfExtendedParser {
       PdfTextLine line = lines.get(i);
       PdfTextLine nextLine = i < lines.size() - 1 ? lines.get(i + 1) : null;
             
-      line.setAlignment(computeLineAlignment(textBlock, prevprevLine, prevLine, 
+      line.setAlignment(computeLineAlignment(textBlock, prevprevLine, prevLine,
           line, nextLine));
     }
   }
@@ -195,7 +195,8 @@ public class PdfXYCutParser implements PdfExtendedParser {
     PdfTextAlignment alignment = computeLineAlignment(block, prevLine, line);
     
     if (prevLine != null) {
-      Rectangle prevBoundingBox = computeBoundingBoxToConsider(prevprevLine, prevLine);
+      Rectangle prevBoundingBox = computeBoundingBoxToConsider(prevprevLine,
+          prevLine);
       float prevMinX = MathUtils.round(prevBoundingBox.getMinX(), 1);
       Rectangle boundingBox = computeBoundingBoxToConsider(prevLine, line);
       float minX = MathUtils.round(boundingBox.getMinX(), 1);
@@ -223,11 +224,12 @@ public class PdfXYCutParser implements PdfExtendedParser {
         
         float leftMargin = Math.max(0, lineMinX - columnMinX);
         float rightMargin = Math.max(0, columnMaxX - lineMaxX);
-        
+
         DimensionStatistics stats = block.getDimensionStatistics();
         float tolerance = 0.5f * stats.getMostCommonWidth();
-          
-        line.setIndentationLevel((int) ((lineMinX - columnMinX) / stats.getMostCommonWidth()));
+
+        line.setIndentationLevel((int) ((lineMinX - columnMinX)
+            / stats.getMostCommonWidth()));
                       
         if (MathUtils.isEqual(leftMargin, rightMargin, 1f)
             && leftMargin > tolerance) {
@@ -431,7 +433,7 @@ public class PdfXYCutParser implements PdfExtendedParser {
   /**
    * Identifies paragraphs from the given list of text lines.
    */
-  protected List<PdfXYCutTextParagraph> identifyParagraphs(PdfArea block) {    
+  protected List<PdfXYCutTextParagraph> identifyParagraphs(PdfArea block) {
     List<PdfXYCutTextParagraph> paragraphs = new ArrayList<>();
     PdfXYCutTextParagraph paragraph = null;
     
@@ -578,7 +580,8 @@ public class PdfXYCutParser implements PdfExtendedParser {
     // end of line.
     int maxXThreshold = Math.min(numMostFrequentMaxX / 2, numMinYValues / 2);
         
-    xRange.setStartX(minXCounter.getSmallestFloatOccuringAtLeast(minXThreshold));
+    xRange.setStartX(minXCounter.getSmallestFloatOccuringAtLeast(
+        minXThreshold));
     xRange.setEndX(maxXCounter.getLargestFloatOccuringAtLeast(maxXThreshold));
         
     return xRange;
@@ -704,7 +707,8 @@ public class PdfXYCutParser implements PdfExtendedParser {
             lane.setMaxX(Math.max(lane.getMaxX(), ruleLane.getMaxX()));
           }
         } else {
-          if (MathUtils.isLargerOrEqual(lane.getWidth(), ruleLaneWidth, 0.01f)) {
+          if (MathUtils.isLargerOrEqual(lane.getWidth(), ruleLaneWidth,
+              0.01f)) {
             return lane;
           }
 
@@ -762,7 +766,8 @@ public class PdfXYCutParser implements PdfExtendedParser {
             lane.setMaxY(Math.max(lane.getMaxY(), ruleLane.getMaxY()));
           }
         } else {
-          if (MathUtils.isLargerOrEqual(lane.getHeight(), ruleLaneHeight, 0.01f)) {
+          if (MathUtils.isLargerOrEqual(lane.getHeight(), ruleLaneHeight,
+              0.01f)) {
             return lane;
           }
 

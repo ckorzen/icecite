@@ -6,6 +6,9 @@ import merge.PdfBodyTextMerger;
 import merge.PlainPdfBodyTextMerger;
 import model.PdfDocument;
 
+/**
+ *
+ */
 public class PdfRevisor {
   /**
    * The paragraph merger.

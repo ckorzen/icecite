@@ -9,7 +9,8 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * K: Set the stroking colour space to DeviceCMYK and set the colour to use for stroking operations.
+ * K: Set the stroking colour space to DeviceCMYK and set the colour to use for
+ *    stroking operations.
  *
  * @author Claudius Korzen
  */

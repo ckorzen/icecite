@@ -2,7 +2,6 @@ package main;
 
 import org.apache.commons.cli.CommandLine;
 
-import de.freiburg.iif.math.MathUtils;
 import model.PdfDocument;
 import parser.PdfExtendedParser;
 import parser.PdfXYCutParser;

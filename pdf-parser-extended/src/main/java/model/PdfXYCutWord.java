@@ -142,7 +142,8 @@ public class PdfXYCutWord extends PdfXYCutArea implements PdfWord {
       if (!superScriptText.isEmpty() || !subScriptText.isEmpty()) {
         boolean introduceWhitespace = true;
         if (!superScriptText.isEmpty()) {
-          boolean includeSuperScript = includeSuperScripts(normalScriptText, subScriptText, superScriptText);
+          boolean includeSuperScript = includeSuperScripts(normalScriptText,
+              subScriptText, superScriptText);
           if (includeSuperScript) {
             for (PdfCharacter superChar : superScriptText) {
               result.append(superChar.getUnicode());  
@@ -152,7 +153,8 @@ public class PdfXYCutWord extends PdfXYCutArea implements PdfWord {
         }
         
         if (!subScriptText.isEmpty()) {
-          boolean includeSubScript = includeSubScripts(normalScriptText, subScriptText, superScriptText);
+          boolean includeSubScript = includeSubScripts(normalScriptText,
+              subScriptText, superScriptText);
           if (includeSubScript) {
             for (PdfCharacter subChar : subScriptText) {
               result.append(subChar.getUnicode());  
@@ -183,7 +185,8 @@ public class PdfXYCutWord extends PdfXYCutArea implements PdfWord {
     if (!superScriptText.isEmpty() || !subScriptText.isEmpty()) {
       boolean introduceWhitespace = true;
       if (!superScriptText.isEmpty()) {
-        if (includeSuperScripts(normalScriptText, subScriptText, superScriptText)) {
+        if (includeSuperScripts(normalScriptText, subScriptText,
+            superScriptText)) {
           for (PdfCharacter superChar : superScriptText) {
             result.append(superChar.getUnicode());  
           }
@@ -192,7 +195,8 @@ public class PdfXYCutWord extends PdfXYCutArea implements PdfWord {
       }
         
       if (!subScriptText.isEmpty()) {
-        if (includeSubScripts(normalScriptText, subScriptText, superScriptText)) {
+        if (includeSubScripts(normalScriptText, subScriptText,
+            superScriptText)) {
           for (PdfCharacter subChar : subScriptText) {
             result.append(subChar.getUnicode());  
           }

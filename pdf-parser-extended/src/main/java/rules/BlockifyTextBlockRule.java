@@ -73,7 +73,8 @@ public class BlockifyTextBlockRule implements BlockifyRule {
     // Decide if the given lane is a valid lane based on overlapping elements.
     // Don't use getElementsWithin here, because of paper cond-mat0001207, page
     // 47, where the figure overlaps the text (altough not visible).
-    List<PdfCharacter> overlappingChars = area.getTextCharactersOverlapping(lane);
+    List<PdfCharacter> overlappingChars = 
+        area.getTextCharactersOverlapping(lane);
            
     if (equals(prevOverlappingElements, overlappingChars)) {
       // The set of current overlapping elements is equal to the previous 
@@ -142,7 +143,8 @@ public class BlockifyTextBlockRule implements BlockifyRule {
       // of the previous overlapping elements, return the previous computed 
       // result.
       
-      if (prevOverlappingElements == null || prevOverlappingElements.isEmpty()) {
+      if (prevOverlappingElements == null 
+          || prevOverlappingElements.isEmpty()) {
         this.prevOverlappingElements = elements;
         this.prevIsValidHorizontalLane = false;
         this.prevHasOnlyCriticalElements = true;
@@ -161,7 +163,8 @@ public class BlockifyTextBlockRule implements BlockifyRule {
         } else {
           if (haveNoElementsInCommon(prevOverlappingElements, elements)) {
             this.prevOverlappingElements = elements;
-            this.prevIsValidHorizontalLane = !splitsAssociatedElements(area, lane);
+            this.prevIsValidHorizontalLane = 
+                !splitsAssociatedElements(area, lane);
             this.prevHasOnlyCriticalElements = true;
   
             debug(area, prevIsValidHorizontalLane + " (4)");

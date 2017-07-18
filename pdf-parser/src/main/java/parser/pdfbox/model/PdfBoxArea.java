@@ -386,7 +386,8 @@ public class PdfBoxArea implements PdfArea {
     if (object == null) {
       return new ArrayList<>();
     }
-    return this.charactersIndex.overlappedBy(object.getRectangle(), overlapRatio);
+    return this.charactersIndex.overlappedBy(object.getRectangle(),
+        overlapRatio);
   }
 
   @Override

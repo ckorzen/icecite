@@ -269,7 +269,8 @@ public class PdfParagraphCharacteristics {
             if (indexOfHyphen > 0 && indexOfHyphen < wordStr.length() - 1) {
               // Add the prefix + first character behind the hyphen.
               // Example: For the word "sugar-free", add "sugar-f"
-              hyphenatedWordsCounter.add(wordStr.substring(0, indexOfHyphen + 1));
+              hyphenatedWordsCounter.add(
+                  wordStr.substring(0, indexOfHyphen + 1));
             }
           }
         }

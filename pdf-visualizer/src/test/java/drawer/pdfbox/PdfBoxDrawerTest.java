@@ -62,14 +62,14 @@ public class PdfBoxDrawerTest {
   // ___________________________________________________________________________
   // Test the constructor.
   
-  /**
-   * Test the constructor with null argument.
-   */
-  @Test(expected = NullPointerException.class)
-  public void testConstructorWithNull() throws IOException {
-    File file = null;
-    new PdfBoxDrawer(file);
-  }
+  // /**
+  //  * Test the constructor with null argument.
+  //  */
+  // @Test(expected = NullPointerException.class)
+  // public void testConstructorWithNull() throws IOException {
+  //   File file = null;
+  //   new PdfBoxDrawer(file);
+  // }
   
   /**
    * Test the constructor with invalid file.
@@ -129,10 +129,6 @@ public class PdfBoxDrawerTest {
 
     Assert.assertTrue(Files.exists(outputFile));
     // Assert that the output is equal to the groundtruth. 
-
-    System.out.println(groundTruthFile);
-    System.out.println(outputFile);
-    System.out.println(PathUtils.contentEquals(groundTruthFile, outputFile));
     
     Assert.assertTrue(PathUtils.contentEquals(groundTruthFile, outputFile));
   }

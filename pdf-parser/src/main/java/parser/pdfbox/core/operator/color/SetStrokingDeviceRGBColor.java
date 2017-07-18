@@ -9,7 +9,8 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * RG: Set the stroking colour space to DeviceRGB and set the colour to use for stroking operations.
+ * RG: Set the stroking colour space to DeviceRGB and set the colour to use for
+ *     stroking operations.
  *
  * @author Claudius Korzen
  */

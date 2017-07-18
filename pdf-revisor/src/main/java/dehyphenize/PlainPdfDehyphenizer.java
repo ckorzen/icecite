@@ -14,6 +14,9 @@ import model.PdfTextElement;
 import model.PdfTextLine;
 import model.PdfWord;
 
+/**
+ *
+ */
 public class PlainPdfDehyphenizer implements PdfDehyphenizer {
   /** The hyphens to consider. */
   protected static final char[] HYPHENS = { '-', '–' };
@@ -51,7 +54,8 @@ public class PlainPdfDehyphenizer implements PdfDehyphenizer {
         if (hyphenIndexes.isEmpty()) {
           // Consider only words with most common font. Formula element "(cIR"
           // affects "cir-cumstance".
-          if (word.getFont().equals(document.getTextStatistics().getMostCommonFont())) {
+          if (word.getFont().equals(
+              document.getTextStatistics().getMostCommonFont())) {
             noHyphenWords.add(wordText);
           }
         } else {
@@ -67,7 +71,7 @@ public class PlainPdfDehyphenizer implements PdfDehyphenizer {
       }
     }
 
-    // -------------------------------------------------------------------------    
+    // -------------------------------------------------------------------------
     // Dehyphenize.
 
     // Keep track of previous lines per role.

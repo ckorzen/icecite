@@ -11,7 +11,10 @@ import model.PdfTextLine;
 import model.PdfTextParagraph;
 import model.PdfWord;
 
-public class PlainPdfBodyTextMerger_BACKUP implements PdfBodyTextMerger {
+/**
+ *
+ */
+public class PlainPdfBodyTextMergerBACKUP implements PdfBodyTextMerger {
 
   @Override
   public void mergeBodyText(PdfDocument document) {
@@ -70,7 +73,7 @@ public class PlainPdfBodyTextMerger_BACKUP implements PdfBodyTextMerger {
     }
   }
   
-  protected boolean appendToPrevBodyTextParagraph(PdfTextParagraph paragraph, 
+  protected boolean appendToPrevBodyTextParagraph(PdfTextParagraph paragraph,
       PdfTextParagraph prevBodyTextParagraph) {
     if (paragraph == null || prevBodyTextParagraph == null) {
       return false;
@@ -95,7 +98,8 @@ public class PlainPdfBodyTextMerger_BACKUP implements PdfBodyTextMerger {
     PdfPage paraPage = paragraph.getPage();
     PdfPage prevParaPage = prevBodyTextParagraph.getPage();
     Line paraColumn = paragraph.getFirstTextLine().getColumnXRange();
-    Line prevParaColumn = prevBodyTextParagraph.getFirstTextLine().getColumnXRange();
+    Line prevParaColumn = prevBodyTextParagraph.getFirstTextLine()
+        .getColumnXRange();
         
     if (paraPage != prevParaPage || paraColumn != prevParaColumn) {
       PdfTextLine firstLine = paragraph.getFirstTextLine();

@@ -6,23 +6,28 @@ import java.util.regex.Pattern;
 
 import de.freiburg.iif.math.MathUtils;
 import de.freiburg.iif.text.StringUtils;
-import model.Characters;
+
 import model.Patterns;
-import model.PdfArea;
-import model.PdfCharacter;
+
 import model.PdfDocument;
 import model.PdfPage;
 import model.PdfRole;
 import model.PdfTextAlignment;
 import model.PdfTextLine;
 import model.PdfTextParagraph;
-import model.PdfWord;
+
 import model.TextLineStatistics;
 import statistics.TextLineStatistician;
 
 // TODO: This class uses most of the methods from ParagraphifyRule. Merge them.
 
+/**
+ *
+ */
 public class PlainPdfBodyTextMerger implements PdfBodyTextMerger {
+  /**
+   *
+   */
   protected boolean isParagraphSplitterInBetween = false;
 
   @Override

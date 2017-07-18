@@ -313,16 +313,21 @@ public class PdfTextStreamEngine extends PdfStreamEngine {
       
       // Obtain if the diacritic overlaps vertically with padded rectangles..
       Rectangle paddedPrePrevRectangle = new SimpleRectangle(prePrevRectangle);
-      paddedPrePrevRectangle.setMinY(prePrevRectangle.getMinY() - 0.5f * prePrevRectangle.getHeight());
-      paddedPrePrevRectangle.setMaxY(prePrevRectangle.getMaxY() + 0.5f * prePrevRectangle.getHeight());
+      paddedPrePrevRectangle.setMinY(
+          prePrevRectangle.getMinY() - 0.5f * prePrevRectangle.getHeight());
+      paddedPrePrevRectangle.setMaxY(
+          prePrevRectangle.getMaxY() + 0.5f * prePrevRectangle.getHeight());
       
       Rectangle paddedBoundingBox = new SimpleRectangle(boundingBox);
-      paddedBoundingBox.setMinY(boundingBox.getMinY() - 0.5f * boundingBox.getHeight());
-      paddedBoundingBox.setMaxY(boundingBox.getMaxY() + 0.5f * boundingBox.getHeight());
+      paddedBoundingBox.setMinY(
+          boundingBox.getMinY() - 0.5f * boundingBox.getHeight());
+      paddedBoundingBox.setMaxY(
+          boundingBox.getMaxY() + 0.5f * boundingBox.getHeight());
             
       if (overlap1 < 0.01f && overlap2 < 0.01) {
         prevCharacter.setIsDiacritic(false);
-      } else if (overlap1 >= overlap2 && prevRectangle.overlaps(paddedPrePrevRectangle)) {
+      } else if (overlap1 >= overlap2 && prevRectangle.overlaps(
+          paddedPrePrevRectangle)) {
         prePrevCharacter.mergeDiacritic(prevCharacter);
         prevCharacter.setIsDiacritic(true);
       } else if (prevRectangle.overlaps(paddedBoundingBox)) {

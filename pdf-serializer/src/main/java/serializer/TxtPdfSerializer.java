@@ -15,7 +15,6 @@ import model.PdfFeature;
 import model.PdfPage;
 import model.PdfRole;
 import model.PdfTextElement;
-import model.PdfTextParagraph;
 
 /**
  * Serializes a PdfDocument to txt format.

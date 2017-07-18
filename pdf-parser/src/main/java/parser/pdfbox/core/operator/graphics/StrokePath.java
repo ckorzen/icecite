@@ -24,8 +24,6 @@ import parser.pdfbox.model.PdfBoxShape;
  * @author Claudius Korzen
  */
 public final class StrokePath extends OperatorProcessor {
-  Rectangle x = new SimpleRectangle(320.984f,151.998f,468.708f,724.328f);
-  
   @Override
   public void process(Operator operator, List<COSBase> operands)
     throws IOException {

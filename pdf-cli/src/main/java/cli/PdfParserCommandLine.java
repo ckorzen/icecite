@@ -17,11 +17,9 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-import analyzer.PdfAnalyzer;
 import analyzer.PlainPdfAnalyzer;
 import de.freiburg.iif.path.FileAndDirectoryParser;
 import de.freiburg.iif.path.PathUtils;
-import model.Patterns;
 import model.PdfDocument;
 import model.PdfFeature;
 import model.PdfRole;

@@ -2,7 +2,6 @@ package parser.pdfbox.core.operator.graphics;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
 import org.apache.pdfbox.contentstream.operator.Operator;

@@ -7,13 +7,10 @@ import static model.Patterns.FORMULA_LABEL_PATTERN;
 import static model.Patterns.TABLE_CAPTION_PATTERN;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.omg.CORBA.UNKNOWN;
 
 import de.freiburg.iif.math.MathUtils;
 import de.freiburg.iif.model.Rectangle;
@@ -34,7 +31,6 @@ import model.PdfTextParagraph;
 import model.PdfWord;
 import model.TextStatistics;
 import statistics.TextLineStatistician;
-import statistics.TextStatistician;
 
 /**
  * The concrete implementation of a Pdf Analyzer.
@@ -264,7 +260,8 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
 
     for (PdfPage page : document.getPages()) {
       for (int i = 0; i < page.getParagraphs().size(); i++) {
-        PdfTextParagraph prevParagraph = i > 0 ? page.getParagraphs().get(i - 1) : null;
+        PdfTextParagraph prevParagraph = i > 0 
+            ? page.getParagraphs().get(i - 1) : null;
         PdfTextParagraph paragraph = page.getParagraphs().get(i);
         
         if (paragraph == null) {
@@ -291,12 +288,14 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
           PdfTextLine lastLine = prevParagraph.getLastTextLine();
           
           if (lastLine != null) {
-            linePitch = TextLineStatistician.computeLinePitch(lastLine, firstLine);
+            linePitch = TextLineStatistician.computeLinePitch(lastLine,
+                firstLine);
           }
         }
         
         // Section headings must have a larger line pitch.
-        float mcLinePitch = paragraph.getPdfDocument().getTextLineStatistics().getMostCommonLinePitch();
+        float mcLinePitch = paragraph.getPdfDocument().getTextLineStatistics()
+            .getMostCommonLinePitch();
         
         if (MathUtils.isSmallerOrEqual(linePitch, mcLinePitch, 2f)) {
           continue;
@@ -632,7 +631,8 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
           
           // Compare the number of non text elements in both areas.
           // 4 because to respect rectangles that are "drawn by 4 edges.
-          if (!containsLargeNonTextElementAbove && !containsLargeNonTextElementBelow) {
+          if (!containsLargeNonTextElementAbove
+              && !containsLargeNonTextElementBelow) {
             // No figures above and below the paragraph. So the paragraph is
             // not a caption.
             continue;
@@ -727,10 +727,12 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
                   
           for (PdfWord word : line.getWords()) {            
             // TODO: Use StringUtils.normalize.
-            String str = word.getUnicode().toLowerCase().trim().replaceAll("[\\.,]", "");
-                      
+            String str = word.getUnicode().toLowerCase().trim()
+                .replaceAll("[\\.,]", "");
+
             if (line.getAlignment() == PdfTextAlignment.LEFT 
-                && line.getFont() == document.getTextStatistics().getMostCommonFont()) {
+                && line.getFont() == document.getTextStatistics()
+                    .getMostCommonFont()) {
               numNonMathChars++;
             } else if (isMathSymbol(str) || containsMathSymbol(str)
                 || word.containsSubScript() || word.containsSuperScript()
@@ -846,7 +848,8 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
         for (Pattern pattern : itemizeStartPatterns) {
           Matcher m = pattern.matcher(firstLine.getFirstWord().getUnicode());
               
-          if (m.matches() && !m.group(1).isEmpty() && firstLine.getWords().size() > 1) {
+          if (m.matches() && !m.group(1).isEmpty()
+              && firstLine.getWords().size() > 1) {
             matches = true;
             break;
           }
@@ -861,7 +864,8 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
         if (prevParagraph != null) {
           PdfTextLine lastLine = prevParagraph.getLastTextLine();
           if (lastLine != null) {
-            linePitch = TextLineStatistician.computeLinePitch(lastLine, firstLine);
+            linePitch = TextLineStatistician.computeLinePitch(lastLine,
+                firstLine);
           }
         }
         
@@ -887,7 +891,7 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
       PdfParagraphCharacteristics characteristics) {
     for (PdfPage page : document.getPages()) {
       PdfTextParagraph prevParagraph = null;
-      for (PdfTextParagraph paragraph : page.getParagraphs()) {          
+      for (PdfTextParagraph paragraph : page.getParagraphs()) {
         Threeway t = isAbstract(prevParagraph, paragraph);
                       
         switch (t) {
@@ -1087,6 +1091,9 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
     }
   }
   
+  /**
+   *
+   */
   protected enum Threeway {
     TRUE, FALSE, CONTINUE
   }
