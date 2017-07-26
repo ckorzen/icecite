@@ -1,6 +1,6 @@
 # Icecite
 
-**Disclaimer**: This project is in an early alpha state and is still under development. So use it on your own risk :-)
+**Disclaimer**: This project is in an early alpha state and is still under development. So expect bugs and use it on your own risk :-)
 
 ## How to use
 
