@@ -489,6 +489,12 @@ public class PdfXYCutParser implements PdfExtendedParser {
    */
   protected void blockify(PdfArea area, BlockifyRule rule,
       List<PdfArea> result) {
+    // Don't blockify anything if the area is empty.
+    if (area.getTextCharacters().isEmpty()) {
+      result.add(area);
+      return;
+    }
+    
     // Try to split the area vertically.
     List<PdfArea> areas = splitVertically(area, rule);
     

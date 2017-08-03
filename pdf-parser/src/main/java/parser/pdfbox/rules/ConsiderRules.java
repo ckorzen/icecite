@@ -23,11 +23,10 @@ public class ConsiderRules {
     }
     
     PdfColor color = character.getColor();
-    
     // Don't consider the character, if its color is white.
-    if (color != null && color.isWhite(0.05f)) {
-      return false;
-    }
+//    if (color != null && color.isWhite(0.05f)) {
+//      return false;
+//    }
 
     // Don't consider the character "|" because it is used as PARA_ADDENDUM in
     // tex-paragraph-parser.
@@ -47,17 +46,11 @@ public class ConsiderRules {
       return false;
     }
     
-    // If the character has a valid encoding, we have to consider it.
-    if (character.hasEncoding()) {
-      return true;
-    }
-    
     // Don't consider the character, if its doesn't hold any content.
     if (character.getUnicode().trim().isEmpty()) {
       return false;
     }
-    
-    
+
     return true;
   }
   
