@@ -54,8 +54,11 @@ public class PdfBoxColor implements PdfColor {
    * equivalent PdfBoxColors will be equal.
    */
   public static PdfBoxColor create(float[] rgb) throws IOException {
-    String rgbStr = rgb != null ? Arrays.toString(rgb) : null;
+    if (rgb == null) {
+      rgb = new float[]{ 0, 0, 0 }; // black
+    }
     
+    String rgbStr = Arrays.toString(rgb);
     if (!colorMap.containsKey(rgbStr)) {
       colorMap.put(rgbStr, new PdfBoxColor(rgb));
     }
@@ -117,9 +120,9 @@ public class PdfBoxColor implements PdfColor {
       float[] components = color.getComponents();
       PDColorSpace colorSpace = color.getColorSpace();
       if (colorSpace != null) {
-        return colorSpace.toRGB(components);
+          return colorSpace.toRGB(components);
       }
-    } catch (IOException e) {
+    } catch (Exception e) {
       return null;
     }
     return null;
