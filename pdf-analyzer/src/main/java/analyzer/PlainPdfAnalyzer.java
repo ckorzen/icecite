@@ -951,7 +951,8 @@ public class PlainPdfAnalyzer implements PdfAnalyzer {
       }
       
       if (prevParagraph.getRole() == PdfRole.ABSTRACT) {
-        if (prevParagraph.getMarkup().equals(paragraph.getMarkup())) {
+        String prevMarkup = prevParagraph.getMarkup();
+        if (prevMarkup != null && prevMarkup.equals(paragraph.getMarkup())) {
           return Threeway.TRUE;
         } else {
           return Threeway.FALSE;
