@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+<incollection mdate="2002-01-03" key="books/acm/kim95/AnnevelinkACFHK95">
+<author>Jurgen Annevelink</author>
+<author>Rafiul Ahad</author>
+<author>Amelia Carlson</author>
+<author>Daniel H. Fishman</author>
+<author>Michael L. Heytens</author>
+<author>William Kent</author>
+<title>Object SQL - A Language for the Design and Implementation of Object Databases.</title>
+<pages>42-68</pages>
+<year>1995</year>
+<booktitle>Modern Database Systems</booktitle>
+<url>db/books/collections/kim95.html#AnnevelinkACFHK95</url>
+</incollection>
+<incollection mdate="2002-01-03" key="books/acm/kim95/Blakeley95">
+<author>Jos&eacute; A. Blakeley</author>
+<title>OQL[C++]: Extending C++ with an Object Query Capability.</title>
+<pages>69-88</pages>
+<booktitle>Modern Database Systems</booktitle>
+<url>db/books/collections/kim95.html#Blakeley95</url>
+<year>1995</year>
+</incollection>
+<incollection mdate="2004-03-08" key="books/acm/kim95/BreitbartGS95">
+<author>Yuri Breitbart</author>
+<author>Hector Garcia-Molina</author>
+<author>Abraham Silberschatz</author>
+<title>Transaction Management in Multidatabase Systems.</title>
+<pages>573-591</pages>
+<booktitle>Modern Database Systems</booktitle>
+<crossref>books/acm/Kim95</crossref>
+<url>db/books/collections/kim95.html#BreitbartGS95</url>
+<year>1995</year>
+</incollection>
+</dblp>

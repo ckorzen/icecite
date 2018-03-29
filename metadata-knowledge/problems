@@ -1,0 +1,121 @@
+* Two (or more) versions of Paper (e.g. correction, etc.):
+    Query: "A. Srinivasan. An extension of the lov Ìsz local lemma, and its applications to integer programming. SIAM Journal on Computing, 36(3):609â634, 2006."
+    Actual: journals/corr/cs-DS-0307043
+    Expected: journals/siamcomp/Srinivasan06
+    Problem: different spelling of "Lovasz" in candidates; 
+    Possible Candidates:
+      @inproceedings{DBLP:conf/soda/Srinivasan96,
+        author    = {Aravind Srinivasan},
+        title     = {An Extension of the Lov{\'a}sz Local Lemma, and its Applications
+                     to Integer Programming},
+        booktitle = {SODA},
+        year      = {1996},
+        pages     = {6-15},
+        ee        = {http://doi.acm.org/10.1145/313852.313866},
+        bibsource = {DBLP, http://dblp.uni-trier.de}
+      }
+
+     @article{DBLP:journals/corr/cs-DS-0307043,
+        author    = {Aravind Srinivasan},
+        title     = {An Extension of the Lovasz Local Lemma, and its Applications
+                     to Integer Programming},
+        journal   = {CoRR},
+        volume    = {cs.DS/0307043},
+        year      = {2003},
+        ee        = {http://arxiv.org/abs/cs.DS/0307043},
+        bibsource = {DBLP, http://dblp.uni-trier.de}
+     }
+
+     @article{DBLP:journals/siamcomp/Srinivasan06,
+        author    = {Aravind Srinivasan},
+        title     = {An Extension of the Lov{\'a}sz Local Lemma, and its Applications
+                     to Integer Programming},
+        journal   = {SIAM J. Comput.},
+        volume    = {36},
+        number    = {3},
+        year      = {2006},
+        pages     = {609-634},
+        ee        = {http://dx.doi.org/10.1137/S0097539703434620},
+        bibsource = {DBLP, http://dblp.uni-trier.de}
+    }
+
+* Similar Titles:
+    Query: "A. McCallum and W. Li. 2003. Early Results for Named Entity Recognition with Conditional Random Fields, Feature Induction and Web-Enhanced Lexicons. In Proceedings of Seventh Conference on Natural Language Learning (CoNLL)."
+    Actual: journals/talip/LiM03
+    Expected: NO_MATCH
+    Problem: Founded match with similar title to query; same authors;  a: 0.500000, t: 0.673469, s: 0.586735;
+    Possible Candidate:
+      @article{DBLP:journals/talip/LiM03,
+        author    = {Wei Li 0010 and
+                     Andrew McCallum},
+        title     = {Rapid development of Hindi named entity recognition using
+                     conditional random fields and feature induction},
+      }
+
+* Ambiguous Queries: 
+    Query: "Ceri, S., Brambilla, M. (eds.). Search Computing Challenges and Directions. Springer LNCS vol. 5950, March 2010."
+    Actual: conf/caise/CeriB10	(?)
+    Expected: conf/seco/2009 (?)
+    Problem: Query ambiguous: Found match is a conference, expected match contains more authors, than in query listed. 
+    Possible Candidates:
+      a: 0.200000, t: 1.000000, s: 0.600000
+      @inproceedings{DBLP:conf/icoodb/CeriBCGV10,
+        author    = {Stefano Ceri and
+                     Daniele Braga and
+                     Francesco Corcoglioniti and
+                     Michael Grossniklaus and
+                     Salvatore Vadacca},
+        title     = {Search Computing Challenges and Directions},
+      }
+
+      a: 1.000000, t: 1.000000, s: 1.000000
+      @proceedings{DBLP:conf/seco/2009,
+        editor    = {Stefano Ceri and
+                     Marco Brambilla},
+        title     = {Search Computing: Challenges and Directions [outcome of
+                     the first SeCO Workshop on Search Computing Challenges and
+                     Directions, Como, Italy, June 17-19, 2009]},
+      }
+
+      a: 1.000000, t: 1.000000, s: 1.000000
+      @inproceedings{DBLP:conf/caise/CeriB10,
+        author    = {Stefano Ceri and
+                     Marco Brambilla},
+        title     = {Search Computing Systems},
+      }
+	
+    Query: "C. Fraley and A.E. Raftery, âModel-Based Clustering, Discriminant Analysis, and Density Estimation,â J. Am. Statistical Assoc., vol. 97, pp. 611-631, 2002."
+    Actual: NO_MATCH
+    Expected: journals/classification/FraleyR03 (?)
+    Problem: Not match for given title in query
+    Possible Candidates:
+      @article{DBLP:journals/classification/FraleyR03,
+        author    = {Chris Fraley and
+                     Adrian E. Raftery},
+        title     = {Enhanced Model-Based Clustering, Density Estimation, and
+                     Discriminant Analysis Software: MCLUST},
+      }
+    
+    Query: "De Roure D, Goble C, Stevens R. The design and realisation of the virtual research environment for social sharing of workflows. Future Generation Computer Systems 2009; 25:561â567."
+    Actual: conf/eScience/RoureGS07
+    Expected: journals/fgcs/RoureGS09
+    Problem: "my$_{\mbox{Experiment}}$" in journals/fgcs/RoureGS09
+    Possible Candidates: 
+      a: 1.000000, t: 0.716418, s: 0.858209
+      @inproceedings{DBLP:conf/eScience/RoureGS07,
+        author    = {David De Roure and
+                     Carole A. Goble and
+                     Robert Stevens},
+        title     = {Designing the myExperiment Virtual Research Environment
+                     for the Social Sharing of Workflows},
+      }
+
+      a: 1.000000, t: 0.652439, s: 0.826220
+      @article{DBLP:journals/fgcs/RoureGS09,
+        author    = {David De Roure and
+                     Carole A. Goble and
+                     Robert Stevens},
+        title     = {The design and realisation of the my$_{\mbox{Experiment}}$
+                     Virtual Research Environment for social sharing of workflows},
+      }
+ 
