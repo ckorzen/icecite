@@ -6,5 +6,6 @@
 *.afm
 **/.svn/**
 completesearch
-**/build/**
-**/data/**
+build
+data
+*.properties
