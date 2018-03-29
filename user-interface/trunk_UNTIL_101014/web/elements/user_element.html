@@ -1,0 +1,31 @@
+<polymer-element name="user-element" attributes="member, allowRejection">
+  <template>
+    <link rel="stylesheet" href="user_element.css">   
+    <!-- Workaround for this bug: https://code.google.com/p/dart/issues/detail?id=18563 -->
+    <link rel="stylesheet" href="elements/user_element.css">
+    
+    <div class="user" 
+      on-dragenter="{{ dragEnterHandler }}" 
+      on-dragover="{{ dragOverHandler }}"> 
+      
+      <!-- The drop-mask. -->
+      <div class="user-dropmask" 
+        on-dragleave="{{ dragLeaveHandler }}"
+        on-dragend="{{ dragEndHandler }}"
+        on-drop="{{ dropHandler }}"></div>
+      
+      <!-- The body. -->
+      <div class="user-body">       
+        <!-- The name -->
+        <div class="name" title="{{ display }}">{{ shortDisplay }}</div>
+        <template if="{{ allowRejection }}">
+          <button class="unshare-button" on-click="{{ onRejectUserPurpose }}">
+            &times;
+          </button>
+        </template>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="user_element.dart"></script>
+</polymer-element>
+

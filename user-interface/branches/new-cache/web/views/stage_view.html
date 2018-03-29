@@ -1,0 +1,39 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="../elements/upload_element.html">
+<link rel="import" href="../elements/search_element.html">
+
+<link rel="import" href="library_view.html">
+<!-- <link rel="import" href="references_view.html">
+<link rel="import" href="feed_view.html" -->>
+
+<polymer-element name="stage-view">
+  <template>
+    <link rel="stylesheet" href="stage_view.css">    
+    
+    <div class="stage">
+      <!-- The header -->
+      <div class="stage-header">          
+        <upload-element class="upload-element"
+          on-upload-files-request="{{ onUploadFilesRequest }}"
+          on-upload-url-request="{{ onUploadUrlRequest }}">
+        </upload-element>
+          
+        <search-element class="search-element"
+          placeholder="Search entries..."
+          on-search-request="{{ onSearchRequest }}"
+          on-cancel-search-request="{{ onCancelSearchRequest }}"
+          on-filter-by-tags-request="{{ onFilterByTagsRequest }}">
+        </search-element>  
+      </div>
+            
+      <!-- The body -->
+      <div class="stage-body">
+        <!-- The library view -->
+        <library-view class="library-view"
+          on-select-tag-request="{{ onSelectTagRequest }}">
+        </library-view>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="stage_view.dart"></script>
+</polymer-element>

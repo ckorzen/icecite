@@ -1,0 +1,15 @@
+<link rel="import" href="../elements/object_element.html">
+
+<polymer-element name="display-view">
+  <template>  
+    <link rel="stylesheet" href="display_view.css">
+    <link rel="stylesheet" href="views/display_view.css"> 
+    <object-element 
+      class="pdf-object"
+      on-annot-added="{{ onAddAnnotPurpose }}"
+      on-annot-updated="{{ onUpdateAnnotPurpose }}"
+      on-annot-deleted="{{ onDeleteAnnotPurpose }}">
+    </object-element>
+  </template>
+  <script type="application/dart" src="display_view.dart"></script>
+</polymer-element>

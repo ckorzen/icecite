@@ -1,0 +1,66 @@
+/* .dummy { }
+
+.topics > .topics-header {
+  position: absolute;
+  right:-5px;
+  left: 5px;
+  top: 0px;
+  height: 22px;
+  float: left;
+  background: #2a6ebb;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+.topics > .topics-header > .topics-new-topic {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  padding-right: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.topics > .topics-header > .topics-heading {
+  text-align: left;
+  position: absolute;
+  font-weight: bold;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
+  margin: 3px;
+}
+
+.topics > .topics-header .triangle {
+  top: 17px; 
+}
+
+.topics > .topics-header > .triangle-r {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px;
+  height: 0px;
+  width: 0px;
+  z-index: -1; displayed under bubble
+  position: absolute;
+  right: -5px; -border-width
+}
+
+.topics > .topics-body {
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  right: 0px; 
+  bottom: 0px;
+  text-align: left;
+}
+
+.topics > .topics-body > .topics-scroll-area {
+  height: 100%;
+  overflow-x: visible;
+  overflow-y: auto;
+} */

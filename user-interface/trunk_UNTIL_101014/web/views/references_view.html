@@ -1,0 +1,60 @@
+<link rel="import" href="../elements/library_entry_element.html"> 
+
+<polymer-element name="references-view">
+  <template>
+    <link rel="stylesheet" href="references_view.css">  
+    <link rel="stylesheet" href="views/references_view.css">
+    <div class="references">
+      <div class="references-header">
+        <template repeat="{{ entry in selectedEntryInList }}">
+          <template if="{{ entry != null }}">            
+            <library-entry-element entry="{{ entry }}" draggable="true"
+              cssStyle="padding: 5px 5px 5px 15px; border: none; color: #3c763d;"
+              on-edit-entry="{{ onUpdateSelectedEntryPurpose }}"
+              on-delete-entry="{{ onDeleteSelectedEntryPurpose }}"
+              on-reject-topic="{{ onRejectTopicPurpose }}"
+              on-unshare-entry="{{ onRejectUserPurpose }}">
+            </library-entry-element>
+          </template>
+        </template>
+      </div>
+      <div class="triangle-l"></div> <!-- Left triangle -->
+      
+      <div class="references-body">
+        <!-- Search area -->
+        <div class="sort-references">
+          Sorted by: &nbsp;
+          <template repeat="{{ field in sortFields }}">
+            <span
+              class="sort-field {{ field }}"
+              on-click="{{ onSortPurpose }}"
+              data-field="{{ field }}">
+              {{ field }}
+            </span> |
+          </template>
+          <!-- Filtered-by label -->
+          <template if="{{ searchQuery != null && searchQuery.isNotEmpty }}">
+            Filtered by: <b>{{ searchQuery }}</b>
+          </template>
+        </div>
+      
+        <div class="references-entries">
+          <div class="scroll-area">
+            <template if="{{ references.values.isEmpty }}">
+              <span class="empty-list">Nothing to show.</span>
+            </template>
+          
+            <template repeat="{{ entry in references.values | filterBy(searchQuery) 
+              | sortBy(selectedSortField, sortAscending)}}">
+              <library-entry-element entry="{{ entry }}"
+                on-edit-entry="{{ onUpdateReferencePurpose }}"
+                on-delete-entry="{{ onDeleteReferencePurpose }}">
+              </library-entry-element>
+           </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="references_view.dart"></script>
+</polymer-element>

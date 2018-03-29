@@ -1,0 +1,186 @@
+<link rel="import" href="input_element.html">
+<link rel="import" href="user_element.html">
+
+<polymer-element name="library-entry-element" attributes="entry, cssStyle, draggable">
+  <template>   
+    <link rel="stylesheet" href="library_entry_element.css">  
+    <!-- Workaround for this bug: https://code.google.com/p/dart/issues/detail?id=18563 -->
+    <link rel="stylesheet" href="elements/library_entry_element.css">
+    
+    <div class="library-entry" style="{{ cssStyle }}">
+      <!-- The notification -->
+      <template if="{{ entry.notification != null }}">     
+         <div class="notification notification-{{ entry.notification.type }}">
+           <span class="message">
+             {{ entry.notification.short }}
+           </span>
+         </div>
+      </template>
+      
+      <!-- The body -->              
+      <div class="library-entry-body" on-click="{{ onSelectPurpose }}">
+        <!-- The drag toggle -->
+        <template if="{{ draggable }}">
+          <div class="drag-toggle" draggable="true"
+            on-drag="{{ dragHandler }}"
+            on-dragstart="{{ dragStartHandler }}"
+            on-dragend="{{ dragEndHandler }}"></div>
+        </template>        
+            
+        <!-- The title/raw wrapper -->
+        <div class="title-wrapper">
+          <template if="{{ !showUpdateTitleView }}">
+            <template if="{{ entry.title != null }}">
+              <!-- The title -->
+              <div class="title" on-dblclick="{{ onDisplayUpdateViewPurpose }}"
+                data-type="title">
+                {{ entry.title }}
+              </div>
+            </template>
+            <template if="{{ entry.title == null}}">
+              <!-- The raw -->
+              <div class="raw">
+                {{ entry.raw }}
+              </div>
+            </template>
+          </template>
+          <template if="{{ showUpdateTitleView }}">            
+            <!-- Edit title -->
+            <input class="edit-title" is="input-element"
+              value="{{ entry.title }}" on-commit="{{ onUpdatePurpose }}"
+              on-cancel="{{ onCancelUpdatePurpose }}">
+          </template>
+        </div>
+        
+        <!-- The authors wrapper -->
+        <div class="authors-wrapper">
+          <template if="{{ !showUpdateAuthorsView }}">
+            <!-- The authors -->
+            <div class="authors" on-dblclick="{{ onDisplayUpdateViewPurpose }}"
+              data-type="authors">
+              <template if="{{ entry.authorsStr != null }}">
+                {{ entry.authorsStr }}
+              </template>
+              <template if="{{ entry.authorsStr == null}}">
+                No authors available
+              </template>
+            </div>
+          </template>
+          <template if="{{ showUpdateAuthorsView }}">
+            <!-- Edit authors -->
+            <input class="edit-authors" is="input-element"
+              value="{{ entry.authorsStr }}" on-commit="{{ onUpdatePurpose }}"
+              on-cancel="{{ onCancelUpdatePurpose }}">
+          </template>
+        </div>
+        
+        <!-- The venue wrapper -->
+        <span class="venue-wrapper">
+          <template if="{{ !showUpdateVenueView }}">
+            <!-- The venue -->
+            <span class="venue" on-dblclick="{{ onDisplayUpdateViewPurpose }}"
+              data-type="venue">
+              <template if="{{ entry.journal != null }}">
+                {{ entry.journal }}
+              </template>
+              <template if="{{ entry.journal == null}}">
+                No journal available
+              </template>
+            </span>
+          </template>
+          <template if="{{ showUpdateVenueView }}">
+            <!-- Edit venue -->
+            <input class="edit-venue" is="input-element"
+              value="{{ entry.journal }}" on-commit="{{ onUpdatePurpose }}"
+              on-cancel="{{ onCancelUpdatePurpose }}">
+          </template>
+        </span>
+        
+        <!-- The year wrapper -->
+        <span class="year-wrapper">
+          <template if="{{ !showUpdateYearView }}">
+            <!-- The year -->
+            <span class="year" on-dblclick="{{ onDisplayUpdateViewPurpose }}"
+              data-type="year">
+              <template if="{{ entry.year != null }}">
+                {{ entry.year }}
+              </template>
+            </span>
+          </template>
+          <template if="{{ showUpdateYearView }}">
+            <input class="edit-year" is="input-element" 
+              value="{{ entry.year }}" on-commit="{{ onUpdatePurpose }}"
+              on-cancel="{{ onCancelUpdatePurpose }}">
+          </template>
+        </span>        
+      </div>
+      {{ entry.id }} <br>
+      {{ entry.rev }} <br>          
+       
+      <!-- The info wrapper -->
+      <template if="{{ draggable }}">
+        <div class="info-wrapper">
+          <!-- The share infos wrapper -->
+          <span class="topics-info-wrapper">
+            <template if="{{ entry.topicIds != null }}">
+              <span class="topics-info" on-click="{{ onDisplayTopicsPurpose }}">
+                {{ entry.topicIds.length }} topic(s)
+                <span class="caret"></span>
+              </span>
+            </template>
+            <template if="{{ entry.topicIds == null }}">
+              <span class="topics-info">
+                0 topic(s)
+              </span>
+            </template>
+            <template if="{{ showTopics }}">
+              <div class="topics-details">
+                <template repeat="{{ topic in topics }}">
+                  <template if="{{ topic['_deleted'] != true }}">
+                    <!-- A topic -->
+                    <span class="topic">
+                      <span class="topic-title">{{ topic.title }}</span>
+                      <!-- Reject topic -->
+                      <button class="topic-reject-button"
+                        on-click="{{ onRejectTopicPurpose }}"
+                        data-topic="{{ topic.id }}">&times;</button>
+                    </span>
+                  </template>
+                </template>
+              </div>
+            </template>
+          </span>
+          &nbsp; &nbsp;
+          <!-- The share infos wrapper -->
+          <span class="user-info-wrapper">
+            <span class="user-info" on-click="{{ onDisplayUsersPurpose }}">
+              {{ entry.userIds.length }} user(s)
+              <span class="caret"></span>
+            </span>
+            <template if="{{ showUsers }}">
+              <div class="user-details">
+                <template repeat="{{ user in users.values }}">
+                  <user-element 
+                    class="user"
+                    member="{{ user }}"
+                    allowRejection="true"
+                    displayMailAddress="true"
+                    on-unshare="{{ onRejectUserPurpose }}">
+                  </user-element>
+                </template>
+              </div>
+            </template>
+          </span>
+        </div>
+      </template>
+                     
+      <!-- The delete button wrapper (if the entry is stored in db) -->
+      <template if="{{ entry.rev != null }}">
+        <button class="delete-button" on-click="{{ onDeletePurpose }}">
+          &times;
+        </button>
+      </template>
+    </div>
+  </template>
+  <script type="application/dart" src="library_entry_element.dart"></script>
+</polymer-element>

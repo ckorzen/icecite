@@ -8,4 +8,5 @@
 completesearch
 build
 data
-*.properties
+properties.*
+cert

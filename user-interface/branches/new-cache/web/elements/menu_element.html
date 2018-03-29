@@ -1,0 +1,59 @@
+<link rel="import" href="menu_item_element.html">
+<link rel="import" href="input_element.html">
+<link rel="import" href="../packages/polymer/polymer.html">
+
+<polymer-element name="menu-element" attributes="entry, users">
+  <template>
+    <link rel="stylesheet" href="menu_element.css">
+    <div class="menu">
+      <template if="{{ !entry.isLibraryEntry }}">
+        <menu-item-element class="download-button" on-click="{{ onDownloadButtonClicked }}" className="separated">
+          <img src="../images/dblp_icon.png">
+          Download Entry.
+        </menu-item-element>
+      </template>
+      <template if="{{ entry.isLibraryEntry }}">
+        <menu-item-element class="menu-toggle" on-click="{{ onMenuToggleClick }}" className="menu-toggle">
+          <span class="caret"></span>
+        </menu-item-element>
+        <div class="menu-content" tabindex="-1" on-mousedown="{{ onMenuContentMousedown }}" 
+          on-mouseup="{{ onMenuContentMouseup }}" on-blur="{{ onMenuContentBlur }}">
+          <div class="menu-header">
+            Menu
+          </div>
+          <div class="menu-body">
+            <template if="{{ entry.attachments == null }}">
+              <menu-item-element class="add-pdf-url" className="embed">   
+                <input class="add-pdf-url-input" 
+                  is="input-element" 
+                  placeholder="Type url to pdf."
+                  value="{{ pdfUrlValue }}"
+                  on-blur="{{ onAddPdfUrlInputBlur }}" 
+                  on-commit="{{ onAddPdfUrlRequest }}">
+              </menu-item-element>
+            </template>
+          
+	          <menu-item-element class="add-tag-button" className="embed">   
+	            <input class="add-tag-input" 
+	              is="input-element" 
+	              placeholder="Add Tag(s)"
+	              value="{{ newTagsValue }}"
+	              on-blur="{{ onAddTagInputBlur }}"
+	              on-commit="{{ onNewTagCommitted }}">
+	          </menu-item-element>
+	                	    
+	          <menu-item-element class="repeat-stripping-button" className="embed">
+              <span on-click="{{ onRepeatStrippingButtonClick }}">Repeat metadata retrieval</span>.
+            </menu-item-element>
+	                	                        
+	          <menu-item-element class="delete-button" className="embed">
+	            <span on-click="{{ onDeleteButtonClick }}">Delete Entry</span>.
+	          </menu-item-element>
+	        </div>
+        </div>
+      </template>
+    </div>
+  </template>
+   
+  <script type="application/dart" src="menu_element.dart"></script>  
+</polymer-element>

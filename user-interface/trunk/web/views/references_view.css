@@ -1,0 +1,100 @@
+.dummy { }
+
+.references {
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.references:before {
+  content: '';
+  float: left;
+  height: 100%;
+}
+
+.references > .triangle-l {
+  position: relative;
+  top: 5px;
+  left: -10px;
+  height: 0px;
+  width: 0px;
+  border-color: transparent #7D90A3 transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+  z-index: -1;
+}
+
+.references > .references-header {
+  position: relative;
+  top: 10px;
+  left: -5px;
+  width: 100%; 
+  background: #B9D3EE;
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+.references > .references-body {
+  margin-top: 10px;
+}
+
+.references > .references-body > .sort-references {
+  font-size: 10pt;
+  margin: 3px;
+}
+
+.references > .references-body > .sort-references > .sort-field {
+  color: #2a6ebb;
+  cursor: pointer;
+}
+
+.references > .references-body > .sort-references > .sort-field.asc, 
+.references > .references-body > .sort-references > .sort-field.desc {
+  font-weight: bold;
+}
+
+.references > .references-body > .sort-references > .sort-field.asc:before {
+  content: "\25BE";
+}
+
+.references > .references-body > .sort-references > .sort-field.desc:before {
+  content: "\25B4";
+}
+
+.references > .references-body > .references-entries {
+  border: 1px solid #d0d0d0;
+  position: relative;
+}
+
+.references > .references-body > .references-entries:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.references > .references-body > .references-entries > .scroll-area {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: auto;
+}
+
+.references > .references-body > .references-entries > .scroll-area > .empty-list {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+  margin: 10px;
+  color: #aaa;
+  font-size: 10pt;
+}

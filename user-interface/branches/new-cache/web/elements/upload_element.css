@@ -1,0 +1,204 @@
+.dummy { }
+
+.upload {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.upload > .upload-dropmask {
+  position: absolute;
+  top: 0px; 
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 99;
+  background: #de3831;
+  opacity: 0.5;
+  display: none;
+  border: 2px dashed red;
+}
+
+.upload > .upload-body {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.upload > .upload-body > .uploader-wrapper {
+	position: absolute;
+}
+
+.upload > .upload-body > .uploader-wrapper > .upload-input {
+  /* Note: display:none on the input won't trigger the click event in WebKit.
+    Setting visibility: hidden and height/width:0 works great. */
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.upload > .upload-body > .upload-buttons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.upload > .upload-body > .upload-buttons > .button {
+  position: relative;
+  float: left;
+  margin: 0px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  border-color: #63a62f;
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  padding: 0px;
+  text-shadow: 0 -1px 0 #4c9021;
+}
+
+.upload > .upload-body > .upload-buttons > .upload-button {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  position: absolute;
+	top: 0px;
+	width: 50px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown-button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 15px;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown-button > .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown {
+  position: absolute;
+  top: 100%;
+  margin-top: 6px;
+  right: 0px;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid hsla(0,0%,0%,.5);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  min-width: 150px;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: hsla(0,0%,0%,.5);
+  border-width: 7px;
+  right: 0px;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown:focus {
+  outline: none;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown > .dropdown-input {
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown > .dropdown-header {
+  background: #4E78A0;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: hsl(0,0%,85%);
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown > .dropdown-body {
+	padding: 0px 5px;
+	border-top: 1px solid hsla(0,0%,0%,.1);
+	height: 29px;
+	line-height: 29px;
+}
+
+.upload > .upload-body > .upload-buttons > .dropdown > .dropdown-close-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  margin: -8px 0 0;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  right: 5px;
+  font-weight: 700;
+  font-size: 19px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.upload > .triangle {
+  top: 28px; 
+}
+
+.upload > .triangle-r {
+  border-color: transparent #333 transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+  height: 0px;
+  width: 0px;
+  z-index: -1; /* displayed under bubble */
+  position: absolute;
+  left: -5px; /* -border-width */
+}

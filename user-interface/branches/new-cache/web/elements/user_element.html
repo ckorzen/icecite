@@ -1,0 +1,26 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<polymer-element name="user-element" attributes="member, allowDisinvitation">
+  <template>
+    <link rel="stylesheet" href="user_element.css">   
+       
+    <div class="user" 
+      on-dragenter="{{ onDragEntered }}" 
+      on-dragover="{{ onDraggedOver }}"> 
+      
+      <div class="user-dropmask" 
+        on-dragleave="{{ onDragLeaved }}"
+        on-dragend="{{ onDragEnded }}"
+        on-drop="{{ onDropped }}"></div>
+      
+      <div class="user-body">       
+        <div class="name" title="{{ display }}">{{ shortDisplay }}</div>
+        <template if="{{ allowDisinvitation }}">
+          <button class="disinvite-button" on-click="{{ onDisinviteButtonClicked }}">
+            &times;
+          </button>
+        </template>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="user_element.dart"></script>
+</polymer-element>

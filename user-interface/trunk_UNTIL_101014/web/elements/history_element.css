@@ -1,0 +1,61 @@
+.dummy { }
+
+.history > .history-header {
+  position: absolute;
+  right:-5px;
+  left: 5px;
+  top: 0px;
+  height: 22px;
+  float: left;
+  background: #428bca;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+.history > .history-header > .history-heading {
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  font-weight: bold;
+  color: #fff;
+  margin: 3px;
+}
+
+.history > .history-header > .history-triangle {
+  bottom: -5px;
+}
+
+.history > .history-header > .triangle-r {
+  border-color: transparent transparent transparent #333;
+  border-style:solid;
+  border-width:5px;
+  height:0px;
+  width:0px;
+  z-index: -1;
+  position: absolute;
+  right: -5px;
+}
+
+.history > .history-body {
+  position: absolute;
+  top: 22px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.history > .history-body > .history-scroll-area > .history-element {
+  cursor: pointer;
+  text-align: left;
+  font-size: 10pt;
+  padding-top: 1px;
+}
+
+.history > .history-body > .history-scroll-area > .history-element.disabled {
+  color: #aaa;
+  cursor: default;
+}

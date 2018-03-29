@@ -1,0 +1,125 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="../elements/input_element.html">
+<link rel="import" href="../elements/tag_element.html">
+
+<polymer-element name="share-element" attributes="entry">
+  <template>
+    <link rel="stylesheet" href="share_element.css">   
+    
+    <div class="share-element">      
+      <template if="{{ !entry.hasOwner(user) }}">
+        <!-- The owner info -->
+        <div class="share-info restricted" on-click="{{ onShareInfoClick }}"
+          title="Owner: {{ owner.fullInfo }}.">
+        </div>
+      </template>
+      <template if="{{ entry.hasOwner(user) }}">
+        <!-- The participants info -->
+        <div class="share-info" on-click="{{ onShareInfoClick }}"
+          title="Shared with {{ sumParticipantsInvitees }} users.">
+          <span class="share-number">
+            {{ sumParticipantsInvitees }}
+          </span>
+        </div>
+      </template>
+      
+      <!-- The share details -->
+      <div class="share-details" tabindex="-1" on-blur="{{ onShareDetailsBlur }}">
+		    <div class="share-details-header">
+	        Share infos.
+	      </div>
+		    <div class="share-details-body">
+		      <template if="{{ !entry.hasOwner(user) }}">
+		        <div class="owner-details">Owner: {{ owner.fullInfo }}</div>
+		      </template> 
+		        
+		      <template if="{{ entry.hasOwner(user) }}">
+			      <div class="share-with" on-mouseenter="{{ onShareWithMouseEnter }}"
+              on-mouseleave="{{ onShareWithMouseLeave }}">
+              Share with ...
+              <span class="caret"></span>
+              <template if="{{ showShareWithDetails }}">
+                <div class="share-with-details">
+                  <div class="users">
+                    <template repeat="{{ user in users | enumerate }}">
+                      <div class="user">
+                        <input type="checkbox" class="share-user-checkbox"
+                          data-useridx="{{ user.index }}"
+                          on-mousedown="{{ onShareUserCheckboxMousedown }}"
+                          on-click="{{ onShareUserCheckboxClick }}"> 
+                        {{ user.value.fullInfo }}
+                      </div>
+                    </template>
+                  </div>
+                  <div>
+                    <button class="share-user-commit-button" 
+                      on-mousedown="{{ onShareUserCommitButtonMousedown }}"
+                      on-click="{{ onShareUserCommitButtonClick }}">Share</button>
+                  </div>
+                </div>
+              </template>
+            </div>
+            <template if="{{ participants.length > 0 }}">
+			          <div class="participants-info"
+			            on-mouseenter="{{ onParticipantsInfoMouseEnter }}"
+			            on-mouseleave="{{ onParticipantsInfoMouseLeave }}">
+			             Shared users.
+                   <span class="caret"></span>
+			             <template if="{{ showParticipantsDetails }}">
+			               <div class="participants-details">
+			                 <template repeat="{{ participant in participants | enumerate }}">
+                        <div class="participant">
+                          <span class="name">{{ participant.value.fullInfo }}</span>
+                          <span class="remove" 
+                            data-participant-idx="{{ participant.index }}"
+                            on-click="{{ onRemoveParticipantClick }}"></span>
+                        </div>
+                      </template>
+			               </div>
+			             </template>
+			           </div>
+			        </template>
+			        <template if="{{ invitees.length > 0 }}">
+		            <div class="invitees-info"
+	                on-mouseenter="{{ onInviteesInfoMouseEnter }}"
+	                on-mouseleave="{{ onInviteesInfoMouseLeave }}">
+		              Invited {{ invitees.length }} users.
+		              <span class="caret"></span>
+		              <template if="{{ showInviteesDetails }}">
+	                  <div class="invitees-details">
+	                    <template repeat="{{ invitee in invitees | enumerate }}">
+                        <div class="invitee">
+                          <span class="name">{{ invitee.value.fullInfo }}</span>
+                          <span class="remove" 
+                            data-invitee-idx="{{ invitee.index }}"
+                            on-click="{{ onRemoveInviteeClick }}"></span>
+                        </div>
+                      </template>
+	                  </div>
+	                </template>
+		            </div>
+		          </template>
+		          <template if="{{ disinvitees.length > 0 }}">
+		            <div class="disinvitees-info"
+	                on-mouseenter="{{ onDisinviteesInfoMouseEnter }}"
+	                on-mouseleave="{{ onDisinviteesInfoMouseLeave }}">
+		              Disinvited {{ disinvitees.length }} users.
+                  <span class="caret"></span>
+		              <template if="{{ showDisinviteesDetails }}">
+	                  <div class="disinvitees-details">
+	                    <template repeat="{{ disinvitee in disinvitees }}">
+                        <div class="disinvitee">
+                          <span class="name">{{ disinvitee.fullInfo }}</span>
+                        </div>
+                      </template>
+	                  </div>
+	                </template>
+		            </div>
+		          </template>
+		        </template>
+		      </div>
+		    </div>
+    </div> 
+  </template>
+  <script type="application/dart" src="share_element.dart"></script>
+</polymer-element>

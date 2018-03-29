@@ -1,0 +1,99 @@
+.dummy { }
+
+.header {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 400px;
+}
+
+.header > .logo-wrapper {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 410px;
+}
+
+.header > .logo-wrapper > .hide-toggle {
+  display: none;
+  position: absolute;
+  top: 2px;
+  bottom: 0px;
+  left: 0px;
+  width: 170px;
+  font-size: 25pt;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  text-align: right;
+}
+
+.header > .logo-wrapper > .logo {
+  position: absolute;
+  left: 170px;
+  top: 0px; 
+  bottom: 0px;
+  width: 70px;
+  background: url(../images/logo_tiny.png) transparent no-repeat center;
+}
+
+.header > .logo-wrapper > .unhide-toggle {
+  display: none;
+  position: absolute;
+  top: 2px;
+  bottom: 0px;
+  left: 240px;
+  width: 170px;
+  font-size: 25pt;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.header:hover > .logo-wrapper > .hide-toggle, 
+.header:hover > .logo-wrapper > .unhide-toggle  {
+  display: block;
+}
+
+.header:hover > .logo-wrapper > .hide-toggle:hover,
+.header:hover > .logo-wrapper > .unhide-toggle:hover {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+
+.header > .notification-element {
+
+}
+
+.header > .login-element {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 32px;
+}
+
+.welcome {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.welcome #welcomeLabel {
+	line-height: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 16px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: hsl(0,0%,85%);
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  cursor: default;
+}

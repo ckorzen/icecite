@@ -1,0 +1,49 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="input_element.html">
+
+<polymer-element name="upload-element">
+  <template>    
+    <link rel="stylesheet" href="upload_element.css">
+    <!-- <link rel="stylesheet" href="elements/upload_element.css">-->
+    <template if="{{ revealed }}">
+      <div class="upload" 
+        on-dragenter="{{ onDragEntered }}" 
+        on-dragover="{{ onDraggedOver }}">
+        
+        <div class="upload-dropmask" 
+          on-dragleave="{{ onDragLeaved }}"
+          on-dragend="{{ onDragEnded }}"
+          on-drop="{{ onDropped }}"></div>
+        
+        <div class="upload-body">
+          <div class="uploader-wrapper"></div>             
+          <div class="upload-buttons">
+            <button class="button upload-button"
+              on-click="{{ onUploadButtonClicked }}">
+                UPLOAD
+            </button>
+            <button class="button dropdown-button"
+                on-click="{{ onShowDropdownButtonClicked }}">
+              <span class="caret"></span>
+            </button>
+            <template if="{{ showUploadDropDownMenu }}">
+              <div class="dropdown">
+                <span class="dropdown-header">Upload via url</span>
+                <input class="dropdown-input" is="input-element"
+                  placeholder="Type url to pdf file..." value="" 
+                  on-commit="{{ onUrlCommitted }}"
+                  on-cancel="{{ onUrlCommitCancelled }}">
+                <button class="dropdown-close-button"
+                  on-click="{{ onCloseDropdownButtonClicked }}">
+                    &times;
+                </button>
+              </div>
+            </template>
+          </div>
+        </div>
+        <!-- <div class="triangle triangle-r"></div> -->
+      </div>
+    </template>
+  </template>
+  <script type="application/dart" src="upload_element.dart"></script>
+</polymer-element>

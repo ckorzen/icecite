@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# 2013-02-03:v2
+
+CACHE:
+# CSS files
+icecite.css
+elements/IceciteApp.css
+elements/IceciteDisplay.css
+elements/IceciteHeader.css
+elements/IceciteLibrary.css
+elements/IceciteLibraryEntry.css
+elements/IceciteNavigation.css
+elements/IceciteStage.css
+elements/IceciteUpload.css
+ui-elements/IceciteNotification.css
+
+# JS files
+external-scripts/pdf-communication.js
+external-scripts/pouchdb-nightly.js
+icecite.html_bootstrap.dart.js
+
+# Images
+images/back.png
+images/error.png
+images/info.png
+images/loading.gif
+images/logo_small.png
+images/paper.jpg
+images/search.png
+images/success.png
+images/warn.png
+
+# All other resources require the user to be online.
+NETWORK:
+*
